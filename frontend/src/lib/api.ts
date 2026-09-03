@@ -7,7 +7,7 @@
 
 import { ProductAnalysis, CatalogueResult, PricingPrediction } from "./types";
 
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
 
 // ---- Demo Fallback Data ----
 const DEMO_ANALYSIS: ProductAnalysis = {
