@@ -1,0 +1,1201 @@
+category,material,material_cost,labour_hours,labour_rate,quality_score,craftsmanship_complexity,size_scale,season_demand_index,market_reference_price,selling_price
+Carved Woodwork,Seasoned Teakwood,523.91,63.0,150.0,2.9,3,3,1.13,16631.49,14916.09
+Dhokra & Brass Craft,Bronze Alloy,216.52,58.6,180.0,3.0,4,5,1.21,20022.01,18443.37
+Blue Pottery & Ceramics,Ceramic Glaze,97.1,4.8,100.0,4.0,2,4,1.39,888.73,1075.4
+Folk Paintings,Tussar Silk Fabric,1005.56,78.7,70.0,2.6,3,5,1.13,11986.79,9895.2
+Blue Pottery & Ceramics,Quartz Powder Frit,2416.83,65.2,70.0,2.5,2,4,1.02,10750.48,9307.56
+Dhokra & Brass Craft,Bronze Alloy,1026.37,17.0,120.0,3.3,2,4,0.99,5228.16,4312.35
+Blue Pottery & Ceramics,Ceramic Glaze,1168.41,33.4,120.0,4.0,4,1,1.38,8696.37,10734.98
+Handloom Textiles,Mulberry Silk,2415.92,49.7,150.0,2.9,5,1,0.91,18507.98,14088.75
+Terracotta & Clay,Natural Alluvial Clay,560.89,3.4,100.0,3.0,3,3,1.29,1295.03,1537.71
+Terracotta & Clay,Black Clay,2137.09,37.6,70.0,2.7,5,3,1.2,7451.7,8121.71
+Folk Paintings,Tussar Silk Fabric,1438.21,32.5,200.0,4.3,1,5,1.18,13336.19,12598.04
+Terracotta & Clay,Black Clay,1114.65,5.0,150.0,3.0,1,4,1.18,2447.35,2790.15
+Carved Woodwork,Sheesham Wood,417.18,49.5,200.0,4.4,4,5,0.94,17951.89,14924.04
+Blue Pottery & Ceramics,Ceramic Glaze,2035.65,51.8,180.0,3.6,4,4,1.11,19084.21,18372.67
+Folk Paintings,Tussar Silk Fabric,864.91,12.4,70.0,3.3,1,1,1.01,2911.29,2344.7
+Terracotta & Clay,Black Clay,96.82,42.3,70.0,3.7,1,3,1.03,4013.39,4006.82
+Dhokra & Brass Craft,Bronze Alloy,609.41,46.0,120.0,3.4,1,2,1.38,9975.61,10566.8
+Terracotta & Clay,Natural Alluvial Clay,769.31,5.8,70.0,4.9,4,5,1.07,1762.96,1877.89
+Terracotta & Clay,Black Clay,1727.31,43.9,85.0,5.0,4,3,1.08,8188.21,9511.61
+Handloom Textiles,Mulberry Silk,1613.14,44.3,70.0,2.9,3,5,1.33,8131.89,8255.96
+Carved Woodwork,Rosewood,612.98,57.8,200.0,3.1,4,1,1.25,21180.99,22120.88
+Terracotta & Clay,Black Clay,905.38,11.7,200.0,3.9,2,3,1.01,4462.4,4462.88
+Blue Pottery & Ceramics,Quartz Powder Frit,1330.26,23.1,70.0,2.7,4,5,1.35,4951.4,5255.23
+Dhokra & Brass Craft,Copper Brass Blend,1836.81,72.1,180.0,4.4,4,3,1.37,27555.55,32115.65
+Carved Woodwork,Sheesham Wood,1698.95,47.7,180.0,4.9,1,5,1.04,15658.84,14893.55
+Dhokra & Brass Craft,Recycled Bell Metal Brass,622.73,57.8,70.0,3.7,4,3,1.23,8683.84,8044.75
+Terracotta & Clay,Black Clay,969.87,23.4,180.0,4.0,5,3,1.35,8096.67,11133.09
+Folk Paintings,Handmade Vasli Paper,1476.11,40.9,150.0,3.1,3,4,0.91,14004.44,10065.57
+Terracotta & Clay,Natural Alluvial Clay,2486.81,39.2,180.0,4.8,3,4,0.91,13717.79,13167.48
+Handloom Textiles,Chanderi Cotton-Silk,2411.96,68.7,200.0,3.3,1,3,0.98,25439.34,20787.3
+Terracotta & Clay,Terracotta Red Clay,2345.49,56.6,180.0,2.7,2,3,1.05,17233.55,17114.9
+Terracotta & Clay,Black Clay,1795.56,45.6,85.0,4.5,3,2,1.33,8152.87,10775.91
+Handloom Textiles,Mulberry Silk,92.55,51.3,120.0,4.1,4,3,1.07,11247.39,10032.98
+Folk Paintings,Tussar Silk Fabric,1206.75,44.8,150.0,4.6,2,1,0.92,13951.08,10711.35
+Folk Paintings,Tussar Silk Fabric,951.66,12.8,70.0,4.6,4,4,1.38,3547.51,4088.07
+Carved Woodwork,Sheesham Wood,1388.34,52.1,120.0,2.8,2,4,1.26,12186.34,12176.23
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1045.15,36.4,85.0,2.7,5,2,1.38,8019.6,8445.02
+Handloom Textiles,Handspun Cotton,499.37,15.0,85.0,3.1,1,5,1.04,2794.63,2384.47
+Handloom Textiles,Chanderi Cotton-Silk,1670.21,36.5,150.0,3.5,4,2,1.08,12861.38,11390.65
+Blue Pottery & Ceramics,Ceramic Glaze,1269.71,39.5,70.0,3.7,5,2,1.21,7060.74,7943.74
+Handloom Textiles,Mulberry Silk,711.36,4.2,100.0,3.8,1,5,1.24,1781.89,1842.0
+Blue Pottery & Ceramics,Quartz Powder Frit,2178.62,52.0,120.0,3.9,2,3,1.22,12964.67,14012.0
+Terracotta & Clay,Natural Alluvial Clay,1400.39,75.5,100.0,4.6,2,3,1.0,12306.79,12572.59
+Handloom Textiles,Mulberry Silk,1729.51,29.2,100.0,3.2,4,2,1.25,8369.12,8421.24
+Handloom Textiles,Chanderi Cotton-Silk,2203.48,59.6,150.0,4.9,4,2,1.11,20058.26,20825.08
+Dhokra & Brass Craft,Bronze Alloy,685.04,47.7,200.0,4.8,5,4,1.11,19811.02,19777.46
+Handloom Textiles,Chanderi Cotton-Silk,1905.99,10.9,70.0,3.8,4,1,1.06,4804.18,4252.03
+Carved Woodwork,Seasoned Teakwood,2271.02,10.0,200.0,4.9,4,3,1.15,7431.57,7975.91
+Handloom Textiles,Handspun Cotton,789.57,28.3,100.0,3.0,5,1,0.96,6786.69,5386.82
+Dhokra & Brass Craft,Bronze Alloy,2424.14,56.0,85.0,4.0,5,5,1.01,13919.27,12283.22
+Terracotta & Clay,Terracotta Red Clay,2238.39,14.3,150.0,2.7,3,5,1.09,6301.12,6207.73
+Handloom Textiles,Mulberry Silk,1786.3,22.2,100.0,2.8,3,5,0.91,6910.87,5048.02
+Carved Woodwork,Sheesham Wood,216.25,12.1,150.0,4.6,1,3,1.19,3092.58,3266.87
+Terracotta & Clay,Natural Alluvial Clay,2182.01,20.2,180.0,4.5,5,5,0.92,9090.64,8828.95
+Handloom Textiles,Mulberry Silk,2317.64,73.8,120.0,3.9,4,1,1.16,20112.55,20385.55
+Terracotta & Clay,Natural Alluvial Clay,1766.56,32.6,200.0,2.6,4,2,1.38,12429.84,15960.91
+Folk Paintings,Handmade Vasli Paper,751.26,17.5,85.0,3.5,4,2,1.03,4298.42,3335.52
+Dhokra & Brass Craft,Bronze Alloy,158.2,24.5,150.0,4.5,4,5,0.97,7129.75,5781.53
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2356.09,35.1,150.0,4.0,2,2,1.37,12993.96,14214.64
+Terracotta & Clay,Terracotta Red Clay,2469.21,14.6,150.0,4.4,1,3,1.32,6115.21,7997.22
+Handloom Textiles,Handspun Cotton,1214.24,34.9,70.0,2.5,4,1,1.17,6583.03,6021.4
+Handloom Textiles,Handspun Cotton,2366.33,68.4,70.0,3.1,1,1,1.38,11268.07,12136.03
+Handloom Textiles,Mulberry Silk,2205.29,61.3,85.0,3.4,2,2,1.16,12236.05,11517.12
+Carved Woodwork,Seasoned Teakwood,1415.61,46.2,180.0,4.5,1,5,1.21,14816.38,16584.95
+Blue Pottery & Ceramics,Porcelain Clay,595.37,13.5,120.0,5.0,2,2,1.22,3411.67,3806.95
+Blue Pottery & Ceramics,Quartz Powder Frit,1323.85,63.3,120.0,3.2,2,3,1.25,13736.57,14536.43
+Handloom Textiles,Mulberry Silk,2322.34,40.9,120.0,2.7,5,2,1.21,13556.89,12425.76
+Dhokra & Brass Craft,Copper Brass Blend,263.59,12.9,200.0,4.0,3,4,0.99,5068.7,4091.29
+Terracotta & Clay,Black Clay,2195.85,42.7,85.0,4.0,3,3,1.31,8373.94,10344.77
+Folk Paintings,Handmade Vasli Paper,1407.89,44.2,120.0,3.0,2,1,1.15,11812.93,9739.2
+Handloom Textiles,Chanderi Cotton-Silk,175.14,64.6,70.0,4.2,3,5,0.9,8102.57,6407.61
+Folk Paintings,Cotton Canvas,1576.18,31.4,85.0,4.4,3,3,1.26,7811.13,7914.34
+Folk Paintings,Tussar Silk Fabric,1367.71,11.3,85.0,3.4,3,1,1.27,4283.91,4162.54
+Terracotta & Clay,Black Clay,295.87,44.2,70.0,4.7,4,1,1.24,5084.8,6210.33
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1286.23,9.7,200.0,4.3,1,4,0.96,5250.69,4142.33
+Blue Pottery & Ceramics,Ceramic Glaze,671.33,41.4,180.0,4.0,1,5,0.95,11941.3,9873.08
+Folk Paintings,Cotton Canvas,675.22,15.4,100.0,2.7,1,3,1.16,3721.57,3162.56
+Folk Paintings,Cotton Canvas,1473.92,73.6,200.0,4.5,1,3,1.31,27205.79,28558.6
+Blue Pottery & Ceramics,Porcelain Clay,1374.79,39.7,150.0,4.4,2,4,1.11,11287.88,10917.44
+Terracotta & Clay,Terracotta Red Clay,1938.03,9.7,180.0,2.9,4,5,1.17,5526.04,6044.03
+Terracotta & Clay,Terracotta Red Clay,894.58,13.3,200.0,3.9,2,5,1.24,4887.55,6343.39
+Dhokra & Brass Craft,Bronze Alloy,338.21,68.5,120.0,4.9,5,3,1.37,16581.53,18804.21
+Carved Woodwork,Rosewood,240.92,60.1,180.0,2.6,5,3,1.3,20044.29,20504.62
+Handloom Textiles,Handspun Cotton,2051.27,54.2,85.0,4.8,1,5,1.19,10486.78,10763.8
+Blue Pottery & Ceramics,Porcelain Clay,1807.35,72.3,150.0,3.3,1,1,1.08,18598.95,17573.63
+Handloom Textiles,Chanderi Cotton-Silk,1393.7,36.2,100.0,4.1,2,4,1.3,8272.61,8332.5
+Handloom Textiles,Handspun Cotton,1370.98,71.8,120.0,5.0,1,1,1.25,15729.49,17044.54
+Carved Woodwork,Sheesham Wood,1808.04,41.0,85.0,3.4,5,4,1.13,9593.63,9272.12
+Carved Woodwork,Rosewood,2009.45,14.5,200.0,3.5,5,2,0.91,8898.38,7336.72
+Blue Pottery & Ceramics,Porcelain Clay,1529.65,66.7,180.0,4.8,2,3,0.98,20844.9,20544.49
+Handloom Textiles,Mulberry Silk,323.92,22.7,120.0,4.0,4,4,1.36,5486.26,6409.68
+Blue Pottery & Ceramics,Quartz Powder Frit,1106.4,59.7,70.0,4.8,1,5,1.39,7769.54,10116.29
+Folk Paintings,Cotton Canvas,2106.73,28.6,180.0,3.8,5,1,1.27,14509.46,14652.67
+Blue Pottery & Ceramics,Quartz Powder Frit,356.53,34.9,85.0,4.8,2,2,1.14,5117.47,5348.53
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1500.71,5.5,100.0,2.9,1,4,1.11,3337.53,2799.93
+Dhokra & Brass Craft,Bronze Alloy,612.64,19.4,70.0,2.9,4,1,0.97,3665.39,2856.43
+Folk Paintings,Cotton Canvas,286.55,79.8,70.0,3.2,5,3,1.0,11745.1,9106.21
+Handloom Textiles,Handspun Cotton,168.45,39.3,100.0,2.7,3,2,1.16,7069.83,6422.74
+Carved Woodwork,Seasoned Teakwood,1049.85,46.1,200.0,2.8,5,3,1.09,18614.1,17099.45
+Carved Woodwork,Seasoned Teakwood,141.43,15.0,85.0,4.7,1,1,1.01,2156.51,1904.92
+Dhokra & Brass Craft,Copper Brass Blend,127.7,11.0,200.0,3.9,3,1,1.18,4149.13,4066.13
+Folk Paintings,Cotton Canvas,2089.13,33.6,150.0,2.9,2,2,0.94,12547.27,9142.56
+Handloom Textiles,Chanderi Cotton-Silk,377.12,70.5,150.0,3.6,2,1,1.31,18071.0,18425.79
+Blue Pottery & Ceramics,Porcelain Clay,1508.51,23.6,150.0,3.4,1,2,1.33,7421.31,8138.65
+Dhokra & Brass Craft,Bronze Alloy,1927.93,13.8,85.0,3.9,3,1,1.14,5527.41,5381.38
+Blue Pottery & Ceramics,Quartz Powder Frit,1054.17,19.8,180.0,4.6,4,2,1.16,7758.53,8340.5
+Handloom Textiles,Mulberry Silk,738.98,4.4,85.0,3.8,2,4,1.15,1836.42,1742.46
+Folk Paintings,Cotton Canvas,1822.89,11.2,180.0,2.8,1,3,1.2,6449.34,5523.66
+Carved Woodwork,Seasoned Teakwood,1689.39,16.5,150.0,4.6,5,4,1.29,7547.96,8160.17
+Folk Paintings,Tussar Silk Fabric,526.18,10.0,100.0,3.1,5,3,1.04,3052.36,2372.24
+Carved Woodwork,Seasoned Teakwood,1826.11,50.0,180.0,3.7,5,1,1.03,19622.32,16881.03
+Carved Woodwork,Rosewood,2128.31,76.6,100.0,3.3,2,2,0.95,15612.35,12625.9
+Terracotta & Clay,Natural Alluvial Clay,1078.96,57.3,85.0,3.6,3,3,0.94,8552.35,8181.51
+Terracotta & Clay,Natural Alluvial Clay,1991.83,56.2,70.0,3.0,3,5,1.28,8518.38,9925.39
+Handloom Textiles,Mulberry Silk,1622.1,78.5,85.0,3.7,3,2,0.93,14308.19,11168.89
+Terracotta & Clay,Black Clay,1425.05,39.4,200.0,2.6,5,1,1.0,14539.14,13672.21
+Blue Pottery & Ceramics,Porcelain Clay,2365.12,39.5,180.0,2.6,3,2,1.16,15254.94,15172.64
+Dhokra & Brass Craft,Recycled Bell Metal Brass,266.23,56.6,85.0,4.3,4,1,1.17,9443.65,9522.58
+Folk Paintings,Handmade Vasli Paper,1865.61,43.1,150.0,4.0,2,3,1.34,14661.87,15635.96
+Dhokra & Brass Craft,Copper Brass Blend,2495.0,30.0,180.0,2.7,5,4,1.21,15296.56,14121.23
+Carved Woodwork,Rosewood,1043.86,10.1,200.0,3.6,5,1,1.02,5553.25,4848.93
+Folk Paintings,Cotton Canvas,797.07,21.0,70.0,3.2,5,1,0.95,4534.14,3292.4
+Terracotta & Clay,Black Clay,2378.91,63.5,100.0,4.0,3,5,1.39,12547.81,16978.32
+Carved Woodwork,Seasoned Teakwood,1652.14,49.8,150.0,2.8,3,2,1.09,15211.17,13514.64
+Terracotta & Clay,Natural Alluvial Clay,2396.59,66.6,150.0,2.6,1,1,1.36,16257.4,20453.0
+Folk Paintings,Handmade Vasli Paper,452.43,65.8,180.0,4.1,5,1,1.2,24592.86,23127.55
+Folk Paintings,Handmade Vasli Paper,301.4,70.6,100.0,3.2,5,1,0.92,14722.8,10817.76
+Dhokra & Brass Craft,Copper Brass Blend,760.97,22.5,180.0,3.1,5,2,1.17,9321.25,8468.49
+Handloom Textiles,Handspun Cotton,2244.64,79.3,85.0,3.7,5,3,1.31,16847.14,18835.89
+Dhokra & Brass Craft,Recycled Bell Metal Brass,726.21,70.7,100.0,4.7,4,1,0.98,14500.95,11852.16
+Terracotta & Clay,Natural Alluvial Clay,2105.57,56.7,85.0,2.8,3,4,0.98,9954.79,9064.67
+Folk Paintings,Tussar Silk Fabric,469.04,66.0,180.0,4.4,4,2,1.04,23710.16,19742.13
+Folk Paintings,Tussar Silk Fabric,2454.47,51.6,200.0,3.4,5,3,0.96,25548.94,20070.18
+Carved Woodwork,Rosewood,2335.51,10.9,120.0,2.9,4,2,1.37,6339.71,6933.78
+Terracotta & Clay,Terracotta Red Clay,1794.74,39.5,180.0,4.1,3,2,1.34,12800.56,16604.41
+Handloom Textiles,Chanderi Cotton-Silk,238.82,66.3,200.0,3.7,3,3,1.24,23285.46,23954.97
+Blue Pottery & Ceramics,Ceramic Glaze,742.18,79.8,70.0,2.8,1,5,1.25,9302.42,9824.82
+Dhokra & Brass Craft,Copper Brass Blend,2381.09,14.6,120.0,4.3,5,3,1.38,8007.86,9392.17
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1150.36,27.0,85.0,4.7,2,5,1.0,5874.34,5113.67
+Blue Pottery & Ceramics,Porcelain Clay,1221.11,44.8,120.0,3.0,1,5,1.29,9697.75,10544.88
+Dhokra & Brass Craft,Bronze Alloy,1363.46,4.4,150.0,2.8,5,4,1.38,3920.45,4069.32
+Folk Paintings,Cotton Canvas,1527.95,49.8,120.0,3.6,1,4,0.93,12606.64,8899.08
+Folk Paintings,Handmade Vasli Paper,730.96,64.4,100.0,5.0,1,5,0.94,12047.21,9566.41
+Folk Paintings,Tussar Silk Fabric,1761.86,69.2,180.0,4.8,3,3,0.95,26160.86,19509.67
+Terracotta & Clay,Natural Alluvial Clay,1461.59,4.4,180.0,4.0,4,1,1.18,3380.39,3850.64
+Handloom Textiles,Mulberry Silk,160.35,9.1,180.0,3.3,2,2,1.3,2967.28,3068.21
+Blue Pottery & Ceramics,Ceramic Glaze,485.31,11.1,100.0,2.8,3,1,1.37,2568.45,2893.44
+Blue Pottery & Ceramics,Ceramic Glaze,1593.24,63.3,200.0,4.5,3,4,1.18,22947.72,24350.05
+Folk Paintings,Cotton Canvas,1976.87,40.0,200.0,3.8,2,3,1.26,17559.29,18033.5
+Terracotta & Clay,Natural Alluvial Clay,1570.1,28.3,180.0,3.3,5,5,1.23,10412.66,12615.94
+Dhokra & Brass Craft,Bronze Alloy,130.48,53.3,150.0,5.0,1,3,1.23,13224.22,14171.41
+Handloom Textiles,Mulberry Silk,154.18,22.8,120.0,2.9,5,2,1.27,5419.09,5264.41
+Carved Woodwork,Seasoned Teakwood,917.16,31.6,120.0,3.8,2,1,1.16,7511.11,7346.01
+Blue Pottery & Ceramics,Ceramic Glaze,1526.49,64.1,200.0,3.2,3,2,1.36,23097.85,26486.4
+Carved Woodwork,Rosewood,1587.58,51.6,200.0,3.1,2,4,1.35,18992.59,20333.8
+Folk Paintings,Cotton Canvas,517.96,68.8,150.0,3.6,4,5,1.12,20808.88,17834.11
+Terracotta & Clay,Terracotta Red Clay,310.53,53.2,70.0,4.9,2,3,1.23,5547.48,7300.31
+Carved Woodwork,Seasoned Teakwood,653.61,21.1,85.0,2.7,2,5,1.07,3903.14,3293.35
+Folk Paintings,Handmade Vasli Paper,1122.75,22.2,100.0,4.9,1,4,1.09,5615.82,4871.8
+Carved Woodwork,Seasoned Teakwood,1971.93,57.3,120.0,4.7,4,3,0.96,15395.4,14057.79
+Blue Pottery & Ceramics,Ceramic Glaze,218.15,43.9,120.0,2.6,1,3,1.13,8064.64,7385.03
+Terracotta & Clay,Black Clay,180.61,14.4,150.0,3.7,3,3,0.91,3364.63,3095.37
+Terracotta & Clay,Terracotta Red Clay,2434.9,47.7,200.0,3.8,4,4,0.96,17962.35,17279.77
+Blue Pottery & Ceramics,Quartz Powder Frit,307.24,54.8,180.0,4.7,2,1,1.32,15663.71,19035.13
+Blue Pottery & Ceramics,Porcelain Clay,1733.46,41.3,70.0,4.6,1,4,0.96,6797.96,6245.16
+Folk Paintings,Handmade Vasli Paper,1694.07,47.4,180.0,4.1,2,1,1.33,17997.88,18852.86
+Terracotta & Clay,Natural Alluvial Clay,1973.37,46.7,70.0,2.8,2,5,1.28,7208.26,8369.24
+Blue Pottery & Ceramics,Ceramic Glaze,2204.5,27.4,150.0,4.5,1,5,1.06,9282.32,9303.62
+Carved Woodwork,Sheesham Wood,1038.74,56.6,120.0,3.9,1,1,1.17,11922.3,11821.6
+Dhokra & Brass Craft,Copper Brass Blend,487.64,52.5,85.0,3.7,3,5,1.33,8823.62,9273.48
+Blue Pottery & Ceramics,Ceramic Glaze,2292.45,65.7,70.0,3.5,2,5,1.02,10612.83,8807.99
+Folk Paintings,Cotton Canvas,1817.86,76.6,150.0,4.6,3,5,1.35,24486.46,26239.81
+Terracotta & Clay,Black Clay,999.78,18.2,150.0,3.4,2,5,1.21,5128.45,6254.62
+Handloom Textiles,Chanderi Cotton-Silk,1368.07,47.7,85.0,4.0,2,2,1.04,8947.24,7953.48
+Carved Woodwork,Sheesham Wood,374.96,16.9,200.0,4.6,5,1,1.18,6805.86,7486.29
+Terracotta & Clay,Natural Alluvial Clay,1612.23,76.3,200.0,4.1,5,4,1.01,26362.86,26909.97
+Terracotta & Clay,Black Clay,1558.57,34.6,150.0,4.8,1,2,1.03,8857.5,9838.79
+Carved Woodwork,Rosewood,1695.47,10.4,120.0,2.9,2,5,0.98,4694.83,3688.67
+Dhokra & Brass Craft,Bronze Alloy,1224.4,44.2,180.0,2.6,3,4,1.0,16364.06,12043.61
+Handloom Textiles,Handspun Cotton,221.46,13.9,100.0,4.0,2,3,1.12,2658.91,2560.43
+Handloom Textiles,Chanderi Cotton-Silk,1833.33,4.2,120.0,4.5,4,2,1.07,4207.19,3941.94
+Carved Woodwork,Seasoned Teakwood,2243.94,17.8,70.0,3.1,1,4,1.12,5313.43,4898.91
+Carved Woodwork,Sheesham Wood,1700.44,8.4,150.0,3.2,2,3,1.17,4721.9,4385.62
+Folk Paintings,Cotton Canvas,2485.82,54.0,70.0,5.0,4,4,0.94,12030.37,9326.09
+Handloom Textiles,Handspun Cotton,1616.6,61.1,200.0,3.8,1,4,1.07,21792.65,20048.02
+Folk Paintings,Handmade Vasli Paper,369.99,78.0,180.0,5.0,4,1,1.32,27667.18,30708.32
+Handloom Textiles,Mulberry Silk,702.05,63.7,70.0,4.0,4,4,1.25,9289.89,9473.99
+Handloom Textiles,Mulberry Silk,2347.44,45.6,100.0,4.6,2,4,1.34,11397.28,12539.78
+Folk Paintings,Tussar Silk Fabric,1982.79,47.2,120.0,4.6,2,4,1.37,13458.35,14875.48
+Dhokra & Brass Craft,Bronze Alloy,2204.7,69.8,180.0,2.9,4,1,1.06,27469.78,22592.69
+Dhokra & Brass Craft,Bronze Alloy,452.17,20.2,180.0,4.9,2,1,1.19,6970.33,6661.58
+Folk Paintings,Handmade Vasli Paper,1547.13,61.9,150.0,3.3,3,1,1.31,19931.12,19516.95
+Handloom Textiles,Handspun Cotton,374.66,39.8,120.0,2.8,4,5,1.17,9271.19,8526.26
+Handloom Textiles,Chanderi Cotton-Silk,1304.86,36.8,120.0,4.6,5,3,1.21,10726.61,11398.48
+Carved Woodwork,Rosewood,447.9,7.7,100.0,3.0,1,2,1.14,1854.25,1745.86
+Terracotta & Clay,Black Clay,658.82,14.0,70.0,4.5,3,4,1.21,2355.8,3012.03
+Carved Woodwork,Rosewood,633.92,20.9,120.0,3.3,4,4,1.16,5466.94,5133.32
+Carved Woodwork,Rosewood,1168.48,18.0,200.0,3.8,5,5,1.28,8642.87,9374.68
+Folk Paintings,Tussar Silk Fabric,1087.09,40.1,180.0,4.5,5,2,1.24,16610.18,16925.73
+Handloom Textiles,Handspun Cotton,2099.01,51.5,150.0,4.5,5,4,1.09,18420.02,16850.15
+Terracotta & Clay,Black Clay,1179.59,68.0,200.0,2.9,4,2,1.06,22169.38,22029.66
+Terracotta & Clay,Natural Alluvial Clay,1034.63,38.4,150.0,4.9,1,1,0.95,8917.95,9434.12
+Terracotta & Clay,Natural Alluvial Clay,1745.29,36.7,150.0,3.2,2,2,1.03,9969.15,9951.61
+Blue Pottery & Ceramics,Porcelain Clay,1169.3,20.5,70.0,2.7,5,3,0.95,4557.52,3768.29
+Carved Woodwork,Seasoned Teakwood,1152.72,6.7,70.0,4.4,1,5,1.3,2469.07,2597.49
+Folk Paintings,Tussar Silk Fabric,2429.21,75.6,100.0,3.0,3,2,0.95,18380.15,13490.27
+Folk Paintings,Cotton Canvas,1929.78,23.4,180.0,2.7,4,1,1.05,11792.22,9448.01
+Blue Pottery & Ceramics,Porcelain Clay,577.76,12.3,180.0,3.2,1,1,1.38,4103.89,4895.19
+Folk Paintings,Tussar Silk Fabric,2423.74,64.5,120.0,3.7,2,5,1.19,17888.18,16865.24
+Carved Woodwork,Sheesham Wood,389.99,29.0,85.0,3.1,1,3,1.18,4346.72,4241.59
+Blue Pottery & Ceramics,Quartz Powder Frit,476.11,24.1,120.0,2.8,3,1,1.22,5422.66,5631.33
+Terracotta & Clay,Natural Alluvial Clay,1396.52,52.0,180.0,3.7,4,3,1.06,16134.78,16551.75
+Folk Paintings,Tussar Silk Fabric,731.78,44.5,150.0,2.9,5,5,1.26,14813.56,13691.67
+Dhokra & Brass Craft,Copper Brass Blend,2114.5,59.4,100.0,4.4,1,3,1.05,13108.7,11764.4
+Dhokra & Brass Craft,Copper Brass Blend,1747.1,70.2,200.0,4.7,5,2,1.18,30587.51,31101.74
+Dhokra & Brass Craft,Recycled Bell Metal Brass,752.52,17.9,85.0,4.1,1,2,1.27,3700.97,3888.8
+Folk Paintings,Tussar Silk Fabric,1568.25,56.0,150.0,3.8,4,2,1.28,19139.04,18233.35
+Dhokra & Brass Craft,Copper Brass Blend,819.56,70.5,150.0,2.8,5,4,1.26,22076.96,20512.4
+Folk Paintings,Tussar Silk Fabric,413.53,54.1,180.0,4.2,5,2,1.21,20303.06,20357.55
+Carved Woodwork,Seasoned Teakwood,1503.45,40.0,180.0,4.3,5,2,1.18,15775.0,16125.44
+Carved Woodwork,Sheesham Wood,1257.57,49.2,100.0,3.2,4,3,1.15,10748.97,10626.16
+Folk Paintings,Handmade Vasli Paper,1988.45,42.8,150.0,2.9,1,1,0.94,14126.2,9848.09
+Carved Woodwork,Seasoned Teakwood,1527.71,59.6,100.0,4.3,5,1,1.11,13571.47,13848.09
+Dhokra & Brass Craft,Copper Brass Blend,1071.97,67.7,100.0,4.3,2,5,0.99,13370.56,11344.9
+Handloom Textiles,Mulberry Silk,889.52,5.0,70.0,4.0,5,1,1.36,2324.1,2593.76
+Handloom Textiles,Handspun Cotton,1197.39,40.0,150.0,3.6,5,4,0.97,13495.11,11214.91
+Carved Woodwork,Sheesham Wood,1841.61,41.2,70.0,4.5,4,1,0.98,8222.56,7086.97
+Carved Woodwork,Seasoned Teakwood,2395.01,8.3,120.0,2.6,4,3,1.04,5900.36,5036.49
+Folk Paintings,Cotton Canvas,738.12,61.5,85.0,4.6,4,1,1.14,11453.99,9941.23
+Folk Paintings,Tussar Silk Fabric,653.02,59.4,100.0,4.9,5,2,1.31,13186.04,14581.52
+Folk Paintings,Handmade Vasli Paper,1276.64,78.4,150.0,4.1,2,5,1.18,22944.49,21793.47
+Carved Woodwork,Seasoned Teakwood,522.9,4.7,150.0,3.1,2,1,1.33,1958.5,2101.07
+Terracotta & Clay,Natural Alluvial Clay,2452.85,20.5,120.0,4.3,1,1,1.17,6448.12,7546.69
+Terracotta & Clay,Terracotta Red Clay,481.17,75.8,70.0,4.2,2,3,1.23,7957.36,9494.07
+Folk Paintings,Tussar Silk Fabric,1320.26,65.1,85.0,4.9,3,1,1.0,12610.92,10437.61
+Carved Woodwork,Sheesham Wood,1904.94,4.4,150.0,4.1,4,4,1.03,4463.0,3998.23
+Handloom Textiles,Handspun Cotton,1435.64,60.8,70.0,2.6,1,3,1.35,8964.33,9053.35
+Folk Paintings,Tussar Silk Fabric,1669.41,66.3,85.0,2.7,5,3,1.0,14609.82,12135.08
+Carved Woodwork,Sheesham Wood,307.57,30.5,70.0,3.9,5,1,1.1,4427.16,4245.14
+Blue Pottery & Ceramics,Ceramic Glaze,1999.69,27.4,100.0,3.4,3,2,0.98,7630.9,6746.8
+Folk Paintings,Handmade Vasli Paper,1527.43,5.6,150.0,4.3,3,5,1.12,4356.07,3859.11
+Terracotta & Clay,Black Clay,1302.6,77.5,200.0,3.7,5,5,1.26,26254.06,32377.14
+Blue Pottery & Ceramics,Ceramic Glaze,2451.07,53.5,100.0,4.2,3,1,0.91,12559.72,10438.58
+Folk Paintings,Handmade Vasli Paper,2435.77,28.9,70.0,4.5,2,3,1.28,7847.44,8225.59
+Terracotta & Clay,Black Clay,2261.14,53.2,70.0,3.4,2,3,1.34,8229.57,9877.06
+Carved Woodwork,Sheesham Wood,323.54,21.5,120.0,4.8,3,2,1.27,4841.65,5540.63
+Terracotta & Clay,Black Clay,1582.65,30.1,150.0,4.5,3,3,0.92,8765.37,8270.56
+Dhokra & Brass Craft,Copper Brass Blend,503.21,68.9,120.0,5.0,3,4,1.33,15634.68,17819.68
+Folk Paintings,Tussar Silk Fabric,594.6,5.6,150.0,3.5,4,4,1.34,2754.43,2874.03
+Handloom Textiles,Chanderi Cotton-Silk,709.89,72.9,100.0,2.5,3,3,1.09,13799.81,11903.11
+Folk Paintings,Cotton Canvas,628.69,32.4,180.0,3.5,3,4,0.91,11887.67,8491.98
+Folk Paintings,Tussar Silk Fabric,388.44,57.5,180.0,4.8,2,3,1.3,18899.65,20053.14
+Carved Woodwork,Seasoned Teakwood,2410.0,59.0,100.0,4.1,1,4,1.22,12651.98,12721.76
+Handloom Textiles,Handspun Cotton,245.39,23.3,70.0,2.5,4,1,1.31,3377.5,3359.13
+Handloom Textiles,Chanderi Cotton-Silk,627.77,59.2,70.0,2.6,4,4,1.33,8589.19,9029.58
+Terracotta & Clay,Black Clay,1595.35,43.9,180.0,4.5,4,3,1.03,14246.02,15895.7
+Folk Paintings,Cotton Canvas,1467.51,53.7,120.0,3.1,4,1,1.27,15190.1,14237.66
+Dhokra & Brass Craft,Recycled Bell Metal Brass,236.54,76.6,150.0,4.2,4,4,1.13,21811.36,20431.48
+Terracotta & Clay,Black Clay,2239.91,37.1,150.0,4.1,4,1,1.25,11707.36,14549.98
+Carved Woodwork,Sheesham Wood,1983.94,77.7,120.0,4.9,2,3,1.27,18036.16,19653.16
+Terracotta & Clay,Black Clay,1064.87,71.6,85.0,3.4,4,2,1.35,10726.3,13661.94
+Terracotta & Clay,Natural Alluvial Clay,1224.59,50.9,180.0,4.0,5,4,1.0,16229.05,15589.55
+Handloom Textiles,Handspun Cotton,93.32,3.6,180.0,4.6,4,4,1.04,1334.38,1131.77
+Folk Paintings,Cotton Canvas,790.24,74.7,70.0,4.5,1,1,1.31,10112.32,10171.55
+Handloom Textiles,Chanderi Cotton-Silk,2209.27,47.3,200.0,3.7,3,3,1.13,20129.49,19675.39
+Handloom Textiles,Handspun Cotton,704.78,54.9,70.0,4.6,4,2,1.26,8186.0,8697.61
+Terracotta & Clay,Black Clay,85.09,58.3,200.0,2.6,4,2,1.03,17617.63,17403.78
+Carved Woodwork,Sheesham Wood,303.33,48.9,120.0,4.8,4,2,1.06,10738.11,10573.68
+Terracotta & Clay,Black Clay,1078.67,52.7,85.0,3.4,3,5,0.91,7989.87,7283.04
+Terracotta & Clay,Black Clay,2194.35,58.7,100.0,4.4,5,3,1.17,12600.55,15064.76
+Blue Pottery & Ceramics,Quartz Powder Frit,1761.62,44.0,100.0,3.7,5,2,1.36,10782.83,12557.95
+Terracotta & Clay,Black Clay,2056.47,8.2,150.0,4.2,2,4,1.24,4518.9,5673.73
+Terracotta & Clay,Natural Alluvial Clay,2165.42,48.5,120.0,4.5,3,3,1.33,11479.04,15317.55
+Dhokra & Brass Craft,Bronze Alloy,975.53,5.1,120.0,4.2,2,4,1.12,2706.74,2564.79
+Carved Woodwork,Seasoned Teakwood,2234.03,29.6,120.0,3.3,2,4,1.09,9228.72,8499.94
+Terracotta & Clay,Terracotta Red Clay,2130.08,43.9,120.0,4.0,1,4,0.98,9709.98,9905.19
+Blue Pottery & Ceramics,Quartz Powder Frit,632.94,78.3,100.0,4.9,4,2,0.92,14217.74,12537.86
+Blue Pottery & Ceramics,Porcelain Clay,136.51,61.2,200.0,3.7,2,5,1.32,19059.83,21530.09
+Handloom Textiles,Mulberry Silk,987.02,39.5,180.0,4.0,4,1,1.39,14574.64,15989.74
+Folk Paintings,Handmade Vasli Paper,453.03,45.6,85.0,2.9,5,3,1.32,8658.06,8099.29
+Dhokra & Brass Craft,Bronze Alloy,2080.89,57.6,85.0,2.6,4,5,1.38,12977.02,12523.03
+Carved Woodwork,Rosewood,416.86,37.2,200.0,4.5,4,3,1.29,13670.94,15905.63
+Dhokra & Brass Craft,Bronze Alloy,1588.64,46.8,85.0,3.7,5,4,1.33,10785.36,11593.35
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1529.87,30.2,200.0,4.7,5,3,1.17,14666.62,14657.61
+Handloom Textiles,Handspun Cotton,1727.43,38.9,85.0,4.9,1,3,1.13,7928.44,7911.45
+Folk Paintings,Tussar Silk Fabric,811.92,40.8,100.0,3.0,3,3,1.36,9001.13,9122.42
+Dhokra & Brass Craft,Bronze Alloy,1836.23,71.9,100.0,3.5,3,4,1.3,16089.25,16474.09
+Carved Woodwork,Seasoned Teakwood,1142.74,68.2,100.0,3.3,3,3,0.92,13277.87,10438.56
+Folk Paintings,Handmade Vasli Paper,2321.85,4.5,180.0,4.2,3,3,1.25,5762.6,5657.7
+Carved Woodwork,Sheesham Wood,886.85,59.4,180.0,4.9,3,3,1.0,19307.73,17417.64
+Blue Pottery & Ceramics,Quartz Powder Frit,297.35,3.2,100.0,4.3,1,5,1.27,907.5,1047.81
+Handloom Textiles,Handspun Cotton,1934.0,68.1,85.0,2.8,1,2,0.94,12162.94,8923.36
+Carved Woodwork,Sheesham Wood,139.29,26.6,100.0,4.1,5,5,1.25,5073.71,5568.6
+Terracotta & Clay,Black Clay,2117.82,21.7,180.0,2.6,2,2,1.1,8282.75,8500.13
+Carved Woodwork,Sheesham Wood,760.03,64.9,180.0,2.9,3,5,1.19,20747.09,20122.97
+Folk Paintings,Handmade Vasli Paper,161.48,19.5,100.0,4.1,1,2,1.19,3547.29,3460.27
+Folk Paintings,Cotton Canvas,665.47,58.0,120.0,3.3,4,5,1.36,14640.9,14674.71
+Folk Paintings,Cotton Canvas,403.86,51.5,100.0,3.2,1,1,0.9,9330.48,6815.51
+Blue Pottery & Ceramics,Quartz Powder Frit,193.38,24.3,180.0,4.7,2,1,1.07,7033.77,7076.09
+Blue Pottery & Ceramics,Ceramic Glaze,2238.33,36.4,70.0,3.4,4,3,0.94,8041.03,6495.12
+Blue Pottery & Ceramics,Porcelain Clay,1275.03,32.8,100.0,4.6,2,5,1.26,7014.75,8140.24
+Carved Woodwork,Rosewood,2380.87,57.1,180.0,3.2,4,3,1.22,22026.43,22263.41
+Handloom Textiles,Mulberry Silk,333.64,41.4,200.0,3.8,1,3,1.13,13566.48,12476.81
+Carved Woodwork,Seasoned Teakwood,206.7,62.1,85.0,3.9,4,2,1.01,9544.25,8135.32
+Terracotta & Clay,Terracotta Red Clay,1222.92,70.8,70.0,4.5,5,5,1.05,9654.56,10555.61
+Blue Pottery & Ceramics,Porcelain Clay,843.82,52.7,150.0,4.2,1,4,0.94,12860.77,10820.88
+Dhokra & Brass Craft,Copper Brass Blend,1693.82,66.4,180.0,3.8,4,5,1.24,25381.23,25500.95
+Blue Pottery & Ceramics,Ceramic Glaze,1796.71,76.1,100.0,3.7,1,4,1.2,13827.86,14352.47
+Handloom Textiles,Chanderi Cotton-Silk,2203.91,6.2,85.0,4.2,4,4,1.03,4915.64,4304.19
+Carved Woodwork,Rosewood,1472.36,8.9,200.0,4.5,2,5,1.03,5187.51,4758.2
+Handloom Textiles,Handspun Cotton,1951.0,42.9,120.0,4.1,4,3,1.23,12778.2,13630.55
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1403.65,66.9,200.0,4.5,5,3,1.05,28643.32,25628.07
+Dhokra & Brass Craft,Recycled Bell Metal Brass,632.33,22.0,120.0,3.7,4,4,0.93,6086.53,4749.78
+Carved Woodwork,Sheesham Wood,964.95,20.4,120.0,4.0,1,2,1.32,5196.22,5844.67
+Dhokra & Brass Craft,Recycled Bell Metal Brass,748.49,78.6,120.0,3.5,4,3,1.03,18935.71,16036.38
+Folk Paintings,Handmade Vasli Paper,2234.14,57.5,85.0,4.2,2,5,1.15,12534.09,11457.94
+Terracotta & Clay,Black Clay,187.84,35.0,180.0,3.8,5,2,1.24,10137.25,12238.62
+Folk Paintings,Cotton Canvas,1192.39,45.1,150.0,3.6,3,5,1.14,14641.6,12827.68
+Handloom Textiles,Chanderi Cotton-Silk,1711.92,13.5,100.0,4.5,3,4,1.23,5281.81,5622.66
+Carved Woodwork,Rosewood,2454.37,46.9,100.0,3.6,2,3,0.99,11395.27,9445.7
+Folk Paintings,Cotton Canvas,111.53,4.1,120.0,4.5,3,5,1.37,1110.5,1219.99
+Blue Pottery & Ceramics,Ceramic Glaze,1912.69,15.4,180.0,4.3,1,3,1.23,6886.49,7757.19
+Dhokra & Brass Craft,Bronze Alloy,1947.34,41.4,70.0,4.6,4,5,1.09,9012.33,8679.39
+Handloom Textiles,Mulberry Silk,858.44,68.3,100.0,3.1,3,1,1.1,13262.56,11793.74
+Carved Woodwork,Seasoned Teakwood,81.07,72.4,180.0,3.5,3,2,1.4,21866.04,24297.15
+Handloom Textiles,Mulberry Silk,2302.59,76.2,100.0,3.2,1,2,1.4,15628.08,16245.03
+Handloom Textiles,Handspun Cotton,947.76,53.6,85.0,4.8,2,5,1.39,9081.2,10621.5
+Terracotta & Clay,Natural Alluvial Clay,438.59,55.3,70.0,4.9,5,3,1.18,6733.73,8445.56
+Handloom Textiles,Chanderi Cotton-Silk,869.74,67.7,150.0,3.4,2,5,1.11,18190.82,16343.36
+Blue Pottery & Ceramics,Quartz Powder Frit,1510.54,17.3,100.0,4.0,4,1,1.08,5444.11,5544.58
+Blue Pottery & Ceramics,Porcelain Clay,2208.38,38.4,200.0,4.5,5,4,1.25,17304.67,20180.33
+Dhokra & Brass Craft,Bronze Alloy,2199.64,44.5,120.0,3.6,5,5,1.28,14608.05,15387.51
+Terracotta & Clay,Natural Alluvial Clay,1088.09,43.2,150.0,4.3,5,5,1.12,11825.14,13183.13
+Dhokra & Brass Craft,Copper Brass Blend,1630.34,35.0,150.0,3.6,2,5,1.26,11730.98,11308.12
+Dhokra & Brass Craft,Copper Brass Blend,519.51,31.6,100.0,5.0,4,5,1.17,6843.89,6810.63
+Blue Pottery & Ceramics,Ceramic Glaze,130.02,23.7,180.0,4.0,3,2,1.14,7077.59,6997.71
+Terracotta & Clay,Black Clay,1808.91,61.4,180.0,4.5,1,3,1.08,16879.94,19238.34
+Dhokra & Brass Craft,Bronze Alloy,2308.81,56.5,200.0,4.6,1,1,0.92,22148.34,18114.85
+Terracotta & Clay,Natural Alluvial Clay,424.05,19.4,120.0,4.9,3,1,1.25,3956.07,5185.62
+Terracotta & Clay,Natural Alluvial Clay,1000.85,15.6,120.0,3.5,3,3,1.32,4129.72,5451.87
+Folk Paintings,Cotton Canvas,1570.51,67.9,200.0,3.1,3,5,1.31,27876.94,27567.96
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1301.61,58.3,180.0,2.8,3,3,1.1,21025.67,17751.14
+Dhokra & Brass Craft,Copper Brass Blend,2174.02,15.1,120.0,4.1,2,3,1.15,6796.16,6360.96
+Dhokra & Brass Craft,Bronze Alloy,2095.45,72.8,85.0,3.1,4,1,1.17,15407.22,13825.65
+Folk Paintings,Handmade Vasli Paper,822.4,30.2,70.0,4.8,5,1,1.34,5872.8,6150.5
+Terracotta & Clay,Terracotta Red Clay,283.09,28.7,180.0,3.3,2,4,1.39,7492.5,9891.26
+Carved Woodwork,Sheesham Wood,1855.04,11.9,200.0,3.5,5,4,1.04,7676.01,6741.59
+Terracotta & Clay,Terracotta Red Clay,1169.28,78.2,85.0,4.9,5,4,1.1,12212.94,13346.15
+Handloom Textiles,Mulberry Silk,1785.02,35.6,100.0,3.8,3,3,1.0,9220.16,7376.9
+Carved Woodwork,Sheesham Wood,1749.26,14.1,200.0,2.7,5,4,1.05,8281.78,7114.55
+Folk Paintings,Tussar Silk Fabric,1589.23,52.9,180.0,4.1,3,3,1.24,20444.66,20558.88
+Terracotta & Clay,Black Clay,736.05,49.0,150.0,2.9,3,2,1.12,11623.7,12698.75
+Handloom Textiles,Chanderi Cotton-Silk,595.67,75.3,150.0,3.0,4,2,1.09,21403.21,18810.01
+Handloom Textiles,Chanderi Cotton-Silk,692.51,37.7,70.0,3.1,1,5,1.21,5247.13,4916.2
+Folk Paintings,Cotton Canvas,326.58,3.6,180.0,3.3,4,3,0.94,1871.19,1396.24
+Carved Woodwork,Seasoned Teakwood,1320.8,36.8,100.0,4.0,1,3,1.22,7613.72,8031.66
+Blue Pottery & Ceramics,Ceramic Glaze,1808.01,10.0,70.0,4.5,4,1,1.01,4213.46,3858.62
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1107.95,19.6,70.0,4.2,2,2,1.34,4228.31,4481.98
+Dhokra & Brass Craft,Copper Brass Blend,765.6,63.6,100.0,4.0,1,3,1.16,11596.91,10852.63
+Terracotta & Clay,Natural Alluvial Clay,1494.37,44.5,70.0,4.7,1,5,1.23,6049.8,7471.02
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1075.44,70.3,100.0,4.3,2,4,1.17,13819.78,13522.51
+Blue Pottery & Ceramics,Ceramic Glaze,1290.19,63.5,85.0,2.6,4,5,1.13,11235.32,10402.97
+Carved Woodwork,Rosewood,760.11,57.9,180.0,4.1,1,5,0.98,17024.76,15070.19
+Handloom Textiles,Chanderi Cotton-Silk,1738.03,11.5,150.0,2.5,4,4,1.12,6233.45,5488.22
+Blue Pottery & Ceramics,Porcelain Clay,696.82,60.2,85.0,4.6,1,5,1.05,8546.32,8063.98
+Blue Pottery & Ceramics,Ceramic Glaze,2357.51,70.5,150.0,4.8,3,5,1.15,20821.34,21453.19
+Folk Paintings,Handmade Vasli Paper,2158.34,55.1,70.0,3.4,3,1,0.91,11068.23,7872.52
+Handloom Textiles,Mulberry Silk,1011.22,40.7,150.0,2.9,5,2,1.17,13342.91,11740.09
+Carved Woodwork,Sheesham Wood,798.22,44.7,180.0,2.5,3,2,1.34,14747.74,15604.67
+Dhokra & Brass Craft,Bronze Alloy,1336.52,49.8,180.0,2.9,3,4,1.19,18360.68,16250.91
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1083.66,61.0,70.0,3.9,2,2,0.99,9127.99,6854.05
+Folk Paintings,Handmade Vasli Paper,1608.03,44.0,150.0,4.2,5,5,1.07,16416.06,14254.85
+Blue Pottery & Ceramics,Quartz Powder Frit,579.13,33.2,70.0,4.2,2,1,1.38,4470.82,5567.34
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1709.26,34.4,150.0,4.1,2,4,1.34,11712.09,13165.55
+Folk Paintings,Handmade Vasli Paper,1376.29,67.4,70.0,4.7,1,3,0.96,10238.41,8321.03
+Handloom Textiles,Chanderi Cotton-Silk,2065.85,34.2,200.0,3.7,5,1,1.3,16698.47,16864.57
+Dhokra & Brass Craft,Bronze Alloy,242.08,70.6,120.0,3.0,4,4,1.17,16208.19,14654.92
+Handloom Textiles,Handspun Cotton,2473.91,20.8,150.0,3.9,5,3,1.01,10488.58,9122.84
+Folk Paintings,Cotton Canvas,981.53,8.3,180.0,3.4,4,4,0.92,4753.02,3523.78
+Folk Paintings,Tussar Silk Fabric,2091.91,67.9,70.0,2.5,4,2,1.29,13142.23,12188.57
+Terracotta & Clay,Natural Alluvial Clay,1492.59,63.2,150.0,3.4,2,4,0.97,15087.31,14653.17
+Handloom Textiles,Chanderi Cotton-Silk,491.11,18.0,120.0,3.5,2,1,1.03,4374.33,3884.26
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1663.0,71.5,150.0,3.9,2,4,1.14,21121.54,18932.65
+Dhokra & Brass Craft,Recycled Bell Metal Brass,664.43,19.5,180.0,4.7,2,4,1.27,7117.4,7794.81
+Terracotta & Clay,Terracotta Red Clay,1764.7,32.5,85.0,3.6,1,1,1.03,5941.95,5978.0
+Terracotta & Clay,Terracotta Red Clay,732.22,17.7,85.0,3.2,3,4,1.31,3215.29,4008.58
+Blue Pottery & Ceramics,Porcelain Clay,1959.83,66.3,200.0,5.0,4,2,1.25,25569.31,29046.36
+Terracotta & Clay,Natural Alluvial Clay,708.18,5.6,150.0,4.7,5,4,0.92,2419.03,2206.18
+Blue Pottery & Ceramics,Ceramic Glaze,1118.14,18.5,200.0,4.8,5,2,1.32,8431.74,10426.07
+Folk Paintings,Tussar Silk Fabric,2497.32,28.2,200.0,4.5,5,2,0.9,16274.64,11752.36
+Dhokra & Brass Craft,Copper Brass Blend,1462.21,26.4,150.0,2.8,4,3,1.08,10085.31,8494.74
+Carved Woodwork,Seasoned Teakwood,641.48,4.1,180.0,4.8,1,4,0.92,2100.26,1865.63
+Dhokra & Brass Craft,Bronze Alloy,1443.42,51.1,150.0,3.5,3,1,0.93,16235.76,12793.39
+Blue Pottery & Ceramics,Ceramic Glaze,415.01,47.6,100.0,4.7,3,2,1.07,8331.77,8541.68
+Handloom Textiles,Chanderi Cotton-Silk,592.16,79.7,120.0,3.7,1,2,1.26,15995.95,16101.34
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1712.98,55.2,85.0,2.8,3,5,1.22,11416.88,10588.94
+Terracotta & Clay,Black Clay,1767.07,52.9,85.0,3.9,1,4,1.11,8220.94,8615.04
+Folk Paintings,Cotton Canvas,226.66,55.8,70.0,4.0,3,4,1.13,7604.09,7289.59
+Carved Woodwork,Sheesham Wood,2282.72,52.2,85.0,3.5,5,2,1.19,12179.49,12395.08
+Blue Pottery & Ceramics,Porcelain Clay,1514.67,30.3,180.0,4.3,5,2,0.94,12195.17,10613.01
+Carved Woodwork,Rosewood,2216.65,53.7,200.0,3.8,3,3,1.27,21605.21,23914.22
+Dhokra & Brass Craft,Copper Brass Blend,152.66,72.1,200.0,4.0,1,5,0.93,23717.0,18015.79
+Carved Woodwork,Rosewood,1133.65,33.5,70.0,4.6,5,3,1.18,6305.05,6577.32
+Blue Pottery & Ceramics,Ceramic Glaze,1229.38,7.3,85.0,2.7,5,4,1.39,3237.29,3859.68
+Folk Paintings,Handmade Vasli Paper,2421.98,36.9,200.0,4.5,5,4,1.31,19603.96,19828.64
+Handloom Textiles,Handspun Cotton,491.68,72.2,85.0,3.4,2,3,1.18,10937.32,10011.12
+Folk Paintings,Handmade Vasli Paper,1237.96,63.1,180.0,3.3,4,4,1.14,24184.24,21091.95
+Blue Pottery & Ceramics,Quartz Powder Frit,1810.75,24.7,85.0,3.6,5,1,1.19,6842.94,6964.42
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2166.53,27.2,200.0,2.8,5,1,1.28,14737.65,13268.61
+Terracotta & Clay,Black Clay,1434.18,55.9,120.0,3.4,3,2,0.96,11704.38,11609.86
+Carved Woodwork,Rosewood,1925.12,12.7,150.0,4.7,1,5,1.16,5831.36,6091.8
+Folk Paintings,Tussar Silk Fabric,1054.72,77.7,70.0,4.4,3,4,0.98,11948.44,10172.71
+Dhokra & Brass Craft,Copper Brass Blend,522.47,66.6,180.0,4.0,1,3,1.37,20360.79,22056.95
+Dhokra & Brass Craft,Copper Brass Blend,1467.2,29.0,120.0,4.2,1,5,1.34,8051.57,8927.34
+Folk Paintings,Handmade Vasli Paper,1588.82,49.2,70.0,4.1,5,1,0.98,10065.64,7545.7
+Terracotta & Clay,Terracotta Red Clay,653.74,76.0,200.0,3.2,3,2,1.29,22789.75,27073.51
+Handloom Textiles,Chanderi Cotton-Silk,95.57,62.5,150.0,2.9,2,2,1.16,15626.44,14371.8
+Blue Pottery & Ceramics,Quartz Powder Frit,1793.65,39.6,100.0,2.6,5,1,1.16,10068.89,9786.07
+Carved Woodwork,Rosewood,2283.67,42.3,200.0,2.8,4,1,1.33,18693.99,20318.99
+Terracotta & Clay,Black Clay,1206.95,62.6,70.0,4.0,3,4,1.09,8034.12,8921.16
+Blue Pottery & Ceramics,Ceramic Glaze,214.37,46.8,200.0,4.4,2,5,1.33,14744.53,16911.49
+Handloom Textiles,Chanderi Cotton-Silk,1349.86,62.7,100.0,3.5,1,5,1.38,12001.28,12769.38
+Dhokra & Brass Craft,Copper Brass Blend,722.5,50.1,100.0,3.0,4,2,1.21,10662.45,9992.77
+Folk Paintings,Cotton Canvas,2289.29,29.2,150.0,2.5,1,1,1.07,11204.41,9344.84
+Carved Woodwork,Sheesham Wood,2002.64,24.4,180.0,2.7,3,4,1.03,10663.06,9211.13
+Carved Woodwork,Sheesham Wood,2327.29,7.8,70.0,3.1,4,5,1.12,4999.52,4579.84
+Blue Pottery & Ceramics,Porcelain Clay,676.91,39.3,85.0,4.8,4,2,0.99,6749.25,6215.09
+Dhokra & Brass Craft,Recycled Bell Metal Brass,96.64,19.4,150.0,3.1,2,2,1.35,5126.32,5198.87
+Carved Woodwork,Rosewood,803.23,11.2,180.0,3.0,3,2,1.2,4701.07,4628.7
+Handloom Textiles,Mulberry Silk,1255.68,12.0,150.0,3.7,2,4,1.27,5041.87,5263.1
+Terracotta & Clay,Natural Alluvial Clay,1492.32,33.0,180.0,4.8,4,4,1.19,11148.48,14489.32
+Blue Pottery & Ceramics,Ceramic Glaze,870.84,3.8,200.0,3.1,5,2,1.19,2853.97,2920.59
+Handloom Textiles,Chanderi Cotton-Silk,2452.98,19.5,70.0,4.7,2,1,1.25,6299.67,7017.23
+Carved Woodwork,Rosewood,497.51,46.7,200.0,3.9,5,4,1.39,17830.49,21292.21
+Terracotta & Clay,Black Clay,2426.73,36.2,200.0,2.9,4,1,1.25,14500.1,16052.84
+Terracotta & Clay,Natural Alluvial Clay,413.68,56.0,85.0,4.6,1,3,1.08,6790.46,7487.67
+Folk Paintings,Tussar Silk Fabric,205.32,45.9,150.0,2.7,1,5,1.32,11911.74,11074.0
+Handloom Textiles,Chanderi Cotton-Silk,2073.17,32.6,70.0,3.2,3,4,0.96,7512.67,5687.86
+Folk Paintings,Cotton Canvas,1734.96,43.9,85.0,4.8,2,4,1.02,9620.97,8526.28
+Carved Woodwork,Seasoned Teakwood,2326.01,68.1,200.0,3.5,3,3,0.92,26589.97,22117.63
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1648.73,20.8,100.0,3.5,4,5,1.12,6935.44,6503.26
+Folk Paintings,Cotton Canvas,1381.43,24.4,200.0,3.5,4,3,0.91,12021.95,8630.07
+Folk Paintings,Handmade Vasli Paper,612.61,42.9,85.0,3.9,3,1,1.06,7836.76,6168.77
+Handloom Textiles,Handspun Cotton,771.39,10.0,180.0,3.8,5,5,1.11,4821.36,4400.17
+Carved Woodwork,Sheesham Wood,2075.22,14.3,150.0,2.5,2,5,1.12,6731.25,6098.05
+Blue Pottery & Ceramics,Ceramic Glaze,683.8,45.2,70.0,3.3,4,3,1.18,6464.3,6525.08
+Blue Pottery & Ceramics,Porcelain Clay,1805.09,56.6,200.0,3.5,1,3,1.07,19293.88,18500.01
+Folk Paintings,Handmade Vasli Paper,1048.51,63.3,100.0,3.6,2,3,1.4,12986.18,14018.34
+Carved Woodwork,Rosewood,1192.35,36.2,100.0,4.8,2,3,1.34,7675.7,9147.65
+Folk Paintings,Handmade Vasli Paper,467.75,16.2,200.0,4.4,2,1,1.25,6525.64,6016.82
+Folk Paintings,Tussar Silk Fabric,2028.01,7.0,100.0,4.0,2,2,1.02,4801.3,3988.44
+Carved Woodwork,Seasoned Teakwood,1095.5,6.9,100.0,3.6,3,2,1.33,2977.32,3273.33
+Dhokra & Brass Craft,Bronze Alloy,2371.15,63.2,100.0,3.3,2,4,1.08,14818.41,12549.94
+Blue Pottery & Ceramics,Porcelain Clay,1375.59,46.6,200.0,2.8,4,4,1.11,17968.59,16811.33
+Dhokra & Brass Craft,Recycled Bell Metal Brass,616.71,27.5,120.0,4.5,5,2,0.95,7588.63,5822.56
+Carved Woodwork,Seasoned Teakwood,282.13,19.3,85.0,4.2,4,4,1.28,3345.38,3652.73
+Handloom Textiles,Chanderi Cotton-Silk,1252.23,56.4,120.0,2.9,2,5,1.3,13233.38,13091.81
+Carved Woodwork,Seasoned Teakwood,728.98,30.8,180.0,2.8,2,5,1.31,10005.4,10543.74
+Folk Paintings,Handmade Vasli Paper,896.83,64.8,100.0,4.1,5,4,1.34,14753.66,15444.9
+Dhokra & Brass Craft,Copper Brass Blend,1648.41,70.4,200.0,4.6,1,4,0.95,25597.99,21291.2
+Handloom Textiles,Chanderi Cotton-Silk,1865.84,30.8,85.0,2.6,4,2,0.92,8070.91,5999.19
+Carved Woodwork,Rosewood,489.13,30.1,100.0,3.9,5,3,1.39,6342.17,6837.28
+Blue Pottery & Ceramics,Porcelain Clay,1075.08,35.9,120.0,4.2,5,3,1.04,9420.39,9131.04
+Carved Woodwork,Rosewood,1219.7,40.9,70.0,4.1,5,2,1.3,7399.89,8925.4
+Blue Pottery & Ceramics,Porcelain Clay,384.81,78.4,100.0,4.9,3,4,0.98,13241.94,12636.92
+Terracotta & Clay,Natural Alluvial Clay,1679.96,53.2,200.0,2.6,5,1,1.32,19249.94,23157.56
+Dhokra & Brass Craft,Copper Brass Blend,1856.65,29.3,85.0,4.0,4,1,1.13,8085.7,7248.67
+Carved Woodwork,Sheesham Wood,796.16,54.1,180.0,3.5,4,5,1.19,18329.44,19433.96
+Handloom Textiles,Chanderi Cotton-Silk,1290.67,8.3,180.0,4.6,2,2,1.1,4594.71,4463.11
+Carved Woodwork,Sheesham Wood,1351.64,56.7,120.0,4.0,1,5,1.24,12416.96,12885.25
+Blue Pottery & Ceramics,Ceramic Glaze,795.89,3.1,100.0,2.7,5,4,1.06,1935.31,1727.72
+Folk Paintings,Cotton Canvas,1736.8,72.5,200.0,3.9,4,1,1.32,31174.66,31081.49
+Carved Woodwork,Sheesham Wood,850.19,71.9,200.0,4.3,3,3,0.9,25396.34,20119.25
+Dhokra & Brass Craft,Bronze Alloy,111.21,44.6,150.0,4.9,3,5,1.16,12123.16,12526.02
+Folk Paintings,Tussar Silk Fabric,1408.27,32.3,150.0,5.0,3,1,1.09,11506.02,10198.17
+Dhokra & Brass Craft,Copper Brass Blend,2469.35,37.2,150.0,2.7,3,4,1.19,14347.97,12866.82
+Terracotta & Clay,Black Clay,871.2,26.5,70.0,3.7,4,5,1.25,4089.3,5162.36
+Handloom Textiles,Chanderi Cotton-Silk,369.34,47.1,120.0,4.4,4,3,1.15,10838.41,10476.73
+Folk Paintings,Tussar Silk Fabric,1578.4,17.4,120.0,4.4,4,4,1.15,7039.49,6447.86
+Carved Woodwork,Sheesham Wood,1347.02,24.7,200.0,4.0,4,1,0.94,10939.41,9324.18
+Dhokra & Brass Craft,Copper Brass Blend,2440.64,39.5,200.0,3.1,2,2,1.31,17630.79,17583.82
+Folk Paintings,Cotton Canvas,1528.6,53.3,120.0,4.7,3,4,1.27,14581.26,14838.21
+Dhokra & Brass Craft,Copper Brass Blend,1208.16,17.6,85.0,4.4,4,3,1.37,5029.74,5953.21
+Terracotta & Clay,Natural Alluvial Clay,1935.0,57.1,70.0,4.9,4,3,1.37,8898.0,12610.44
+Folk Paintings,Cotton Canvas,1077.72,75.0,200.0,4.5,2,4,1.19,28296.79,28193.49
+Handloom Textiles,Chanderi Cotton-Silk,265.67,15.8,100.0,4.1,1,3,1.13,2906.93,2725.08
+Folk Paintings,Handmade Vasli Paper,2191.83,37.8,70.0,3.5,2,3,1.23,8514.58,8469.9
+Folk Paintings,Tussar Silk Fabric,1084.2,59.2,70.0,4.9,1,2,1.14,8783.38,8145.45
+Handloom Textiles,Mulberry Silk,1051.54,29.0,70.0,2.9,4,2,0.92,5546.77,4348.14
+Carved Woodwork,Seasoned Teakwood,181.55,31.0,150.0,3.9,5,3,1.05,8757.18,8258.04
+Carved Woodwork,Rosewood,1721.71,48.6,70.0,3.5,4,5,0.97,8915.26,7402.36
+Carved Woodwork,Seasoned Teakwood,275.09,75.3,85.0,3.7,1,4,1.0,10163.59,8432.21
+Folk Paintings,Tussar Silk Fabric,1995.21,73.5,120.0,4.5,5,5,0.96,21630.42,17612.42
+Folk Paintings,Tussar Silk Fabric,1329.41,47.7,150.0,2.5,2,1,0.97,14932.56,10449.31
+Carved Woodwork,Sheesham Wood,1575.39,29.3,180.0,2.7,5,1,1.18,12414.52,12301.73
+Handloom Textiles,Mulberry Silk,387.57,17.6,85.0,3.5,5,2,1.12,3531.69,3107.68
+Dhokra & Brass Craft,Copper Brass Blend,2065.58,66.6,85.0,3.2,2,5,0.93,13173.82,9054.49
+Handloom Textiles,Chanderi Cotton-Silk,678.71,69.7,200.0,4.0,4,3,1.21,26313.68,25478.77
+Terracotta & Clay,Terracotta Red Clay,527.31,7.6,200.0,4.5,5,3,1.01,3198.92,3279.51
+Handloom Textiles,Chanderi Cotton-Silk,475.35,17.2,120.0,3.1,3,4,1.1,4380.38,3895.46
+Handloom Textiles,Handspun Cotton,1249.57,32.5,200.0,3.0,4,3,0.93,13949.23,10660.32
+Handloom Textiles,Chanderi Cotton-Silk,2204.84,46.0,150.0,2.8,2,1,1.35,15022.99,15220.84
+Terracotta & Clay,Natural Alluvial Clay,1171.89,28.4,180.0,3.6,1,1,1.37,8247.61,10959.98
+Carved Woodwork,Seasoned Teakwood,223.04,56.2,150.0,4.9,2,5,0.95,13801.6,12572.7
+Carved Woodwork,Sheesham Wood,1707.18,16.1,120.0,4.1,3,1,1.11,6068.33,5909.99
+Folk Paintings,Handmade Vasli Paper,653.36,10.5,180.0,4.0,2,2,1.19,4476.31,4264.56
+Handloom Textiles,Mulberry Silk,883.41,63.2,150.0,3.2,1,3,1.32,16322.37,17504.15
+Folk Paintings,Cotton Canvas,1847.19,40.7,70.0,3.5,3,2,1.31,8640.99,8327.13
+Carved Woodwork,Rosewood,980.53,43.2,120.0,4.7,1,5,1.25,9385.5,10384.22
+Folk Paintings,Handmade Vasli Paper,1577.04,46.8,180.0,2.8,3,4,1.4,18401.91,18097.76
+Carved Woodwork,Rosewood,2377.24,70.7,150.0,5.0,1,3,1.23,19765.46,20354.96
+Folk Paintings,Handmade Vasli Paper,1516.95,47.3,70.0,4.1,3,5,1.01,8883.43,7152.79
+Dhokra & Brass Craft,Copper Brass Blend,140.98,30.3,85.0,2.6,3,3,1.25,4842.13,4704.76
+Blue Pottery & Ceramics,Quartz Powder Frit,1261.39,13.3,150.0,4.8,4,1,1.25,5470.74,6403.04
+Blue Pottery & Ceramics,Quartz Powder Frit,852.09,35.0,100.0,3.2,5,3,1.19,7616.16,7576.2
+Blue Pottery & Ceramics,Quartz Powder Frit,955.19,12.7,100.0,4.7,4,1,0.91,3738.32,3235.11
+Carved Woodwork,Sheesham Wood,1476.62,71.6,85.0,4.1,3,1,1.27,12610.67,13883.65
+Dhokra & Brass Craft,Recycled Bell Metal Brass,730.49,18.3,200.0,3.5,1,5,1.2,7145.52,6887.41
+Handloom Textiles,Mulberry Silk,243.05,67.0,100.0,2.7,2,2,1.16,11456.03,10080.01
+Carved Woodwork,Seasoned Teakwood,2044.72,4.1,200.0,4.7,5,1,1.05,5192.3,4822.38
+Terracotta & Clay,Black Clay,452.16,71.2,200.0,4.2,2,2,1.31,20201.72,25881.69
+Dhokra & Brass Craft,Copper Brass Blend,639.22,72.1,150.0,2.5,5,5,0.91,22192.55,15620.2
+Carved Woodwork,Seasoned Teakwood,1713.24,21.4,70.0,4.4,2,4,1.0,5121.93,4601.58
+Handloom Textiles,Mulberry Silk,984.95,71.2,200.0,4.2,2,4,1.1,25121.17,23625.58
+Terracotta & Clay,Natural Alluvial Clay,1705.54,59.2,200.0,4.1,3,2,0.97,19471.71,18761.87
+Handloom Textiles,Chanderi Cotton-Silk,1043.84,3.5,180.0,3.0,1,4,1.3,2636.3,2576.18
+Carved Woodwork,Rosewood,1931.77,14.0,100.0,4.9,3,1,0.93,5555.73,4664.02
+Blue Pottery & Ceramics,Porcelain Clay,2198.68,26.3,150.0,4.7,2,2,1.04,9461.27,9217.13
+Folk Paintings,Cotton Canvas,2366.96,55.6,70.0,2.6,3,2,1.02,11516.49,8633.19
+Dhokra & Brass Craft,Bronze Alloy,92.44,37.3,150.0,4.2,3,3,1.37,10137.86,11208.83
+Folk Paintings,Tussar Silk Fabric,2023.85,79.0,150.0,4.4,4,3,1.34,26637.79,28367.95
+Folk Paintings,Tussar Silk Fabric,1007.82,16.0,100.0,4.2,1,2,1.1,4381.14,4078.64
+Handloom Textiles,Handspun Cotton,825.06,39.7,150.0,5.0,3,4,1.37,11695.6,13666.8
+Handloom Textiles,Handspun Cotton,958.42,70.7,120.0,2.8,2,2,0.92,15579.99,10858.78
+Folk Paintings,Tussar Silk Fabric,1723.57,51.6,200.0,3.1,5,1,0.97,24087.14,18189.16
+Folk Paintings,Handmade Vasli Paper,616.07,7.3,200.0,3.4,1,5,1.16,3487.8,3106.97
+Folk Paintings,Tussar Silk Fabric,2209.39,41.9,150.0,3.5,3,2,0.94,15629.68,11970.89
+Handloom Textiles,Handspun Cotton,1073.92,66.0,150.0,4.6,2,1,0.97,18106.97,16314.13
+Blue Pottery & Ceramics,Porcelain Clay,1900.12,42.5,85.0,4.4,1,1,1.12,8103.55,8236.59
+Terracotta & Clay,Natural Alluvial Clay,574.27,35.2,70.0,2.8,3,4,1.16,4367.51,4767.14
+Folk Paintings,Cotton Canvas,2069.79,61.0,100.0,2.7,2,1,1.02,14378.83,10565.6
+Handloom Textiles,Mulberry Silk,256.67,60.3,70.0,4.3,1,4,1.36,7052.33,8304.08
+Folk Paintings,Cotton Canvas,210.27,17.6,70.0,3.5,2,5,1.27,2538.4,2522.52
+Terracotta & Clay,Black Clay,1951.1,54.7,180.0,4.4,2,4,1.39,16221.01,22863.86
+Blue Pottery & Ceramics,Ceramic Glaze,1441.08,24.5,85.0,3.8,1,4,1.33,5179.66,6018.66
+Terracotta & Clay,Black Clay,868.63,76.5,100.0,2.5,4,3,0.9,12777.94,10229.22
+Terracotta & Clay,Terracotta Red Clay,663.62,21.0,200.0,3.0,1,4,1.11,6383.5,6758.35
+Carved Woodwork,Sheesham Wood,1272.96,28.4,85.0,4.6,2,2,1.05,5880.7,5523.92
+Folk Paintings,Tussar Silk Fabric,477.57,63.3,180.0,4.3,3,1,0.94,21843.69,17051.37
+Handloom Textiles,Handspun Cotton,2392.18,22.0,150.0,2.8,3,5,1.14,9819.01,9138.62
+Blue Pottery & Ceramics,Quartz Powder Frit,2104.14,41.7,70.0,4.5,4,5,1.04,8438.88,7949.02
+Carved Woodwork,Sheesham Wood,1397.82,15.3,100.0,4.3,2,5,1.12,4669.87,4409.46
+Carved Woodwork,Sheesham Wood,1664.44,34.7,70.0,2.9,5,2,0.94,7419.36,5644.68
+Blue Pottery & Ceramics,Quartz Powder Frit,2392.67,76.4,85.0,4.3,4,5,1.33,14929.61,16890.58
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1788.41,41.8,85.0,2.8,5,2,1.28,10348.98,10521.2
+Terracotta & Clay,Natural Alluvial Clay,1365.28,60.4,85.0,4.1,2,3,0.93,8936.51,8787.27
+Terracotta & Clay,Natural Alluvial Clay,839.16,51.9,200.0,4.0,2,2,1.24,15426.35,17908.04
+Terracotta & Clay,Terracotta Red Clay,2421.94,53.6,100.0,4.1,1,3,1.26,10213.8,12790.07
+Folk Paintings,Tussar Silk Fabric,2018.27,16.9,120.0,3.8,5,1,1.24,8092.54,7767.53
+Handloom Textiles,Chanderi Cotton-Silk,290.71,18.6,180.0,3.2,1,5,1.32,5730.97,5906.42
+Terracotta & Clay,Terracotta Red Clay,2045.83,29.4,70.0,2.9,2,3,1.02,5642.77,5106.65
+Blue Pottery & Ceramics,Quartz Powder Frit,2201.41,59.1,120.0,4.8,2,1,1.09,14311.85,14443.99
+Terracotta & Clay,Natural Alluvial Clay,899.95,76.3,120.0,4.0,3,4,0.92,14455.43,13375.32
+Handloom Textiles,Chanderi Cotton-Silk,1880.25,73.8,70.0,4.2,4,1,1.12,12683.25,11519.91
+Handloom Textiles,Chanderi Cotton-Silk,930.99,73.0,70.0,3.2,4,1,1.06,10873.78,9629.98
+Blue Pottery & Ceramics,Porcelain Clay,2465.56,63.9,180.0,4.1,4,5,1.27,23465.5,27138.25
+Terracotta & Clay,Natural Alluvial Clay,128.46,7.8,85.0,4.0,4,4,0.99,1187.19,1194.9
+Blue Pottery & Ceramics,Ceramic Glaze,786.43,60.6,150.0,3.5,3,4,1.17,15901.05,16935.42
+Blue Pottery & Ceramics,Porcelain Clay,1563.83,65.0,70.0,4.7,4,1,1.25,10271.23,11725.46
+Blue Pottery & Ceramics,Quartz Powder Frit,578.47,3.1,85.0,2.6,5,1,1.32,1473.45,1523.65
+Carved Woodwork,Sheesham Wood,450.61,59.1,100.0,3.7,2,4,1.11,10145.17,9715.64
+Folk Paintings,Cotton Canvas,1283.35,16.7,85.0,3.3,3,5,1.1,4973.24,4173.81
+Dhokra & Brass Craft,Bronze Alloy,580.92,68.6,150.0,4.4,3,5,0.99,19377.41,15683.18
+Handloom Textiles,Handspun Cotton,368.24,13.8,180.0,3.0,5,5,1.32,5347.95,5537.72
+Folk Paintings,Cotton Canvas,1693.96,36.5,180.0,3.2,2,4,1.0,14544.57,11196.64
+Blue Pottery & Ceramics,Ceramic Glaze,325.34,64.0,200.0,3.8,4,4,0.99,22050.57,19140.39
+Blue Pottery & Ceramics,Ceramic Glaze,1802.5,72.2,85.0,4.3,2,4,1.28,12226.83,13530.27
+Dhokra & Brass Craft,Copper Brass Blend,1588.58,49.4,70.0,3.5,2,3,0.97,8604.42,6811.35
+Carved Woodwork,Sheesham Wood,2047.82,22.8,120.0,2.7,4,5,1.23,8323.85,7806.12
+Handloom Textiles,Mulberry Silk,248.72,71.8,200.0,3.8,1,2,1.27,23008.73,23558.8
+Folk Paintings,Handmade Vasli Paper,1228.94,28.9,200.0,2.6,1,3,1.27,11775.02,10407.38
+Handloom Textiles,Mulberry Silk,1566.33,21.2,70.0,3.6,4,1,1.13,5490.59,5121.71
+Carved Woodwork,Sheesham Wood,551.8,41.9,120.0,3.4,2,2,1.13,8899.78,8294.28
+Folk Paintings,Tussar Silk Fabric,365.49,6.5,70.0,4.6,2,1,1.1,1444.06,1358.66
+Carved Woodwork,Rosewood,2163.13,29.7,85.0,3.3,5,4,1.02,8496.33,7412.57
+Terracotta & Clay,Black Clay,768.73,42.8,85.0,4.1,5,3,1.0,6885.52,7203.49
+Dhokra & Brass Craft,Bronze Alloy,490.82,10.4,85.0,2.6,2,1,1.17,2344.07,1983.46
+Dhokra & Brass Craft,Bronze Alloy,1325.68,10.7,100.0,4.4,2,5,1.33,4084.63,4368.43
+Carved Woodwork,Sheesham Wood,105.53,33.3,85.0,3.9,4,1,1.1,5108.69,4925.46
+Blue Pottery & Ceramics,Quartz Powder Frit,737.15,27.3,200.0,3.0,4,3,1.05,10411.21,9606.31
+Carved Woodwork,Seasoned Teakwood,982.66,19.1,120.0,4.0,5,5,1.13,5935.32,5783.05
+Handloom Textiles,Chanderi Cotton-Silk,2384.07,29.3,200.0,3.6,5,2,0.92,15457.63,11492.24
+Carved Woodwork,Sheesham Wood,2056.31,71.2,120.0,3.8,5,4,1.09,19213.06,18045.72
+Folk Paintings,Cotton Canvas,1898.44,75.5,85.0,3.4,2,4,1.21,14636.05,13523.17
+Terracotta & Clay,Natural Alluvial Clay,2329.16,18.8,70.0,3.1,5,5,1.09,5695.56,5751.18
+Carved Woodwork,Rosewood,1635.52,58.3,70.0,3.5,2,4,1.21,9117.85,8911.11
+Terracotta & Clay,Natural Alluvial Clay,2138.22,60.0,180.0,3.0,2,1,1.2,17790.05,19128.47
+Blue Pottery & Ceramics,Porcelain Clay,785.9,74.2,120.0,3.2,2,1,0.98,14922.45,12647.25
+Blue Pottery & Ceramics,Quartz Powder Frit,1047.96,7.4,100.0,3.9,2,1,1.07,2753.46,2682.54
+Blue Pottery & Ceramics,Quartz Powder Frit,1753.96,53.9,200.0,3.8,3,3,1.15,20179.68,19525.89
+Terracotta & Clay,Terracotta Red Clay,1488.61,64.4,200.0,3.6,4,4,1.28,21552.92,27210.39
+Blue Pottery & Ceramics,Porcelain Clay,1113.0,11.6,150.0,3.5,4,2,1.31,4793.04,5479.51
+Handloom Textiles,Chanderi Cotton-Silk,2070.94,27.0,150.0,3.2,2,5,1.33,10099.55,10281.56
+Folk Paintings,Tussar Silk Fabric,1221.34,20.5,120.0,2.7,3,2,1.31,6773.67,6328.38
+Blue Pottery & Ceramics,Ceramic Glaze,876.74,7.0,85.0,3.7,3,4,1.25,2369.5,2501.72
+Terracotta & Clay,Black Clay,1618.9,62.0,70.0,2.6,5,2,0.97,9310.78,8507.09
+Carved Woodwork,Seasoned Teakwood,2344.7,38.2,100.0,4.5,1,5,1.28,9385.76,10514.68
+Terracotta & Clay,Terracotta Red Clay,687.11,42.2,70.0,4.7,2,3,1.21,5006.53,6384.98
+Folk Paintings,Tussar Silk Fabric,202.23,45.1,70.0,4.9,5,2,1.06,6718.46,6108.04
+Blue Pottery & Ceramics,Quartz Powder Frit,1029.29,37.5,70.0,3.6,5,4,1.06,6395.01,6312.1
+Handloom Textiles,Mulberry Silk,813.79,77.4,200.0,3.5,5,5,1.07,30550.86,27540.55
+Dhokra & Brass Craft,Copper Brass Blend,1724.89,46.9,85.0,4.9,4,1,0.91,10623.19,8818.92
+Blue Pottery & Ceramics,Porcelain Clay,1745.78,60.6,150.0,5.0,5,3,1.02,18962.62,18432.67
+Folk Paintings,Handmade Vasli Paper,1326.7,79.3,120.0,2.8,3,3,0.91,19950.57,13813.35
+Terracotta & Clay,Black Clay,150.05,21.5,120.0,3.7,5,3,1.19,4265.7,5121.6
+Terracotta & Clay,Natural Alluvial Clay,623.01,41.8,200.0,2.9,4,2,1.32,13474.52,16160.76
+Dhokra & Brass Craft,Bronze Alloy,1663.52,70.2,85.0,4.7,2,4,0.95,13010.04,9970.12
+Dhokra & Brass Craft,Recycled Bell Metal Brass,670.47,77.4,100.0,3.9,4,4,1.32,15643.47,16125.42
+Terracotta & Clay,Terracotta Red Clay,1353.15,56.0,200.0,2.8,5,4,1.31,19614.3,24027.92
+Carved Woodwork,Sheesham Wood,856.18,17.8,180.0,4.4,2,2,1.12,6475.99,6315.66
+Folk Paintings,Cotton Canvas,1982.92,34.2,70.0,4.3,4,3,0.94,8403.69,6444.85
+Folk Paintings,Handmade Vasli Paper,1869.79,19.2,120.0,4.2,2,5,1.13,7345.87,6695.46
+Dhokra & Brass Craft,Copper Brass Blend,403.74,76.4,100.0,2.7,5,1,1.21,15584.75,13912.25
+Terracotta & Clay,Terracotta Red Clay,1919.99,58.6,70.0,3.0,3,5,1.1,8656.61,8981.06
+Carved Woodwork,Rosewood,1092.4,37.2,150.0,2.7,3,4,1.12,11126.23,10117.8
+Handloom Textiles,Chanderi Cotton-Silk,1639.65,17.1,70.0,2.7,1,2,0.9,4467.72,3262.15
+Carved Woodwork,Sheesham Wood,877.1,56.4,85.0,3.6,3,3,1.05,9456.56,8929.32
+Carved Woodwork,Rosewood,2469.43,20.3,150.0,3.9,5,2,0.98,9994.9,8526.11
+Folk Paintings,Handmade Vasli Paper,85.03,23.1,85.0,3.9,5,2,1.22,4097.06,3861.32
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1270.64,26.9,70.0,2.8,4,1,0.93,5865.77,4297.26
+Terracotta & Clay,Black Clay,801.05,38.0,180.0,4.3,3,2,1.35,10984.01,14328.15
+Terracotta & Clay,Natural Alluvial Clay,1288.91,61.9,70.0,3.6,5,2,1.22,8784.23,11029.39
+Handloom Textiles,Handspun Cotton,1132.74,25.5,85.0,3.2,3,4,1.3,5692.91,5454.32
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1651.93,69.8,150.0,4.4,5,3,1.06,23486.24,22292.58
+Handloom Textiles,Chanderi Cotton-Silk,612.07,37.3,200.0,3.2,5,4,1.21,15135.13,14985.8
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2336.28,69.1,85.0,3.4,4,3,1.29,15270.19,15801.25
+Handloom Textiles,Chanderi Cotton-Silk,139.64,56.6,100.0,3.1,2,3,0.95,9569.41,7559.06
+Dhokra & Brass Craft,Copper Brass Blend,1653.45,78.7,70.0,4.4,4,3,1.01,13322.16,11524.81
+Blue Pottery & Ceramics,Ceramic Glaze,235.46,48.6,85.0,2.6,2,2,1.13,6724.35,6275.61
+Carved Woodwork,Sheesham Wood,2334.18,29.0,70.0,5.0,5,2,1.24,7910.08,9071.11
+Handloom Textiles,Mulberry Silk,1811.08,23.6,150.0,2.8,3,1,0.91,9230.61,6873.28
+Handloom Textiles,Chanderi Cotton-Silk,1275.43,69.9,100.0,4.6,2,3,0.97,13637.96,11438.94
+Terracotta & Clay,Black Clay,931.67,37.4,200.0,3.0,5,3,1.22,13143.23,16179.48
+Blue Pottery & Ceramics,Quartz Powder Frit,1355.46,47.9,180.0,4.4,5,4,0.99,17460.55,16246.17
+Folk Paintings,Handmade Vasli Paper,217.95,48.3,150.0,2.5,4,5,1.06,14328.86,11611.38
+Handloom Textiles,Mulberry Silk,1146.59,23.1,120.0,4.0,5,5,1.35,7347.36,7823.95
+Blue Pottery & Ceramics,Quartz Powder Frit,385.19,13.0,70.0,4.4,3,1,0.94,2085.26,1712.49
+Handloom Textiles,Chanderi Cotton-Silk,1537.46,27.8,150.0,4.5,2,2,1.32,9417.31,10640.82
+Carved Woodwork,Sheesham Wood,1889.0,68.5,120.0,4.1,1,3,1.38,15390.95,18155.07
+Dhokra & Brass Craft,Bronze Alloy,1954.46,19.8,120.0,2.6,5,1,0.91,8390.27,5910.53
+Blue Pottery & Ceramics,Porcelain Clay,2442.13,20.1,100.0,4.1,1,2,1.2,6544.63,6832.3
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1061.24,78.8,85.0,5.0,1,2,0.93,12628.16,10689.62
+Dhokra & Brass Craft,Copper Brass Blend,2295.0,23.5,85.0,3.0,2,1,1.21,7318.71,6806.96
+Handloom Textiles,Handspun Cotton,809.84,17.5,180.0,2.7,1,1,1.16,6236.75,5315.78
+Dhokra & Brass Craft,Recycled Bell Metal Brass,339.48,35.6,100.0,4.3,5,5,1.17,7555.24,7309.8
+Blue Pottery & Ceramics,Ceramic Glaze,381.57,31.2,85.0,4.2,4,5,0.92,5096.4,4318.44
+Handloom Textiles,Handspun Cotton,2236.16,46.9,70.0,3.6,1,5,0.99,8692.68,7138.83
+Terracotta & Clay,Black Clay,627.59,13.1,100.0,4.5,3,1,1.29,2785.29,3604.51
+Handloom Textiles,Mulberry Silk,1006.46,51.6,200.0,3.0,4,3,1.19,20387.63,19224.59
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2385.86,21.4,70.0,3.1,4,2,1.03,7223.98,5714.2
+Terracotta & Clay,Natural Alluvial Clay,1612.29,58.5,200.0,3.3,2,5,1.24,18304.4,21125.11
+Terracotta & Clay,Black Clay,648.78,53.2,100.0,4.7,2,5,1.19,8207.07,9469.97
+Blue Pottery & Ceramics,Porcelain Clay,509.19,3.5,70.0,3.0,4,1,1.38,1267.04,1459.17
+Carved Woodwork,Seasoned Teakwood,408.5,78.3,70.0,2.7,1,3,0.95,8966.76,7095.11
+Carved Woodwork,Seasoned Teakwood,2054.61,32.1,180.0,2.7,2,3,1.21,12493.01,11587.86
+Carved Woodwork,Rosewood,2066.45,24.7,150.0,2.9,4,4,1.29,10042.32,10380.72
+Blue Pottery & Ceramics,Quartz Powder Frit,2119.93,37.3,120.0,4.0,3,1,1.28,10619.45,11645.15
+Folk Paintings,Tussar Silk Fabric,805.7,5.6,70.0,4.5,5,3,1.1,2395.4,2163.05
+Terracotta & Clay,Terracotta Red Clay,2048.93,58.1,100.0,4.1,2,2,0.97,10806.03,10484.61
+Blue Pottery & Ceramics,Porcelain Clay,1861.21,27.6,85.0,2.9,1,3,1.33,6184.6,6827.61
+Terracotta & Clay,Black Clay,1064.39,61.7,100.0,2.5,2,3,1.13,9947.29,10077.61
+Carved Woodwork,Seasoned Teakwood,432.15,70.6,70.0,3.1,2,4,1.08,8571.77,7638.35
+Blue Pottery & Ceramics,Quartz Powder Frit,2088.45,35.0,180.0,4.3,4,1,1.17,14092.6,15044.29
+Handloom Textiles,Mulberry Silk,2286.38,57.1,70.0,3.7,1,1,1.18,9896.32,9487.28
+Terracotta & Clay,Terracotta Red Clay,2017.98,37.7,85.0,4.0,4,2,0.94,7833.72,7302.1
+Folk Paintings,Cotton Canvas,1200.94,40.5,120.0,4.1,3,2,1.36,11152.13,11612.57
+Handloom Textiles,Handspun Cotton,519.55,26.3,70.0,2.9,2,1,1.36,3894.91,4009.12
+Folk Paintings,Tussar Silk Fabric,283.8,78.8,180.0,3.4,1,3,0.95,24305.9,18888.02
+Terracotta & Clay,Natural Alluvial Clay,2414.06,25.3,120.0,4.4,3,4,1.21,7834.46,9230.43
+Dhokra & Brass Craft,Bronze Alloy,1852.92,55.7,180.0,4.6,4,2,1.36,22094.79,24365.72
+Blue Pottery & Ceramics,Quartz Powder Frit,2416.78,29.3,85.0,3.2,2,3,1.1,7557.21,7170.16
+Blue Pottery & Ceramics,Quartz Powder Frit,1589.46,13.3,70.0,3.5,2,3,1.1,3881.51,3616.45
+Carved Woodwork,Seasoned Teakwood,1707.08,56.1,85.0,4.8,4,4,1.01,11267.51,10595.14
+Handloom Textiles,Handspun Cotton,2356.92,17.1,100.0,2.9,1,5,1.39,6405.4,6822.71
+Carved Woodwork,Rosewood,1296.36,22.8,70.0,2.5,2,5,1.31,4613.31,4708.7
+Handloom Textiles,Chanderi Cotton-Silk,2059.91,54.4,70.0,3.8,2,1,0.97,9682.05,7862.79
+Terracotta & Clay,Natural Alluvial Clay,497.17,70.2,120.0,4.0,1,3,1.22,11709.04,14213.36
+Handloom Textiles,Handspun Cotton,2024.94,66.0,150.0,4.8,5,1,0.97,22359.26,20255.6
+Blue Pottery & Ceramics,Ceramic Glaze,710.83,25.9,85.0,4.6,4,1,0.95,4892.71,4388.86
+Carved Woodwork,Rosewood,2264.94,56.7,70.0,4.1,1,2,1.34,9491.17,10831.18
+Terracotta & Clay,Terracotta Red Clay,2177.16,48.7,120.0,3.2,3,2,1.25,11530.42,13381.46
+Terracotta & Clay,Natural Alluvial Clay,2051.39,75.1,70.0,3.4,2,5,1.1,10049.04,10671.98
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1273.02,39.3,200.0,3.3,1,2,1.19,14863.99,13756.77
+Dhokra & Brass Craft,Copper Brass Blend,2278.2,49.6,85.0,3.3,4,2,1.02,12079.21,9920.87
+Handloom Textiles,Chanderi Cotton-Silk,818.34,16.0,150.0,3.6,1,3,1.17,5068.89,4532.56
+Terracotta & Clay,Natural Alluvial Clay,2416.55,32.1,70.0,3.0,3,4,1.27,6703.85,8071.19
+Terracotta & Clay,Natural Alluvial Clay,131.18,35.3,180.0,3.2,1,5,1.0,8511.8,8002.47
+Folk Paintings,Tussar Silk Fabric,933.12,58.6,100.0,4.8,2,1,1.16,11955.89,11613.89
+Carved Woodwork,Sheesham Wood,554.27,75.7,180.0,4.3,3,4,1.17,23645.6,25005.03
+Carved Woodwork,Rosewood,2473.68,23.4,85.0,3.8,5,4,0.9,8088.61,6244.67
+Dhokra & Brass Craft,Copper Brass Blend,2174.01,49.4,180.0,3.3,4,3,1.09,20582.78,17919.28
+Blue Pottery & Ceramics,Ceramic Glaze,1581.75,52.2,180.0,4.8,3,2,1.17,17674.18,20213.1
+Carved Woodwork,Sheesham Wood,342.33,70.4,150.0,4.4,2,2,1.21,17389.22,18580.18
+Carved Woodwork,Rosewood,201.78,7.8,120.0,4.2,1,5,1.27,1732.27,1936.61
+Dhokra & Brass Craft,Bronze Alloy,1274.22,74.1,85.0,4.3,5,4,0.93,14672.14,11143.89
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1651.89,26.3,100.0,3.2,1,3,0.98,6968.78,5341.36
+Folk Paintings,Cotton Canvas,104.23,70.9,120.0,3.0,2,5,1.01,15157.52,11368.6
+Folk Paintings,Tussar Silk Fabric,432.42,56.7,180.0,4.5,3,1,1.36,19574.69,21964.67
+Carved Woodwork,Seasoned Teakwood,2391.25,50.0,200.0,3.5,2,3,1.23,19764.04,19766.09
+Blue Pottery & Ceramics,Ceramic Glaze,2230.78,56.3,120.0,3.4,5,1,1.3,15726.86,16957.67
+Folk Paintings,Tussar Silk Fabric,1449.1,4.2,150.0,4.5,4,4,0.92,3991.87,3058.6
+Terracotta & Clay,Black Clay,1273.74,3.3,120.0,2.9,2,2,1.32,2295.89,2719.45
+Carved Woodwork,Rosewood,1095.15,33.1,200.0,4.8,2,2,1.26,12305.66,12795.57
+Terracotta & Clay,Natural Alluvial Clay,2009.76,58.4,120.0,3.9,3,2,1.1,12963.03,14116.2
+Dhokra & Brass Craft,Copper Brass Blend,1579.39,54.1,200.0,5.0,2,3,1.33,21140.96,23884.72
+Folk Paintings,Cotton Canvas,315.65,26.3,150.0,4.9,2,1,1.23,7498.74,7906.92
+Handloom Textiles,Handspun Cotton,2102.01,77.0,150.0,4.1,1,4,1.17,21501.92,21152.07
+Terracotta & Clay,Black Clay,1009.15,37.2,150.0,2.8,1,2,1.13,8648.26,9314.06
+Dhokra & Brass Craft,Bronze Alloy,2383.12,27.6,120.0,4.2,3,4,1.24,10151.55,10024.31
+Folk Paintings,Tussar Silk Fabric,1781.74,4.7,100.0,4.4,5,3,0.91,4503.48,3574.54
+Blue Pottery & Ceramics,Porcelain Clay,2037.29,30.9,200.0,3.7,5,1,1.07,14380.26,13824.72
+Blue Pottery & Ceramics,Quartz Powder Frit,284.18,55.7,100.0,3.8,1,4,1.08,8605.64,7887.75
+Folk Paintings,Cotton Canvas,1698.18,27.3,100.0,3.7,1,1,0.92,7439.34,5504.54
+Handloom Textiles,Mulberry Silk,308.44,12.7,70.0,3.0,4,5,1.04,2155.39,1906.34
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1706.29,51.9,200.0,3.5,5,3,1.25,23417.19,23479.47
+Folk Paintings,Cotton Canvas,1388.14,38.3,150.0,3.3,4,1,1.13,13695.63,11691.98
+Terracotta & Clay,Terracotta Red Clay,1216.93,38.1,120.0,4.5,1,4,1.36,7597.97,9987.17
+Folk Paintings,Tussar Silk Fabric,1352.36,58.3,150.0,4.6,2,3,0.95,17771.35,14325.7
+Handloom Textiles,Chanderi Cotton-Silk,147.38,22.0,200.0,4.3,3,5,1.03,7844.23,6930.16
+Terracotta & Clay,Black Clay,1613.68,13.8,120.0,3.2,3,4,1.33,4700.16,6056.77
+Terracotta & Clay,Black Clay,2007.01,47.9,70.0,4.2,5,5,1.37,8375.02,11335.06
+Carved Woodwork,Rosewood,1038.45,18.3,85.0,4.7,1,2,1.3,3949.29,4504.86
+Folk Paintings,Cotton Canvas,2227.61,13.6,85.0,3.2,1,5,1.37,5684.46,5608.67
+Blue Pottery & Ceramics,Ceramic Glaze,1858.12,22.4,70.0,3.8,4,3,1.23,5755.88,6405.88
+Terracotta & Clay,Terracotta Red Clay,385.25,43.8,180.0,4.3,3,4,0.92,11887.05,11584.39
+Dhokra & Brass Craft,Bronze Alloy,1251.8,7.9,180.0,4.0,2,2,1.12,4558.83,4460.02
+Folk Paintings,Tussar Silk Fabric,2274.1,17.7,70.0,4.3,3,4,1.07,6464.1,5773.35
+Terracotta & Clay,Black Clay,728.67,65.5,85.0,4.6,3,3,1.03,9050.74,9322.28
+Terracotta & Clay,Black Clay,1672.24,66.4,180.0,4.5,1,2,1.28,17881.82,23567.31
+Carved Woodwork,Seasoned Teakwood,1840.7,51.5,150.0,4.1,3,2,1.15,15950.8,17046.07
+Dhokra & Brass Craft,Copper Brass Blend,476.1,24.3,150.0,3.2,1,1,1.38,6707.09,6949.08
+Terracotta & Clay,Black Clay,616.71,63.1,180.0,4.0,2,3,0.92,16465.23,14876.93
+Dhokra & Brass Craft,Copper Brass Blend,773.98,46.1,150.0,4.6,2,5,0.93,13109.71,10685.43
+Dhokra & Brass Craft,Copper Brass Blend,2148.31,51.6,200.0,4.3,1,3,1.27,20292.17,21363.91
+Carved Woodwork,Rosewood,1221.51,76.9,200.0,2.7,1,5,0.91,25275.8,19091.74
+Handloom Textiles,Handspun Cotton,1422.18,72.4,180.0,2.5,1,3,1.23,22765.33,21792.32
+Handloom Textiles,Chanderi Cotton-Silk,1193.06,49.7,85.0,4.9,1,5,1.07,8532.66,8209.99
+Terracotta & Clay,Black Clay,1706.18,21.5,85.0,3.6,1,1,1.16,4637.96,5172.03
+Carved Woodwork,Seasoned Teakwood,100.56,61.6,180.0,3.2,1,5,1.04,17034.58,14792.62
+Handloom Textiles,Handspun Cotton,1056.14,55.1,120.0,3.4,4,5,1.18,13802.65,13631.21
+Handloom Textiles,Chanderi Cotton-Silk,1097.0,46.3,120.0,3.6,4,1,0.94,11975.4,9633.76
+Carved Woodwork,Seasoned Teakwood,976.59,46.8,70.0,4.2,2,4,1.15,6782.88,6867.08
+Folk Paintings,Cotton Canvas,902.06,58.4,150.0,3.0,3,1,1.13,17778.19,14694.7
+Terracotta & Clay,Terracotta Red Clay,1024.59,73.0,120.0,3.1,5,3,1.19,15288.42,16437.81
+Terracotta & Clay,Natural Alluvial Clay,1523.27,31.2,100.0,3.8,2,2,1.03,6384.5,6368.97
+Dhokra & Brass Craft,Bronze Alloy,1545.18,7.4,70.0,2.8,1,1,1.09,3357.83,2822.32
+Blue Pottery & Ceramics,Porcelain Clay,819.8,43.4,180.0,3.7,2,1,1.31,13292.97,15280.15
+Dhokra & Brass Craft,Bronze Alloy,1878.77,36.7,120.0,2.8,1,5,1.16,10225.21,8796.04
+Blue Pottery & Ceramics,Quartz Powder Frit,2274.62,48.2,70.0,3.5,2,3,1.2,8698.87,8853.8
+Dhokra & Brass Craft,Copper Brass Blend,716.65,58.8,180.0,4.2,2,2,0.94,19267.61,15391.49
+Blue Pottery & Ceramics,Ceramic Glaze,855.9,16.7,120.0,3.5,2,2,1.26,4404.25,4478.24
+Dhokra & Brass Craft,Bronze Alloy,1019.1,64.3,150.0,4.4,4,4,0.98,19835.23,16951.85
+Folk Paintings,Cotton Canvas,916.42,65.2,150.0,2.6,4,5,1.2,20537.13,18652.66
+Blue Pottery & Ceramics,Ceramic Glaze,1666.16,21.0,100.0,2.5,5,5,1.16,6590.78,6351.03
+Folk Paintings,Tussar Silk Fabric,799.69,55.5,100.0,2.7,3,2,1.01,11683.43,9110.8
+Blue Pottery & Ceramics,Ceramic Glaze,1681.7,30.4,85.0,3.5,1,4,1.01,6270.58,5638.21
+Folk Paintings,Cotton Canvas,2140.05,64.5,120.0,3.9,4,4,1.35,18969.7,19805.27
+Folk Paintings,Cotton Canvas,2073.46,69.0,70.0,2.9,5,1,1.34,13806.92,13574.01
+Dhokra & Brass Craft,Bronze Alloy,1114.96,48.9,85.0,4.5,5,5,1.38,10213.45,11579.35
+Blue Pottery & Ceramics,Porcelain Clay,2338.96,29.5,120.0,4.2,5,1,0.99,10288.18,9772.79
+Handloom Textiles,Chanderi Cotton-Silk,1149.42,14.0,85.0,2.8,4,3,1.33,4210.96,4379.86
+Handloom Textiles,Handspun Cotton,259.26,79.4,70.0,4.3,2,1,1.19,9598.48,9707.26
+Carved Woodwork,Seasoned Teakwood,504.9,16.7,85.0,5.0,4,5,1.04,3348.46,3188.16
+Blue Pottery & Ceramics,Quartz Powder Frit,1396.55,46.1,120.0,3.1,2,4,0.96,10669.97,8756.09
+Carved Woodwork,Sheesham Wood,200.67,49.5,100.0,3.2,2,5,1.13,8215.32,7602.95
+Terracotta & Clay,Black Clay,844.56,59.2,85.0,4.4,2,4,1.33,8080.27,10039.87
+Terracotta & Clay,Terracotta Red Clay,1072.91,28.6,120.0,3.5,1,5,1.13,5912.69,6273.93
+Terracotta & Clay,Terracotta Red Clay,218.18,11.5,85.0,3.4,5,3,1.29,1868.25,2282.82
+Terracotta & Clay,Black Clay,2398.15,66.5,150.0,3.3,5,1,1.23,19333.05,22718.77
+Terracotta & Clay,Terracotta Red Clay,2344.51,49.0,180.0,3.7,2,2,1.39,15351.2,21258.68
+Folk Paintings,Cotton Canvas,600.95,65.5,85.0,3.8,4,1,1.1,11843.42,10564.14
+Folk Paintings,Handmade Vasli Paper,458.8,31.2,100.0,4.2,3,4,1.19,6584.99,6267.4
+Blue Pottery & Ceramics,Quartz Powder Frit,1820.46,60.4,180.0,4.8,3,2,1.05,20434.86,18682.2
+Carved Woodwork,Sheesham Wood,1125.24,32.7,100.0,4.5,1,5,1.21,6691.75,7198.86
+Folk Paintings,Handmade Vasli Paper,2281.2,51.8,85.0,3.1,1,3,1.31,11229.46,10596.28
+Handloom Textiles,Handspun Cotton,514.76,47.5,120.0,3.2,1,5,1.27,9788.25,9603.39
+Folk Paintings,Cotton Canvas,2151.34,36.5,85.0,3.0,2,4,0.91,9246.76,6695.54
+Dhokra & Brass Craft,Bronze Alloy,580.63,30.6,100.0,3.8,5,1,1.35,7053.72,7632.42
+Blue Pottery & Ceramics,Porcelain Clay,1909.25,40.2,200.0,4.5,2,2,1.06,15321.84,14374.45
+Dhokra & Brass Craft,Copper Brass Blend,1926.09,61.9,180.0,3.1,1,3,1.09,21268.32,17682.91
+Folk Paintings,Handmade Vasli Paper,248.65,7.5,120.0,3.0,3,4,1.09,2113.52,1750.05
+Folk Paintings,Tussar Silk Fabric,588.87,46.6,120.0,3.9,5,1,1.09,12361.74,10996.22
+Terracotta & Clay,Natural Alluvial Clay,1827.2,69.4,85.0,2.7,4,2,0.96,11589.3,10463.37
+Blue Pottery & Ceramics,Quartz Powder Frit,1006.2,61.3,150.0,4.5,1,5,0.9,14995.76,12951.83
+Terracotta & Clay,Natural Alluvial Clay,2215.01,14.3,180.0,4.7,2,1,1.14,6584.89,7691.43
+Carved Woodwork,Sheesham Wood,1388.65,55.2,200.0,3.4,1,3,1.06,18922.62,16795.67
+Folk Paintings,Tussar Silk Fabric,2338.05,70.0,120.0,2.8,1,5,1.23,18039.92,15438.71
+Folk Paintings,Cotton Canvas,1635.16,68.4,120.0,3.6,1,4,1.29,16536.51,16163.97
+Terracotta & Clay,Black Clay,549.79,44.3,70.0,4.6,2,1,1.05,5019.84,5267.77
+Folk Paintings,Handmade Vasli Paper,2371.51,21.5,180.0,4.2,4,2,1.1,11983.7,9836.96
+Blue Pottery & Ceramics,Porcelain Clay,1787.94,66.2,70.0,2.6,3,3,1.32,10339.32,10876.28
+Handloom Textiles,Chanderi Cotton-Silk,1371.2,3.0,120.0,4.2,5,3,0.91,3246.0,2681.85
+Terracotta & Clay,Black Clay,1548.12,57.6,100.0,4.7,1,5,0.94,9591.91,9816.36
+Folk Paintings,Handmade Vasli Paper,829.55,69.1,150.0,4.0,5,3,1.27,22389.1,21923.11
+Carved Woodwork,Seasoned Teakwood,87.05,3.7,70.0,3.2,4,1,1.13,602.13,559.94
+Handloom Textiles,Handspun Cotton,1303.97,4.4,85.0,4.8,1,3,1.26,2642.8,2950.27
+Terracotta & Clay,Terracotta Red Clay,576.55,40.5,150.0,3.8,3,3,1.14,9561.6,10357.06
+Terracotta & Clay,Terracotta Red Clay,677.66,72.3,85.0,3.7,2,4,1.12,9381.85,10222.72
+Handloom Textiles,Chanderi Cotton-Silk,1534.32,5.6,85.0,3.1,2,3,1.16,3317.03,3039.43
+Carved Woodwork,Rosewood,1193.36,25.9,100.0,2.5,3,3,1.04,6308.75,5277.82
+Blue Pottery & Ceramics,Quartz Powder Frit,2486.92,40.1,120.0,3.6,4,2,1.2,12262.19,13015.71
+Carved Woodwork,Seasoned Teakwood,2495.73,79.7,180.0,3.2,2,1,1.02,26862.56,22698.27
+Handloom Textiles,Chanderi Cotton-Silk,1832.05,19.3,100.0,3.5,5,4,1.29,7053.84,7157.3
+Blue Pottery & Ceramics,Quartz Powder Frit,1463.99,72.9,150.0,3.7,3,2,0.94,19962.37,16257.96
+Terracotta & Clay,Terracotta Red Clay,753.11,28.0,100.0,4.4,2,2,1.18,4885.53,6098.19
+Folk Paintings,Cotton Canvas,2300.98,18.2,200.0,4.2,5,2,1.37,11881.96,12938.91
+Terracotta & Clay,Natural Alluvial Clay,1954.71,23.4,70.0,4.3,5,5,1.21,5613.61,6768.98
+Handloom Textiles,Mulberry Silk,2065.54,48.0,100.0,3.8,4,1,1.19,12357.97,12301.15
+Blue Pottery & Ceramics,Ceramic Glaze,1074.46,51.4,200.0,3.6,3,5,1.33,18280.68,19918.37
+Handloom Textiles,Handspun Cotton,2059.2,29.7,150.0,4.4,3,2,1.38,11236.99,12981.73
+Folk Paintings,Cotton Canvas,589.48,41.6,70.0,5.0,5,5,1.06,7002.96,5729.0
+Dhokra & Brass Craft,Copper Brass Blend,505.4,14.2,180.0,4.0,3,3,1.14,5456.95,4794.75
+Folk Paintings,Handmade Vasli Paper,506.92,65.6,200.0,3.2,5,3,1.13,27253.84,24246.18
+Blue Pottery & Ceramics,Porcelain Clay,1334.53,11.7,70.0,3.2,5,3,1.09,3768.68,3463.03
+Blue Pottery & Ceramics,Porcelain Clay,1184.29,16.1,150.0,3.8,1,4,0.95,5290.96,4512.79
+Folk Paintings,Handmade Vasli Paper,398.39,26.3,180.0,3.1,5,1,1.17,10264.78,9048.02
+Terracotta & Clay,Terracotta Red Clay,910.48,46.2,70.0,3.6,4,2,1.17,6216.72,6988.5
+Dhokra & Brass Craft,Bronze Alloy,2182.5,54.0,200.0,4.9,4,2,1.25,24147.45,24048.19
+Handloom Textiles,Mulberry Silk,215.53,40.0,200.0,2.9,4,5,1.12,14787.95,12656.96
+Terracotta & Clay,Black Clay,2458.91,74.2,70.0,3.1,1,5,1.06,10044.44,10480.04
+Folk Paintings,Handmade Vasli Paper,543.4,32.7,180.0,3.6,2,5,0.96,11315.74,8379.29
+Handloom Textiles,Handspun Cotton,2482.09,53.7,70.0,2.6,3,4,1.21,10765.88,10617.64
+Terracotta & Clay,Terracotta Red Clay,2153.0,74.4,70.0,4.9,1,4,1.26,9661.31,12108.55
+Blue Pottery & Ceramics,Porcelain Clay,463.62,40.5,150.0,4.9,1,1,1.12,9611.77,10121.84
+Carved Woodwork,Seasoned Teakwood,2228.36,6.1,120.0,3.1,3,1,1.14,4936.4,4485.59
+Blue Pottery & Ceramics,Porcelain Clay,1945.07,23.3,120.0,2.7,5,2,1.12,8296.87,7745.75
+Terracotta & Clay,Terracotta Red Clay,642.81,49.8,120.0,4.3,3,3,1.27,9514.54,11652.46
+Carved Woodwork,Sheesham Wood,1474.31,45.6,100.0,4.9,5,5,1.08,10937.19,11052.25
+Blue Pottery & Ceramics,Porcelain Clay,2311.21,18.0,70.0,3.8,4,4,1.31,5999.63,6694.4
+Dhokra & Brass Craft,Bronze Alloy,377.47,50.7,150.0,4.3,3,3,1.06,14228.75,11918.23
+Terracotta & Clay,Black Clay,1281.03,44.9,85.0,2.7,3,2,0.99,7327.7,6969.07
+Carved Woodwork,Seasoned Teakwood,1664.55,33.0,85.0,3.7,5,5,1.33,8101.06,9392.68
+Dhokra & Brass Craft,Recycled Bell Metal Brass,335.8,56.4,85.0,4.1,3,2,1.05,9143.87,7787.31
+Folk Paintings,Handmade Vasli Paper,1504.92,9.9,150.0,3.8,2,5,1.18,5262.26,4770.73
+Blue Pottery & Ceramics,Ceramic Glaze,867.51,10.3,100.0,3.2,5,4,1.27,3320.64,3571.42
+Blue Pottery & Ceramics,Ceramic Glaze,1748.93,26.2,70.0,4.2,5,3,1.01,6270.13,5862.19
+Carved Woodwork,Rosewood,2429.02,16.5,70.0,2.7,4,5,1.03,6236.19,5250.83
+Blue Pottery & Ceramics,Porcelain Clay,817.52,17.0,120.0,2.8,5,4,1.1,5000.66,4844.84
+Handloom Textiles,Chanderi Cotton-Silk,1421.41,43.6,120.0,3.3,2,2,1.01,10978.13,8978.69
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2250.13,19.2,150.0,2.5,4,5,1.36,9542.04,9234.43
+Blue Pottery & Ceramics,Quartz Powder Frit,404.77,52.6,180.0,4.4,5,1,1.03,17277.35,16088.61
+Handloom Textiles,Mulberry Silk,1137.9,23.6,100.0,4.7,4,3,1.1,6296.22,6136.53
+Handloom Textiles,Mulberry Silk,702.17,39.9,180.0,4.0,3,4,1.09,13600.19,12945.69
+Dhokra & Brass Craft,Bronze Alloy,1769.58,25.4,150.0,2.6,1,1,1.15,9080.77,7672.25
+Blue Pottery & Ceramics,Ceramic Glaze,1396.92,3.6,100.0,3.4,2,1,1.12,2705.66,2414.9
+Terracotta & Clay,Terracotta Red Clay,1098.57,77.0,100.0,4.7,5,5,0.99,13747.77,14189.82
+Carved Woodwork,Sheesham Wood,594.8,49.5,70.0,4.6,4,5,1.23,7064.05,8028.01
+Terracotta & Clay,Natural Alluvial Clay,394.07,45.9,85.0,4.2,2,1,1.37,5906.41,8020.74
+Carved Woodwork,Seasoned Teakwood,1275.12,77.0,85.0,4.0,4,2,1.02,13607.01,12246.47
+Dhokra & Brass Craft,Bronze Alloy,938.73,50.2,70.0,3.2,1,5,1.11,7246.82,5807.32
+Handloom Textiles,Chanderi Cotton-Silk,2102.96,14.4,70.0,4.6,5,4,1.31,5833.05,6461.82
+Terracotta & Clay,Terracotta Red Clay,1947.71,35.2,70.0,2.9,1,4,1.02,5790.37,5631.76
+Carved Woodwork,Sheesham Wood,1541.06,11.1,85.0,3.5,4,1,1.22,4323.13,4255.22
+Handloom Textiles,Mulberry Silk,1468.18,66.3,180.0,4.2,1,5,1.35,21108.43,23595.45
+Terracotta & Clay,Terracotta Red Clay,1854.23,10.2,120.0,3.9,1,2,1.05,4040.18,4015.12
+Carved Woodwork,Seasoned Teakwood,1261.21,51.5,70.0,4.2,5,1,1.24,8820.01,9418.71
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1263.94,32.5,85.0,4.6,1,1,1.12,6553.03,6213.74
+Dhokra & Brass Craft,Bronze Alloy,2493.76,24.6,100.0,2.9,5,1,1.36,9597.91,9974.87
+Handloom Textiles,Handspun Cotton,2131.29,62.4,200.0,3.3,3,5,0.99,25204.48,20383.33
+Dhokra & Brass Craft,Recycled Bell Metal Brass,855.7,60.3,100.0,3.6,5,4,0.98,13341.04,10969.04
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1322.51,53.1,120.0,2.9,2,2,0.96,13119.14,9665.89
+Blue Pottery & Ceramics,Ceramic Glaze,2460.31,54.4,200.0,4.8,2,5,0.96,20544.08,18804.09
+Dhokra & Brass Craft,Bronze Alloy,2243.41,78.0,70.0,3.6,5,5,1.28,14925.36,14786.81
+Terracotta & Clay,Natural Alluvial Clay,1738.77,63.0,85.0,2.9,3,5,1.31,10197.29,12399.62
+Terracotta & Clay,Natural Alluvial Clay,539.44,11.5,200.0,3.7,3,5,1.05,4081.69,4355.67
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1756.58,70.1,200.0,4.4,5,3,1.39,30567.12,33627.32
+Carved Woodwork,Sheesham Wood,2340.93,43.3,150.0,2.7,3,3,1.16,14733.91,13581.53
+Handloom Textiles,Mulberry Silk,1938.78,60.5,70.0,4.1,1,5,0.94,9723.7,8430.32
+Terracotta & Clay,Black Clay,701.12,48.7,200.0,2.8,3,3,1.32,15009.11,17939.29
+Handloom Textiles,Handspun Cotton,321.96,5.6,200.0,3.4,4,4,1.07,2595.53,2316.99
+Folk Paintings,Cotton Canvas,1380.46,67.7,150.0,3.3,4,2,0.94,22148.08,16288.02
+Handloom Textiles,Chanderi Cotton-Silk,1420.82,74.7,180.0,3.9,2,3,1.25,24530.25,25935.23
+Dhokra & Brass Craft,Copper Brass Blend,2031.72,16.8,100.0,2.5,2,2,0.94,6328.48,4636.75
+Dhokra & Brass Craft,Copper Brass Blend,1689.96,9.1,120.0,2.9,2,3,1.13,4743.24,4123.78
+Terracotta & Clay,Terracotta Red Clay,494.48,60.1,85.0,4.8,4,1,1.12,8404.47,10570.91
+Folk Paintings,Cotton Canvas,2406.55,49.4,85.0,3.0,5,3,1.26,13211.1,12776.24
+Terracotta & Clay,Black Clay,1591.78,24.8,200.0,4.6,5,5,1.33,10237.16,14004.47
+Dhokra & Brass Craft,Copper Brass Blend,1893.83,51.6,180.0,4.7,5,2,1.13,21664.8,20681.19
+Carved Woodwork,Seasoned Teakwood,1625.06,25.1,200.0,3.7,3,5,0.91,11080.64,9175.49
+Carved Woodwork,Seasoned Teakwood,1117.91,53.2,120.0,3.0,4,1,1.02,13053.32,11835.47
+Folk Paintings,Handmade Vasli Paper,171.52,12.5,70.0,4.2,4,5,0.95,2009.32,1603.05
+Carved Woodwork,Rosewood,130.6,20.2,70.0,4.0,2,1,1.13,2463.64,2443.09
+Handloom Textiles,Chanderi Cotton-Silk,693.45,75.4,150.0,2.7,2,1,1.17,19805.69,18181.27
+Dhokra & Brass Craft,Bronze Alloy,2329.59,17.2,120.0,3.9,1,4,1.11,7150.57,6766.39
+Carved Woodwork,Sheesham Wood,2201.28,15.2,70.0,3.0,1,1,1.18,4971.39,4632.18
+Blue Pottery & Ceramics,Porcelain Clay,2118.75,20.6,180.0,3.7,5,4,0.96,10196.81,8801.54
+Blue Pottery & Ceramics,Quartz Powder Frit,685.2,67.4,100.0,3.7,2,2,1.11,11434.81,10994.74
+Dhokra & Brass Craft,Copper Brass Blend,213.9,18.3,150.0,3.9,1,4,1.39,4815.61,5241.86
+Blue Pottery & Ceramics,Ceramic Glaze,916.91,30.6,200.0,4.0,3,1,1.06,11329.43,11144.21
+Handloom Textiles,Mulberry Silk,1134.48,20.3,70.0,2.6,2,3,0.95,4216.54,3187.5
+Carved Woodwork,Rosewood,333.28,66.3,200.0,3.5,5,1,1.15,24637.82,23844.82
+Folk Paintings,Tussar Silk Fabric,2134.02,57.4,70.0,3.5,5,4,1.1,12304.04,11003.6
+Terracotta & Clay,Black Clay,1971.68,61.4,200.0,2.6,3,5,0.97,20486.79,18218.78
+Dhokra & Brass Craft,Bronze Alloy,1852.51,36.3,200.0,2.5,1,5,1.12,14830.61,12775.45
+Handloom Textiles,Chanderi Cotton-Silk,1637.45,11.3,200.0,4.3,4,3,1.06,7015.41,6262.99
+Handloom Textiles,Chanderi Cotton-Silk,310.0,10.3,120.0,4.4,5,4,1.07,2898.75,2713.99
+Folk Paintings,Handmade Vasli Paper,374.97,42.3,150.0,5.0,2,1,1.0,11827.15,10242.26
+Blue Pottery & Ceramics,Porcelain Clay,233.1,49.4,180.0,4.7,2,4,1.4,14052.65,18560.89
+Dhokra & Brass Craft,Bronze Alloy,1927.2,48.2,120.0,5.0,5,4,0.92,14940.45,12466.88
+Dhokra & Brass Craft,Bronze Alloy,1621.66,15.4,100.0,2.6,5,1,1.36,6125.72,6202.45
+Handloom Textiles,Handspun Cotton,1850.73,57.6,200.0,4.0,3,3,1.12,23064.51,21658.93
+Handloom Textiles,Chanderi Cotton-Silk,2110.31,25.9,150.0,2.8,5,4,1.2,11241.21,10025.27
+Blue Pottery & Ceramics,Quartz Powder Frit,2405.91,51.3,100.0,3.6,1,2,0.95,11077.79,9594.71
+Handloom Textiles,Handspun Cotton,2312.63,46.8,120.0,4.4,5,2,1.25,14866.18,16414.21
+Dhokra & Brass Craft,Bronze Alloy,2111.37,37.5,150.0,3.5,4,2,1.3,14389.65,15128.54
+Blue Pottery & Ceramics,Ceramic Glaze,684.65,28.9,85.0,3.5,4,3,1.1,5277.13,4942.26
+Handloom Textiles,Handspun Cotton,1959.27,66.3,100.0,3.4,2,3,1.02,14172.3,11923.66
+Folk Paintings,Tussar Silk Fabric,736.74,68.8,85.0,3.8,1,1,1.03,11062.36,8937.1
+Blue Pottery & Ceramics,Ceramic Glaze,1786.25,37.7,180.0,4.5,3,1,1.34,13801.32,17262.24
+Terracotta & Clay,Black Clay,893.88,21.1,70.0,3.3,4,4,1.12,3556.32,3889.72
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2416.88,4.1,100.0,3.1,1,4,1.19,4600.75,3938.4
+Blue Pottery & Ceramics,Ceramic Glaze,1739.82,67.2,180.0,3.9,4,2,1.08,23244.18,21513.77
+Handloom Textiles,Handspun Cotton,839.35,13.9,70.0,4.3,1,4,1.23,2854.45,2954.1
+Folk Paintings,Handmade Vasli Paper,2442.11,44.0,150.0,4.8,2,5,1.27,15914.11,17111.79
+Terracotta & Clay,Black Clay,2033.78,61.8,70.0,2.6,4,4,1.2,9539.67,10470.7
+Blue Pottery & Ceramics,Ceramic Glaze,1944.4,41.5,180.0,4.9,1,4,1.04,13839.17,13060.15
+Terracotta & Clay,Black Clay,495.54,43.8,85.0,5.0,5,3,1.39,6591.47,9443.71
+Folk Paintings,Handmade Vasli Paper,714.78,67.6,120.0,3.1,1,4,1.2,14828.99,13173.82
+Handloom Textiles,Mulberry Silk,984.13,55.5,150.0,3.3,5,1,1.25,17454.62,18134.83
+Handloom Textiles,Mulberry Silk,1054.72,5.8,180.0,4.9,2,3,1.36,3462.89,4060.4
+Terracotta & Clay,Black Clay,1372.81,66.4,100.0,4.9,3,4,1.15,11518.41,14098.49
+Dhokra & Brass Craft,Bronze Alloy,1269.21,58.6,70.0,3.4,3,3,1.39,9574.18,10865.57
+Terracotta & Clay,Terracotta Red Clay,561.32,21.5,200.0,4.1,1,1,1.27,6380.48,7789.39
+Terracotta & Clay,Natural Alluvial Clay,890.26,28.4,200.0,4.7,1,2,1.07,8623.47,9419.47
+Folk Paintings,Cotton Canvas,994.27,27.4,150.0,3.2,3,3,1.1,9391.86,7839.17
+Handloom Textiles,Mulberry Silk,697.31,12.8,200.0,3.7,2,4,1.39,5374.56,6151.7
+Handloom Textiles,Handspun Cotton,1429.9,32.2,120.0,2.8,3,2,1.39,9131.98,9863.54
+Handloom Textiles,Mulberry Silk,474.74,22.2,200.0,3.4,3,1,1.08,8477.93,7530.06
+Dhokra & Brass Craft,Copper Brass Blend,1506.18,43.4,200.0,3.3,1,5,1.2,16578.01,15446.81
+Dhokra & Brass Craft,Bronze Alloy,1998.34,51.4,85.0,2.5,2,2,1.23,10856.31,9589.17
+Blue Pottery & Ceramics,Quartz Powder Frit,1176.89,55.7,100.0,3.0,5,3,1.36,11807.06,12963.32
+Blue Pottery & Ceramics,Quartz Powder Frit,2454.09,50.3,150.0,2.7,3,2,1.35,16098.53,18705.98
+Carved Woodwork,Rosewood,113.76,53.6,120.0,3.7,1,4,1.07,9965.92,9254.12
+Blue Pottery & Ceramics,Porcelain Clay,161.43,13.9,150.0,2.6,5,1,0.91,3931.25,3300.75
+Dhokra & Brass Craft,Copper Brass Blend,2041.08,64.4,150.0,3.6,2,2,0.94,19950.34,15511.61
+Blue Pottery & Ceramics,Quartz Powder Frit,1340.52,67.4,85.0,4.0,2,2,1.31,10887.06,12576.62
+Blue Pottery & Ceramics,Quartz Powder Frit,1323.16,21.5,150.0,2.6,4,3,1.07,7640.91,6894.97
+Blue Pottery & Ceramics,Porcelain Clay,735.03,5.2,85.0,4.9,4,3,1.33,1977.41,2243.73
+Dhokra & Brass Craft,Bronze Alloy,2155.79,41.1,200.0,3.0,1,5,0.93,16886.6,12251.49
+Carved Woodwork,Seasoned Teakwood,2171.44,38.8,180.0,2.9,5,5,1.12,16594.23,15373.74
+Blue Pottery & Ceramics,Quartz Powder Frit,1199.15,75.5,100.0,3.3,5,1,1.19,15311.01,16024.09
+Blue Pottery & Ceramics,Quartz Powder Frit,2088.68,6.8,70.0,3.7,1,4,1.32,3770.08,4339.96
+Dhokra & Brass Craft,Copper Brass Blend,2239.01,39.2,100.0,2.9,1,4,0.91,10023.79,7434.24
+Carved Woodwork,Sheesham Wood,2422.23,69.4,200.0,2.8,1,5,1.12,24820.15,22877.04
+Folk Paintings,Handmade Vasli Paper,1879.38,47.7,180.0,3.2,3,3,1.15,19256.3,16571.3
+Handloom Textiles,Handspun Cotton,1500.86,8.1,70.0,3.1,4,4,1.25,3722.15,3593.6
+Handloom Textiles,Handspun Cotton,1218.3,76.6,150.0,2.7,3,3,1.26,21921.82,21779.6
+Folk Paintings,Tussar Silk Fabric,746.61,65.2,150.0,3.7,2,5,1.32,18526.83,19290.54
+Folk Paintings,Tussar Silk Fabric,2094.65,68.5,150.0,3.1,4,3,1.12,23749.73,19557.63
+Carved Woodwork,Rosewood,1956.49,46.9,70.0,2.9,5,4,1.03,9496.58,8103.3
+Blue Pottery & Ceramics,Porcelain Clay,1094.19,63.3,100.0,4.2,5,1,0.92,12992.33,11100.52
+Carved Woodwork,Sheesham Wood,544.24,28.7,200.0,4.1,3,5,0.93,10478.97,8237.58
+Carved Woodwork,Seasoned Teakwood,709.35,48.3,70.0,3.9,1,2,1.24,6227.56,6635.48
+Handloom Textiles,Handspun Cotton,2286.73,59.9,85.0,3.5,1,5,1.38,11620.71,12507.04
+Terracotta & Clay,Terracotta Red Clay,2024.57,79.7,180.0,2.8,3,3,0.91,23532.69,19851.27
+Carved Woodwork,Seasoned Teakwood,2276.91,58.5,180.0,2.7,1,2,1.23,19498.52,18375.61
+Handloom Textiles,Mulberry Silk,1265.81,11.5,200.0,3.3,3,4,0.97,6151.02,4931.1
+Handloom Textiles,Handspun Cotton,2179.29,25.1,85.0,5.0,5,1,0.99,8086.48,7227.68
+Terracotta & Clay,Black Clay,1107.27,26.8,180.0,4.8,5,3,1.27,9267.61,12018.95
+Handloom Textiles,Chanderi Cotton-Silk,1657.07,57.9,85.0,2.6,4,5,1.38,11841.43,12689.13
+Blue Pottery & Ceramics,Porcelain Clay,1186.71,68.2,100.0,3.7,5,5,1.11,14011.74,13636.79
+Terracotta & Clay,Black Clay,1970.88,55.4,70.0,4.8,5,3,1.18,9138.88,11166.82
+Terracotta & Clay,Natural Alluvial Clay,1390.03,27.9,150.0,3.2,5,4,1.27,8710.98,10798.41
+Folk Paintings,Cotton Canvas,2159.59,48.8,120.0,3.8,4,4,0.96,15389.93,12069.97
+Handloom Textiles,Handspun Cotton,945.08,8.1,200.0,3.5,4,2,1.2,4617.14,4608.28
+Handloom Textiles,Chanderi Cotton-Silk,2416.29,55.7,120.0,3.7,5,2,1.14,17063.04,16436.41
+Handloom Textiles,Chanderi Cotton-Silk,569.04,76.4,70.0,3.5,4,2,1.04,10650.67,9515.36
+Terracotta & Clay,Terracotta Red Clay,463.9,27.1,120.0,3.1,1,1,1.14,4877.12,4982.97
+Blue Pottery & Ceramics,Quartz Powder Frit,2010.05,44.4,100.0,4.6,3,4,1.2,10384.58,11044.5
+Blue Pottery & Ceramics,Quartz Powder Frit,1808.25,69.3,85.0,4.7,1,3,1.02,11317.16,10284.7
+Terracotta & Clay,Terracotta Red Clay,2203.52,35.2,150.0,3.6,2,2,1.35,10289.84,13328.03
+Blue Pottery & Ceramics,Porcelain Clay,1317.78,52.6,150.0,5.0,3,4,1.15,14824.53,16069.88
+Dhokra & Brass Craft,Bronze Alloy,129.37,49.5,150.0,3.4,2,3,1.13,12880.2,11600.05
+Folk Paintings,Handmade Vasli Paper,779.85,65.3,100.0,4.9,3,3,1.2,13450.12,13274.93
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1091.88,45.1,70.0,3.8,2,5,1.36,7244.34,7403.26
+Handloom Textiles,Chanderi Cotton-Silk,1938.48,77.0,120.0,4.0,2,1,1.12,18444.49,18211.89
+Carved Woodwork,Rosewood,1035.42,76.4,85.0,3.6,3,3,1.35,12555.31,14105.12
+Dhokra & Brass Craft,Bronze Alloy,408.96,41.3,85.0,2.6,2,3,1.25,6682.68,6200.28
+Carved Woodwork,Rosewood,428.08,3.7,150.0,5.0,1,2,1.19,1496.74,1595.54
+Handloom Textiles,Chanderi Cotton-Silk,535.1,36.0,70.0,3.2,3,4,1.16,5270.05,4869.3
+Terracotta & Clay,Terracotta Red Clay,2410.15,48.4,120.0,3.5,1,4,1.07,10786.32,11521.04
+Terracotta & Clay,Terracotta Red Clay,1890.66,72.8,200.0,4.2,3,5,1.3,23647.82,31023.38
+Carved Woodwork,Sheesham Wood,1687.18,35.8,85.0,4.6,1,4,1.25,7201.7,7978.24
+Terracotta & Clay,Natural Alluvial Clay,1775.84,59.0,180.0,4.7,4,3,1.1,18593.76,21821.62
+Carved Woodwork,Sheesham Wood,767.53,16.6,85.0,3.1,4,1,1.39,3790.64,4185.75
+Handloom Textiles,Handspun Cotton,775.88,15.3,180.0,3.6,2,5,1.16,5824.3,5497.43
+Terracotta & Clay,Black Clay,1243.35,74.7,100.0,4.0,5,1,0.99,13614.61,13316.61
+Terracotta & Clay,Terracotta Red Clay,1270.34,4.5,150.0,4.5,1,4,0.98,2553.26,2494.01
+Folk Paintings,Handmade Vasli Paper,1996.55,12.8,180.0,3.8,5,3,1.18,8601.1,8126.86
+Handloom Textiles,Mulberry Silk,348.77,24.4,180.0,3.3,2,4,1.06,7822.27,6708.4
+Handloom Textiles,Handspun Cotton,1134.75,37.8,200.0,3.7,3,5,0.96,14998.44,12244.05
+Folk Paintings,Cotton Canvas,1814.25,36.7,85.0,3.8,2,1,0.98,8683.4,6768.66
+Handloom Textiles,Chanderi Cotton-Silk,1272.27,29.1,200.0,5.0,4,5,1.16,12766.09,13300.64
+Dhokra & Brass Craft,Bronze Alloy,917.96,53.4,120.0,2.7,4,3,1.02,13626.29,10448.02
+Folk Paintings,Cotton Canvas,387.78,8.6,180.0,2.8,3,5,1.17,3561.84,3109.06
+Dhokra & Brass Craft,Copper Brass Blend,100.0,63.1,150.0,2.6,5,5,1.3,18532.19,18743.3
+Handloom Textiles,Handspun Cotton,932.57,26.0,120.0,3.1,1,2,0.91,6382.8,4757.01
+Blue Pottery & Ceramics,Ceramic Glaze,1142.45,6.5,150.0,3.8,5,1,1.24,3705.54,4071.98
+Carved Woodwork,Sheesham Wood,380.92,19.5,100.0,4.0,1,3,1.31,3548.83,3996.13
+Folk Paintings,Tussar Silk Fabric,1762.46,35.2,100.0,3.6,5,2,1.36,10564.92,11359.67
+Handloom Textiles,Chanderi Cotton-Silk,318.21,73.6,85.0,2.8,3,2,1.36,11340.51,12045.08
+Handloom Textiles,Mulberry Silk,2350.84,73.4,200.0,4.5,2,4,1.11,28100.89,26662.17
+Carved Woodwork,Sheesham Wood,2092.92,78.5,120.0,2.5,1,1,0.93,17528.42,13239.86
+Carved Woodwork,Seasoned Teakwood,462.67,29.1,120.0,4.4,3,3,1.34,6594.41,7878.75
+Handloom Textiles,Handspun Cotton,437.55,36.0,200.0,4.4,2,1,1.16,12601.96,12449.15
+Dhokra & Brass Craft,Recycled Bell Metal Brass,172.45,50.4,70.0,2.9,1,2,1.2,6022.48,5656.15
+Folk Paintings,Handmade Vasli Paper,378.78,78.5,120.0,3.6,2,2,1.22,17245.85,15403.54
+Carved Woodwork,Seasoned Teakwood,2169.86,74.6,150.0,4.7,5,5,1.02,24214.75,21904.68
+Carved Woodwork,Seasoned Teakwood,744.4,66.5,85.0,3.9,5,5,1.06,11594.38,11045.45
+Blue Pottery & Ceramics,Ceramic Glaze,2144.68,23.4,200.0,4.1,3,2,1.38,10987.73,13578.2
+Terracotta & Clay,Natural Alluvial Clay,2024.8,43.9,180.0,3.6,1,4,1.2,13028.93,14805.33
+Carved Woodwork,Seasoned Teakwood,1421.46,28.3,180.0,4.2,4,5,1.28,11336.9,12531.4
+Terracotta & Clay,Terracotta Red Clay,1419.3,3.9,120.0,4.3,3,4,1.24,2712.99,3067.13
+Handloom Textiles,Chanderi Cotton-Silk,1725.14,46.0,120.0,3.2,4,5,0.98,13041.25,10793.23
+Terracotta & Clay,Natural Alluvial Clay,1442.01,6.6,85.0,3.8,5,1,1.12,3129.7,3310.95
+Terracotta & Clay,Natural Alluvial Clay,1479.32,41.4,200.0,4.4,1,1,1.23,12809.11,16395.43
+Terracotta & Clay,Natural Alluvial Clay,298.07,62.3,180.0,4.5,3,2,1.04,16548.6,17674.76
+Carved Woodwork,Rosewood,1332.69,32.4,120.0,4.5,5,2,1.04,9462.5,9162.83
+Blue Pottery & Ceramics,Ceramic Glaze,1436.05,4.7,85.0,4.3,1,5,1.22,2698.26,2802.56
+Carved Woodwork,Seasoned Teakwood,152.65,33.6,180.0,3.6,2,2,1.36,9890.04,10600.19
+Dhokra & Brass Craft,Bronze Alloy,2112.23,79.8,200.0,4.9,2,3,1.36,30813.15,35763.54
+Carved Woodwork,Rosewood,2075.73,24.3,120.0,2.6,1,2,1.03,7599.91,6349.98
+Handloom Textiles,Handspun Cotton,338.66,53.8,200.0,4.3,4,1,1.0,19977.59,17157.56
+Blue Pottery & Ceramics,Porcelain Clay,1906.96,28.4,150.0,4.1,5,4,1.01,10792.18,9353.92
+Handloom Textiles,Mulberry Silk,327.02,49.3,200.0,2.8,4,4,1.36,18336.64,19394.85
+Blue Pottery & Ceramics,Ceramic Glaze,1996.65,28.0,85.0,3.0,2,1,1.3,6740.04,7570.16
+Folk Paintings,Handmade Vasli Paper,1273.25,23.5,85.0,3.8,3,1,1.21,6018.18,5336.15
+Dhokra & Brass Craft,Copper Brass Blend,2166.41,71.5,180.0,3.6,5,1,1.35,29133.04,32301.74
+Dhokra & Brass Craft,Bronze Alloy,1495.68,56.1,200.0,4.9,1,4,1.27,20694.77,21122.03
+Folk Paintings,Handmade Vasli Paper,2006.11,39.6,150.0,3.4,4,2,1.0,15256.53,12007.17
+Handloom Textiles,Mulberry Silk,1317.75,59.5,100.0,3.5,1,5,1.1,11446.71,10882.18
+Carved Woodwork,Sheesham Wood,406.18,41.2,150.0,3.3,5,2,1.01,11937.45,10901.61
+Terracotta & Clay,Natural Alluvial Clay,660.97,45.9,180.0,4.1,3,1,1.38,12826.77,17555.08
+Dhokra & Brass Craft,Recycled Bell Metal Brass,399.6,23.5,180.0,4.6,4,3,1.21,8611.06,8824.12
+Carved Woodwork,Rosewood,1401.44,48.5,150.0,2.5,1,1,1.1,13209.88,11553.1
+Blue Pottery & Ceramics,Quartz Powder Frit,1824.56,59.1,150.0,3.3,1,1,1.32,15713.65,17045.83
+Carved Woodwork,Rosewood,2339.94,65.4,180.0,3.0,4,4,0.98,24554.78,18561.32
+Carved Woodwork,Sheesham Wood,2198.01,42.4,70.0,2.7,2,3,1.24,8239.79,8142.31
+Dhokra & Brass Craft,Copper Brass Blend,1490.91,73.0,70.0,4.5,3,3,0.91,11766.12,9345.73
+Dhokra & Brass Craft,Bronze Alloy,2128.66,12.8,180.0,3.8,4,1,1.05,8244.75,6653.87
+Carved Woodwork,Sheesham Wood,1172.41,41.6,100.0,4.7,4,3,1.27,9278.39,10184.44
+Carved Woodwork,Rosewood,1178.91,59.6,100.0,2.9,4,3,1.07,12421.7,10936.41
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1083.04,4.1,180.0,4.2,4,5,1.02,3387.13,2778.32
+Handloom Textiles,Handspun Cotton,1373.21,67.1,120.0,4.1,4,5,1.29,16965.38,18206.3
+Dhokra & Brass Craft,Bronze Alloy,666.11,16.0,70.0,3.2,4,5,1.15,3322.16,3086.0
+Terracotta & Clay,Black Clay,797.39,24.6,85.0,3.2,2,5,1.28,3971.54,4949.46
+Folk Paintings,Handmade Vasli Paper,2041.45,78.2,70.0,2.6,5,4,1.37,15030.9,14765.92
+Blue Pottery & Ceramics,Quartz Powder Frit,1852.17,50.0,120.0,3.7,4,2,1.16,13191.65,13587.26
+Folk Paintings,Tussar Silk Fabric,1382.75,46.5,200.0,4.2,5,5,0.91,21365.5,15677.69
+Terracotta & Clay,Natural Alluvial Clay,1278.04,68.2,150.0,2.9,2,2,1.27,15823.56,18467.0
+Terracotta & Clay,Black Clay,930.28,23.4,180.0,4.3,1,1,1.35,6749.24,8986.66
+Terracotta & Clay,Black Clay,941.15,22.2,100.0,4.7,2,5,1.11,4346.58,5357.71
+Dhokra & Brass Craft,Bronze Alloy,2360.37,61.1,200.0,2.9,1,3,1.17,23729.55,20782.61
+Handloom Textiles,Handspun Cotton,1508.36,56.5,100.0,4.2,5,3,1.32,13421.92,14481.24
+Dhokra & Brass Craft,Bronze Alloy,687.8,49.5,70.0,3.3,3,3,1.07,7402.37,6221.13
+Carved Woodwork,Seasoned Teakwood,1987.25,67.3,120.0,2.9,2,1,0.99,16050.88,13205.31
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1094.58,17.9,120.0,2.7,2,2,1.3,5528.6,5402.61
+Blue Pottery & Ceramics,Porcelain Clay,273.25,62.9,200.0,3.1,3,3,1.1,20693.73,20227.57
+Blue Pottery & Ceramics,Quartz Powder Frit,801.11,3.9,100.0,5.0,1,2,0.92,1750.93,1563.62
+Handloom Textiles,Mulberry Silk,900.7,8.4,180.0,5.0,1,3,1.22,3800.0,4113.63
+Terracotta & Clay,Terracotta Red Clay,102.39,38.5,200.0,2.6,2,3,1.05,10728.29,9758.84
+Blue Pottery & Ceramics,Quartz Powder Frit,1065.36,20.9,150.0,2.6,4,1,1.25,7056.6,7375.75
+Carved Woodwork,Seasoned Teakwood,223.53,26.5,150.0,4.1,2,5,0.9,6696.66,5469.38
+Terracotta & Clay,Natural Alluvial Clay,2376.77,62.8,100.0,4.1,2,4,1.31,11903.06,14752.13
+Blue Pottery & Ceramics,Porcelain Clay,937.28,53.9,180.0,3.2,5,5,1.25,18618.74,19748.37
+Folk Paintings,Cotton Canvas,332.85,21.3,200.0,4.9,5,4,1.39,9185.7,10369.89
+Blue Pottery & Ceramics,Ceramic Glaze,862.13,27.5,120.0,4.7,3,4,0.94,6701.03,6150.17
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2476.23,8.8,85.0,2.5,1,4,1.14,5247.43,4489.8
+Carved Woodwork,Seasoned Teakwood,2390.22,74.3,120.0,3.2,5,5,1.24,20492.52,20917.52
+Folk Paintings,Tussar Silk Fabric,2052.74,78.4,100.0,2.7,2,5,1.24,17411.22,15815.41
+Dhokra & Brass Craft,Bronze Alloy,98.84,61.0,180.0,4.1,1,4,0.95,18030.81,14316.32
+Handloom Textiles,Handspun Cotton,513.61,52.8,150.0,4.0,2,3,1.38,13915.46,14741.99
+Handloom Textiles,Handspun Cotton,310.01,76.2,180.0,4.8,5,2,0.92,26298.77,21350.39
+Dhokra & Brass Craft,Recycled Bell Metal Brass,423.48,26.5,70.0,4.1,3,4,1.13,4061.39,3788.66
+Blue Pottery & Ceramics,Quartz Powder Frit,606.22,22.6,150.0,4.0,3,5,1.08,6433.91,6329.22
+Blue Pottery & Ceramics,Quartz Powder Frit,945.11,59.2,85.0,4.8,5,5,1.32,10459.94,12743.08
+Terracotta & Clay,Black Clay,1541.96,54.6,70.0,2.6,3,5,0.99,7710.69,6806.7
+Carved Woodwork,Sheesham Wood,888.61,11.3,200.0,3.5,2,2,1.31,5022.03,5238.78
+Dhokra & Brass Craft,Copper Brass Blend,1783.54,29.0,85.0,4.1,2,5,1.31,7243.76,7672.96
+Handloom Textiles,Mulberry Silk,1500.11,67.1,70.0,4.2,5,3,1.07,11619.58,10369.58
+Terracotta & Clay,Terracotta Red Clay,2236.21,41.2,100.0,3.3,1,3,0.98,8342.53,7987.87
+Folk Paintings,Cotton Canvas,1805.5,15.1,180.0,2.6,2,5,1.1,7961.36,6213.96
+Dhokra & Brass Craft,Recycled Bell Metal Brass,114.37,14.8,85.0,4.5,3,4,1.08,2446.25,2234.17
+Folk Paintings,Cotton Canvas,1040.47,23.2,180.0,4.8,5,2,1.02,10432.94,9333.5
+Handloom Textiles,Handspun Cotton,1338.4,63.7,180.0,2.6,5,1,1.29,24008.25,23985.62
+Blue Pottery & Ceramics,Porcelain Clay,1864.09,56.9,150.0,4.8,3,3,1.39,16742.53,22266.02
+Terracotta & Clay,Natural Alluvial Clay,1744.71,75.3,70.0,4.8,4,5,1.04,10523.57,11730.54
+Handloom Textiles,Chanderi Cotton-Silk,1441.59,64.8,180.0,3.1,4,5,1.38,23590.06,25608.44
+Handloom Textiles,Mulberry Silk,335.85,54.2,200.0,3.2,5,3,1.36,20954.72,23566.97
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1696.38,10.2,200.0,3.4,5,3,1.17,7239.24,6808.39
+Handloom Textiles,Handspun Cotton,1367.33,42.4,120.0,3.1,2,5,1.36,10651.29,11586.84
+Blue Pottery & Ceramics,Porcelain Clay,2057.77,46.1,85.0,4.7,3,1,1.2,9621.79,10607.23
+Terracotta & Clay,Terracotta Red Clay,216.19,34.7,70.0,4.3,5,3,1.13,4133.11,4605.56
+Blue Pottery & Ceramics,Ceramic Glaze,1043.52,47.7,200.0,3.8,3,4,1.06,17039.47,16854.9
+Handloom Textiles,Handspun Cotton,260.68,73.4,120.0,3.9,2,2,1.04,14963.32,12771.7
+Blue Pottery & Ceramics,Quartz Powder Frit,344.75,53.8,200.0,4.6,5,2,1.18,19433.31,20219.33
+Carved Woodwork,Rosewood,1367.41,65.3,70.0,3.0,4,4,1.24,10332.83,10460.18
+Folk Paintings,Handmade Vasli Paper,2173.45,41.5,180.0,3.0,1,1,1.03,16201.0,12878.11
+Blue Pottery & Ceramics,Quartz Powder Frit,1239.17,4.3,100.0,3.2,4,1,1.26,2804.21,2986.71
+Blue Pottery & Ceramics,Quartz Powder Frit,710.73,15.5,120.0,4.6,1,2,0.99,3778.97,3665.27
+Carved Woodwork,Rosewood,1890.55,39.2,180.0,4.6,3,2,1.26,14918.37,17871.21
+Dhokra & Brass Craft,Bronze Alloy,1939.06,35.7,120.0,4.6,1,5,1.03,10128.03,8935.96
+Blue Pottery & Ceramics,Ceramic Glaze,1702.17,52.5,70.0,4.8,5,2,0.95,9410.05,8924.62
+Carved Woodwork,Sheesham Wood,732.17,21.7,70.0,2.7,1,1,1.37,3427.41,3655.99
+Dhokra & Brass Craft,Copper Brass Blend,1836.37,53.6,200.0,4.7,3,5,1.39,22381.73,26331.91
+Dhokra & Brass Craft,Bronze Alloy,505.02,35.4,100.0,3.8,2,4,1.1,6896.76,6014.4
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2272.49,6.2,120.0,4.8,4,2,1.28,5610.67,5985.82
+Terracotta & Clay,Natural Alluvial Clay,1494.68,5.9,70.0,3.8,4,1,1.37,2861.52,3798.93
+Handloom Textiles,Chanderi Cotton-Silk,408.71,21.2,70.0,3.0,4,2,1.24,3406.88,3487.19
+Blue Pottery & Ceramics,Quartz Powder Frit,2467.04,44.1,120.0,4.2,2,3,1.05,11948.92,11528.08
+Handloom Textiles,Chanderi Cotton-Silk,1931.02,4.7,85.0,3.4,4,5,1.28,4194.94,4199.9
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1995.77,39.6,120.0,3.5,1,2,1.1,10982.0,9734.07
+Carved Woodwork,Seasoned Teakwood,1540.79,73.6,120.0,2.5,1,1,1.26,15792.57,15591.74
+Blue Pottery & Ceramics,Ceramic Glaze,791.58,57.7,120.0,4.5,5,1,0.94,13502.26,12045.38
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1299.13,52.7,180.0,3.8,4,5,0.94,20060.34,14736.1
+Folk Paintings,Handmade Vasli Paper,2134.66,43.2,70.0,4.2,2,1,1.22,9079.24,8994.64
+Handloom Textiles,Chanderi Cotton-Silk,2284.13,16.4,120.0,3.0,1,3,1.19,6697.1,6135.15
+Terracotta & Clay,Terracotta Red Clay,1964.12,59.5,180.0,3.6,2,5,1.01,17426.91,16824.04
+Dhokra & Brass Craft,Recycled Bell Metal Brass,2236.9,64.9,200.0,3.9,5,4,0.94,29482.74,23561.28
+Carved Woodwork,Seasoned Teakwood,1816.98,55.3,120.0,4.7,5,4,1.11,15321.03,15774.89
+Folk Paintings,Tussar Silk Fabric,1075.23,74.6,180.0,4.9,1,4,0.98,24365.43,19624.55
+Blue Pottery & Ceramics,Ceramic Glaze,376.5,19.3,100.0,4.8,5,5,0.91,4036.38,3749.97
+Terracotta & Clay,Natural Alluvial Clay,1621.4,21.0,120.0,4.1,1,1,1.29,5435.59,7023.97
+Blue Pottery & Ceramics,Porcelain Clay,2385.45,32.7,85.0,3.7,5,5,1.24,9038.66,9313.16
+Carved Woodwork,Seasoned Teakwood,272.97,67.5,150.0,3.2,5,4,1.03,18846.32,15004.43
+Folk Paintings,Cotton Canvas,1363.24,30.2,85.0,2.9,4,3,1.27,7546.06,7219.73
+Handloom Textiles,Chanderi Cotton-Silk,1693.91,21.0,150.0,4.5,3,2,1.17,8355.74,9144.09
+Handloom Textiles,Mulberry Silk,345.3,60.7,150.0,3.3,2,3,1.32,15593.0,16155.47
+Terracotta & Clay,Natural Alluvial Clay,2119.94,39.2,85.0,4.6,3,4,1.19,7837.16,9326.61
+Terracotta & Clay,Black Clay,1551.88,19.9,200.0,3.2,1,3,1.06,7260.59,7688.0
+Blue Pottery & Ceramics,Porcelain Clay,2061.35,12.6,70.0,2.9,1,2,1.12,4326.72,4132.08
+Carved Woodwork,Sheesham Wood,506.29,49.8,100.0,4.8,1,1,1.08,8352.88,7935.5
+Carved Woodwork,Seasoned Teakwood,2224.3,59.1,180.0,3.3,3,3,1.11,21447.89,18725.87
+Folk Paintings,Cotton Canvas,1541.94,60.7,200.0,4.8,2,3,0.98,24080.21,20896.74
+Terracotta & Clay,Natural Alluvial Clay,2240.57,53.4,180.0,3.2,5,1,1.39,18519.64,24640.75
+Blue Pottery & Ceramics,Porcelain Clay,2242.63,25.4,180.0,4.7,5,1,0.97,11925.6,11003.33
+Dhokra & Brass Craft,Bronze Alloy,1430.68,61.8,100.0,2.8,5,3,0.91,14745.69,10898.47
+Handloom Textiles,Chanderi Cotton-Silk,2267.12,34.6,120.0,3.7,5,2,1.36,12035.85,13506.92
+Handloom Textiles,Handspun Cotton,1841.19,12.4,85.0,3.1,5,5,1.02,5428.48,4571.91
+Dhokra & Brass Craft,Copper Brass Blend,2060.53,79.3,85.0,4.1,4,3,1.04,16369.92,14393.19
+Carved Woodwork,Sheesham Wood,1150.01,7.4,70.0,4.8,1,4,1.23,2539.55,2762.87
+Folk Paintings,Cotton Canvas,1813.14,35.1,100.0,2.8,4,4,1.14,10220.43,8691.62
+Dhokra & Brass Craft,Bronze Alloy,2416.37,35.1,200.0,4.3,1,4,0.98,15357.69,12700.31
+Handloom Textiles,Chanderi Cotton-Silk,897.37,57.1,180.0,3.4,1,3,1.06,17601.21,15315.72
+Terracotta & Clay,Terracotta Red Clay,716.17,5.8,200.0,2.6,1,2,0.99,2462.47,2245.89
+Handloom Textiles,Chanderi Cotton-Silk,2476.71,55.6,180.0,4.3,5,2,1.32,23408.83,25478.46
+Folk Paintings,Handmade Vasli Paper,1730.04,79.5,70.0,3.6,1,4,1.14,12255.67,11132.54
+Folk Paintings,Tussar Silk Fabric,1419.3,5.5,180.0,4.8,5,4,1.09,4818.6,4434.99
+Carved Woodwork,Sheesham Wood,2243.74,71.4,70.0,4.6,5,2,0.99,13125.65,11546.63
+Carved Woodwork,Seasoned Teakwood,703.53,31.2,100.0,4.8,1,3,1.18,5821.32,5561.24
+Blue Pottery & Ceramics,Porcelain Clay,1027.83,73.5,200.0,4.2,1,2,1.15,23119.91,24846.09
+Dhokra & Brass Craft,Recycled Bell Metal Brass,1321.8,21.7,200.0,4.7,2,2,1.13,9653.37,8474.73
+Folk Paintings,Cotton Canvas,1723.95,39.2,120.0,3.1,4,3,1.32,12341.66,12140.42
+Terracotta & Clay,Natural Alluvial Clay,1605.57,26.2,120.0,4.2,4,5,1.36,7124.35,9620.61
+Handloom Textiles,Handspun Cotton,1925.62,18.5,100.0,4.3,3,3,1.01,6512.94,5660.27
+Carved Woodwork,Seasoned Teakwood,1829.42,52.6,200.0,2.6,5,4,1.39,22383.32,25527.71
+Folk Paintings,Tussar Silk Fabric,367.15,46.9,150.0,4.9,5,5,1.06,14804.3,12838.37
+Blue Pottery & Ceramics,Porcelain Clay,656.66,70.4,180.0,4.1,2,1,1.24,20526.14,22740.43
+Blue Pottery & Ceramics,Quartz Powder Frit,1086.08,32.2,150.0,3.3,3,3,1.13,9524.89,9000.93
+Terracotta & Clay,Black Clay,963.2,24.1,200.0,3.7,4,3,1.03,8674.8,8343.48
+Terracotta & Clay,Terracotta Red Clay,1985.33,78.8,85.0,4.2,1,5,1.3,11396.87,14740.5
+Folk Paintings,Cotton Canvas,525.92,19.4,70.0,4.2,1,5,1.37,3164.99,3462.38
+Folk Paintings,Tussar Silk Fabric,2389.57,73.9,85.0,3.3,4,3,1.12,16648.45,14312.3
+Carved Woodwork,Seasoned Teakwood,2089.04,30.8,120.0,4.0,2,1,1.27,9227.14,10279.44
+Terracotta & Clay,Natural Alluvial Clay,2479.26,57.9,180.0,2.7,3,3,1.06,18545.56,18110.61
+Dhokra & Brass Craft,Copper Brass Blend,2195.33,30.6,180.0,3.1,3,3,1.08,13731.19,12293.61
+Blue Pottery & Ceramics,Ceramic Glaze,1806.58,3.3,100.0,3.1,5,2,1.11,3739.01,3626.59
+Terracotta & Clay,Natural Alluvial Clay,1796.44,44.0,85.0,3.9,5,1,1.0,8650.69,8616.0
+Folk Paintings,Handmade Vasli Paper,692.85,76.6,70.0,4.5,4,2,1.11,11625.31,10555.53
+Handloom Textiles,Mulberry Silk,1803.19,47.7,180.0,4.2,4,1,1.03,18700.54,15807.19
+Folk Paintings,Tussar Silk Fabric,2158.33,12.7,180.0,4.9,1,2,1.31,7466.47,8809.44
+Terracotta & Clay,Black Clay,768.91,61.9,70.0,3.6,3,5,1.29,7334.0,8858.03
+Blue Pottery & Ceramics,Ceramic Glaze,459.24,60.1,180.0,4.7,3,1,0.9,18156.36,16121.07
+Folk Paintings,Cotton Canvas,2035.55,12.6,200.0,4.8,1,4,1.4,7653.32,8585.34
+Dhokra & Brass Craft,Bronze Alloy,208.32,21.7,100.0,4.4,1,3,1.25,3870.72,4062.54
+Handloom Textiles,Chanderi Cotton-Silk,549.85,13.0,150.0,3.3,4,5,1.15,4499.73,4147.1
+Handloom Textiles,Mulberry Silk,1218.7,76.1,85.0,4.4,1,1,1.22,12107.34,11129.69
+Terracotta & Clay,Terracotta Red Clay,754.49,15.2,100.0,4.1,3,2,1.03,3269.58,3517.07
+Folk Paintings,Tussar Silk Fabric,1556.63,14.9,200.0,3.9,5,5,0.94,9073.26,6737.79
+Handloom Textiles,Mulberry Silk,1006.36,15.1,120.0,3.9,3,3,1.2,4861.67,4766.37
+Folk Paintings,Handmade Vasli Paper,1969.89,67.7,120.0,4.4,2,4,1.32,17765.25,18481.54
+Blue Pottery & Ceramics,Ceramic Glaze,958.92,25.1,200.0,3.6,4,5,1.25,10044.59,11646.13
+Folk Paintings,Tussar Silk Fabric,2144.22,77.9,180.0,4.3,3,1,1.24,29745.84,29704.09
+Blue Pottery & Ceramics,Porcelain Clay,767.43,70.8,85.0,4.5,2,5,0.97,10449.56,9466.8
+Folk Paintings,Handmade Vasli Paper,487.08,35.7,150.0,3.8,1,3,1.08,9814.69,7856.03
+Dhokra & Brass Craft,Bronze Alloy,1135.22,51.0,180.0,4.5,3,3,1.13,18386.88,16921.05
+Blue Pottery & Ceramics,Quartz Powder Frit,870.71,41.4,120.0,4.3,1,3,1.03,8582.9,7908.84
+Terracotta & Clay,Black Clay,331.03,67.4,120.0,4.1,2,2,1.02,11576.17,11817.76
+Carved Woodwork,Seasoned Teakwood,649.84,13.6,180.0,3.3,2,2,1.2,4941.05,4768.58
+Carved Woodwork,Seasoned Teakwood,1124.79,37.9,200.0,4.1,1,2,0.98,13253.04,11850.19
