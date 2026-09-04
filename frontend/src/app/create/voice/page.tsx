@@ -25,15 +25,20 @@ import { sampleVoiceTranscripts } from "@/lib/mockData";
 
 export default function VoiceCataloguerPage() {
   const router = useRouter();
-  const { language, creationFlow, updateCreationFlow, showToast } = useDemo();
+  const { language, productDraft, updateProductDraft, showToast } = useDemo();
 
   const speech = useSpeechRecognition();
 
   // Voice language selection (independent of UI language)
   const [voiceLang, setVoiceLang] = useState<"en" | "hi">(language);
   const [editableTranscript, setEditableTranscript] = useState<string>(
-    creationFlow.voiceTranscript || ""
+    (voiceLang === "en" ? productDraft.transcriptEn : productDraft.transcriptHi) || ""
   );
+
+  // Sync state if voice language changes
+  useEffect(() => {
+    setEditableTranscript((voiceLang === "en" ? productDraft.transcriptEn : productDraft.transcriptHi) || "");
+  }, [voiceLang]);
   const [isGenerating, setIsGenerating] = useState(false);
 
   // Sync speech transcript into editable field
@@ -80,18 +85,21 @@ export default function VoiceCataloguerPage() {
 
   const handleNext = async () => {
     // Save transcript to creation flow
-    updateCreationFlow({ voiceTranscript: editableTranscript });
+    updateProductDraft({ 
+      transcriptEn: voiceLang === "en" ? editableTranscript : productDraft.transcriptEn,
+      transcriptHi: voiceLang === "hi" ? editableTranscript : productDraft.transcriptHi 
+    });
 
     setIsGenerating(true);
 
     try {
-      const analysis = creationFlow.productAnalysis || {
-        category: creationFlow.categoryNameEn || "Terracotta & Clay",
-        material: "Natural Alluvial Clay",
-        craft_type: "Hand-molded & Kiln-fired",
-        colors: ["Earthy Red", "Ochre"],
-        style: "Traditional Bankura Heritage",
-        visible_features: ["Horse figurine", "Hand-wheel molded body"],
+      const analysis = {
+        category: productDraft.categoryNameEn || "Terracotta & Clay",
+        material: productDraft.material || "Natural Alluvial Clay",
+        craft_type: productDraft.craftType || "Hand-molded & Kiln-fired",
+        colors: productDraft.colors || ["Earthy Red", "Ochre"],
+        style: productDraft.style || "Traditional Bankura Heritage",
+        visible_features: productDraft.visibleFeatures || ["Horse figurine", "Hand-wheel molded body"],
       };
 
       const { data: catalogue, isDemo } = await generateCatalogue(
@@ -99,11 +107,11 @@ export default function VoiceCataloguerPage() {
         editableTranscript
       );
 
-      updateCreationFlow({
-        catalogueResult: catalogue,
-        generatedTitleEn: catalogue.title,
-        generatedStoryEn: catalogue.description,
-        generatedMaterialsEn: [catalogue.material, catalogue.craft_type],
+      updateProductDraft({
+        titleEn: catalogue.title,
+        descriptionEn: catalogue.description,
+        featuresEn: catalogue.features,
+        tagsEn: catalogue.tags,
       });
 
       showToast(
@@ -128,7 +136,7 @@ export default function VoiceCataloguerPage() {
   if (isGenerating) {
     return (
       <div className="space-y-4">
-        <StepIndicator currentStep={3} />
+        <StepIndicator currentStep={4} />
         <AIProcessingAnimation
           title={language === "hi" ? "AI कैटलॉग तैयार हो रहा है..." : "Generating AI Catalogue..."}
           subtitle={language === "hi" ? "चित्र विश्लेषण + आवाज विवरण से उत्पाद सूची बनाई जा रही है" : "Combining image analysis + voice description into structured listing"}
@@ -140,7 +148,7 @@ export default function VoiceCataloguerPage() {
 
   return (
     <div className="space-y-4">
-      <StepIndicator currentStep={3} />
+      <StepIndicator currentStep={4} />
 
       <div className="space-y-1">
         <h2 className="text-xl font-extrabold text-artisan-indigo">
@@ -296,16 +304,16 @@ export default function VoiceCataloguerPage() {
       </div>
 
       {/* Analysis Preview (if available) */}
-      {creationFlow.productAnalysis && (
+      {productDraft.material && (
         <div className="glass-panel p-3 rounded-2xl border border-amber-900/10 space-y-1.5">
           <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">
             {language === "hi" ? "AI चित्र विश्लेषण:" : "AI Image Analysis:"}
           </span>
           <div className="flex flex-wrap gap-1.5">
-            <Badge variant="terracotta" className="text-[10px]">{creationFlow.productAnalysis.category}</Badge>
-            <Badge variant="outline" className="text-[10px]">{creationFlow.productAnalysis.material}</Badge>
-            <Badge variant="outline" className="text-[10px]">{creationFlow.productAnalysis.craft_type}</Badge>
-            {creationFlow.productAnalysis.colors.slice(0, 3).map((c, i) => (
+            <Badge variant="terracotta" className="text-[10px]">{productDraft.categoryNameEn}</Badge>
+            <Badge variant="outline" className="text-[10px]">{productDraft.material}</Badge>
+            <Badge variant="outline" className="text-[10px]">{productDraft.craftType}</Badge>
+            {productDraft.colors?.slice(0, 3).map((c, i) => (
               <Badge key={i} variant="default" className="text-[10px]">{c}</Badge>
             ))}
           </div>
@@ -322,7 +330,7 @@ export default function VoiceCataloguerPage() {
           size="lg"
           className="flex-1 font-bold"
           onClick={handleNext}
-          disabled={!editableTranscript.trim() && !creationFlow.productAnalysis}
+          disabled={!editableTranscript.trim() && !productDraft.material}
           icon={<ArrowRight className="w-4 h-4" />}
         >
           {getTranslation(language, "btnNext")} (AI Catalogue)

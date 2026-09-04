@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Sparkles, ArrowRight, ShieldCheck, Cpu, Mic, Store, Award } from "lucide-react";
+import { Sparkles, ArrowRight, ShieldCheck, Mic, Store, Award } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { LargeActionButton } from "@/components/ui/LargeActionButton";
@@ -36,9 +36,9 @@ export default function LandingPage() {
 
         <Link href="/dashboard" className="block">
           <Button
-            variant="primary"
+            variant="white"
             size="lg"
-            className="w-full bg-white text-artisan-terracotta hover:bg-amber-50 font-bold text-sm shadow-lg border-0 py-3.5"
+            className="w-full text-artisan-terracotta bg-white hover:bg-amber-50 font-extrabold text-sm shadow-xl py-3.5"
             icon={<ArrowRight className="w-4 h-4 text-artisan-terracotta" />}
           >
             {language === "hi" ? "कारीगर ऐप शुरू करें (डैशबोर्ड)" : "Launch Artisan Experience"}
@@ -69,15 +69,7 @@ export default function LandingPage() {
           />
         </Link>
 
-        <Link href="/create/pricing" className="block">
-          <LargeActionButton
-            title={language === "hi" ? "AI सही कीमत कैलकुलेटर" : "AI Smart Fair Pricing"}
-            subtitle={language === "hi" ? "XGBoost मॉडल आपकी मेहनत का सही दाम तय करे" : "XGBoost fair price evaluation engine"}
-            icon={<Cpu className="w-6 h-6" />}
-            variant="gold"
-            badge="ML Engine"
-          />
-        </Link>
+
       </section>
 
       {/* Key Innovation Pillars */}

@@ -26,27 +26,27 @@ import { PricingPrediction } from "@/lib/types";
 
 export default function SmartPricingPage() {
   const router = useRouter();
-  const { language, creationFlow, updateCreationFlow, showToast } = useDemo();
+  const { language, productDraft, updateProductDraft, showToast } = useDemo();
 
   const [isLoading, setIsLoading] = useState(true);
   const [prediction, setPrediction] = useState<PricingPrediction | null>(null);
   
   // Interactive inputs for real-time recalculation
-  const [materialCost, setMaterialCost] = useState(creationFlow.pricing?.rawMaterialCost || 250);
-  const [laborHours, setLaborHours] = useState(creationFlow.pricing?.laborHours || 12);
-  const [laborRate, setLaborRate] = useState(creationFlow.pricing?.laborHourlyRate || 100);
+  const [materialCost, setMaterialCost] = useState(250);
+  const [laborHours, setLaborHours] = useState(12);
+  const [laborRate, setLaborRate] = useState(100);
 
   const fetchPrediction = async () => {
     setIsLoading(true);
     try {
       const features = {
-        category: creationFlow.categoryNameEn || "Terracotta & Clay",
-        material: creationFlow.productAnalysis?.material || "Natural Clay",
+        category: productDraft.categoryNameEn || "Terracotta & Clay",
+        material: productDraft.material || "Natural Clay",
         material_cost: materialCost,
         labour_hours: laborHours,
         labour_rate: laborRate,
         quality_score: 4.0,
-        craftsmanship_complexity: creationFlow.pricing?.complexityGrade || 3,
+        craftsmanship_complexity: 3,
         size_scale: 3,
         season_demand_index: 1.1,
         market_reference_price: 0 // Will auto-calculate base reference
@@ -97,14 +97,12 @@ export default function SmartPricingPage() {
 
   const handleNext = () => {
     if (prediction) {
-      updateCreationFlow({
-        pricing: {
-          ...creationFlow.pricing,
-          rawMaterialCost: materialCost,
-          laborHours: laborHours,
-          laborHourlyRate: laborRate,
-          suggestedB2BPrice: prediction.predicted_price,
-          minimumFairPrice: prediction.lower_bound
+      updateProductDraft({
+        predictedPrice: prediction.predicted_price,
+        priceRange: { min: prediction.lower_bound, max: prediction.upper_bound },
+        priceFactors: {
+          topFactors: prediction.top_contributing_factors,
+          explanation: prediction.explanation
         }
       });
     }
@@ -114,7 +112,7 @@ export default function SmartPricingPage() {
   if (isLoading) {
     return (
       <div className="space-y-4">
-        <StepIndicator currentStep={5} />
+        <StepIndicator currentStep={6} />
         <AIProcessingAnimation
           title={language === "hi" ? "उचित मूल्य की गणना की जा रही है..." : "Calculating Fair Market Price..."}
           subtitle={language === "hi" ? "सामग्री, मेहनत और बाज़ार की मांग का विश्लेषण" : "Analyzing materials, labor, and live market demand via ML"}
@@ -126,7 +124,7 @@ export default function SmartPricingPage() {
 
   return (
     <div className="space-y-4">
-      <StepIndicator currentStep={5} />
+      <StepIndicator currentStep={6} />
 
       <div className="space-y-1">
         <h2 className="text-xl font-extrabold text-artisan-indigo">

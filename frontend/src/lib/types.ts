@@ -92,24 +92,44 @@ export interface CatalogueResult {
   craft_type: string;
 }
 
-export interface CreationFlowState {
+export interface ProductDraft {
+  // 1. Category
   categoryId?: string;
   categoryNameEn?: string;
   categoryNameHi?: string;
-  capturedImage?: string;
-  capturedImageFile?: File;
-  isImageEnhanced?: boolean;
-  voiceTranscript?: string;
-  voiceTranscriptEn?: string;
-  voiceTranscriptHi?: string;
-  productAnalysis?: ProductAnalysis;
-  catalogueResult?: CatalogueResult;
-  generatedTitleEn?: string;
-  generatedTitleHi?: string;
-  generatedStoryEn?: string;
-  generatedStoryHi?: string;
-  generatedMaterialsEn?: string[];
-  generatedMaterialsHi?: string[];
-  pricing: PriceBreakdown;
-  isPublished?: boolean;
+
+  // 2 & 3. Images
+  originalImage?: string; // base64
+  processedImage?: string; // base64
+  
+  // 3. Vision Analysis
+  material?: string;
+  craftType?: string;
+  colors?: string[];
+  style?: string;
+  visibleFeatures?: string[];
+  
+  // 4. Voice
+  transcriptEn?: string;
+  transcriptHi?: string;
+  
+  // 5 & 6. Catalogue
+  titleEn?: string;
+  titleHi?: string;
+  descriptionEn?: string;
+  descriptionHi?: string;
+  featuresEn?: string[];
+  featuresHi?: string[];
+  tagsEn?: string[];
+  tagsHi?: string[];
+  
+  // 7 & 8. Pricing
+  predictedPrice?: number;
+  priceRange?: { min: number; max: number };
+  priceFactors?: {
+    topFactors: string[];
+    explanation: string;
+  };
+  
+  lastUpdated?: number;
 }

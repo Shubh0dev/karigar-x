@@ -1,7 +1,8 @@
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "outline" | "ghost";
+  variant?: "primary" | "secondary" | "outline" | "ghost" | "white";
   size?: "sm" | "md" | "lg";
   children: React.ReactNode;
   icon?: React.ReactNode;
@@ -29,15 +30,16 @@ export const Button: React.FC<ButtonProps> = ({
     secondary: "bg-artisan-indigo text-white hover:bg-slate-800",
     outline: "border border-artisan-terracotta/30 text-artisan-terracotta hover:bg-artisan-terracotta/5",
     ghost: "text-slate-700 hover:bg-slate-100",
+    white: "bg-white text-artisan-terracotta hover:bg-amber-50 shadow-lg border-0 font-bold",
   };
 
   return (
     <button
-      className={`${baseStyles} ${sizeStyles[size]} ${variantStyles[variant]} ${className}`}
+      className={twMerge(baseStyles, sizeStyles[size], variantStyles[variant], className)}
       disabled={disabled}
       {...props}
     >
-      {icon && <span className="w-4 h-4 flex items-center justify-center">{icon}</span>}
+      {icon && <span className="w-4 h-4 flex items-center justify-center shrink-0">{icon}</span>}
       {children}
     </button>
   );

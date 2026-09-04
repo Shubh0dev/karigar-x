@@ -17,7 +17,6 @@ export const metadata: Metadata = {
     "XGBoost Pricing Engine",
   ],
   manifest: "/manifest.json",
-  themeColor: "#c2410c",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
@@ -30,6 +29,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
+  themeColor: "#c2410c",
 };
 
 export default function RootLayout({

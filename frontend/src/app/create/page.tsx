@@ -12,7 +12,7 @@ import { getTranslation } from "@/lib/i18n";
 
 export default function CreateProductCategoryPage() {
   const router = useRouter();
-  const { language, creationFlow, updateCreationFlow, showToast } = useDemo();
+  const { language, productDraft, updateProductDraft, showToast } = useDemo();
 
   const iconMap: Record<string, React.ReactNode> = {
     Flame: <Flame className="w-5 h-5" />,
@@ -24,7 +24,7 @@ export default function CreateProductCategoryPage() {
   };
 
   const handleSelectCategory = (catId: string, nameEn: string, nameHi: string) => {
-    updateCreationFlow({
+    updateProductDraft({
       categoryId: catId,
       categoryNameEn: nameEn,
       categoryNameHi: nameHi,
@@ -33,6 +33,10 @@ export default function CreateProductCategoryPage() {
   };
 
   const handleNext = () => {
+    if (!productDraft.categoryId) {
+      showToast(language === "hi" ? "कृपया एक श्रेणी चुनें" : "Please select a category", "warning");
+      return;
+    }
     router.push("/create/studio");
   };
 
@@ -52,7 +56,7 @@ export default function CreateProductCategoryPage() {
       {/* Visual Category Selection Grid */}
       <div className="grid grid-cols-2 gap-3">
         {craftCategories.map((cat) => {
-          const isSelected = creationFlow.categoryId === cat.id;
+          const isSelected = productDraft.categoryId === cat.id;
 
           return (
             <div

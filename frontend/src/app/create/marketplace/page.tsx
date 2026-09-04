@@ -12,13 +12,13 @@ import { getTranslation } from "@/lib/i18n";
 
 export default function MarketplaceReadyPage() {
   const router = useRouter();
-  const { language, creationFlow, saveCurrentProductToInventory } = useDemo();
+  const { language, productDraft, saveCurrentProductToInventory } = useDemo();
   const [isPublished, setIsPublished] = useState<boolean>(false);
 
   const title =
     language === "hi"
-      ? creationFlow.generatedTitleHi || "हस्तनिर्मित टेराकोटा पारंपरिक घोड़ा"
-      : creationFlow.generatedTitleEn || "Handmade Terracotta Heritage Horse";
+      ? productDraft.titleHi || "हस्तनिर्मित टेराकोटा पारंपरिक घोड़ा"
+      : productDraft.titleEn || "Handmade Terracotta Heritage Horse";
 
   const handlePublishNow = () => {
     saveCurrentProductToInventory();
@@ -30,7 +30,7 @@ export default function MarketplaceReadyPage() {
 
   return (
     <div className="space-y-4">
-      <StepIndicator currentStep={6} />
+      <StepIndicator currentStep={7} />
 
       <div className="space-y-1">
         <h2 className="text-xl font-extrabold text-artisan-indigo">

@@ -3,51 +3,28 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import {
   ArtisanProfile,
-  CreationFlowState,
+  ProductDraft,
   Language,
   ProductItem,
 } from "@/lib/types";
 import { initialArtisanProfile, initialProducts } from "@/lib/mockData";
+import { useLocalStorage } from "@/hooks/useLocalStorage";
 
 interface DemoContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
   artisan: ArtisanProfile;
   products: ProductItem[];
-  creationFlow: CreationFlowState;
-  setCreationFlow: React.Dispatch<React.SetStateAction<CreationFlowState>>;
-  updateCreationFlow: (updates: Partial<CreationFlowState>) => void;
-  resetCreationFlow: () => void;
+  productDraft: ProductDraft;
+  setProductDraft: React.Dispatch<React.SetStateAction<ProductDraft>>;
+  updateProductDraft: (updates: Partial<ProductDraft>) => void;
+  resetProductDraft: () => void;
   saveCurrentProductToInventory: () => ProductItem;
   toast: { message: string; type?: "success" | "info" | "warning" } | null;
   showToast: (message: string, type?: "success" | "info" | "warning") => void;
 }
 
-const defaultCreationFlow: CreationFlowState = {
-  categoryId: "terracotta",
-  categoryNameEn: "Terracotta & Clay",
-  categoryNameHi: "टेराकोटा और मिट्टी",
-  capturedImage: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
-  isImageEnhanced: true,
-  voiceTranscriptEn: "Handcrafted using alluvial riverbank clay from Bankura. Molded by hand wheel and baked in a natural firewood kiln for 14 hours.",
-  voiceTranscriptHi: "बांकुड़ा की नदी की मिट्टी से हाथ से बनाया गया। 14 घंटे प्राकृतिक लकड़ी के भट्ठे में पकाया गया।",
-  generatedTitleEn: "Handmade Terracotta Heritage Horse",
-  generatedTitleHi: "हस्तनिर्मित टेराकोटा पारंपरिक घोड़ा",
-  generatedStoryEn: "Crafted by master artisan Ramesh Swarnakar using ancestral terracotta firing techniques passed down for generations in Bankura.",
-  generatedStoryHi: "बांकुड़ा में पीढ़ियों से चली आ रही पारंपरिक टेराकोटा भट्ठी तकनीक से मास्टर कारीगर रमेश स्वर्णकार द्वारा निर्मित।",
-  generatedMaterialsEn: ["Natural Clay", "Firewood Ash", "Earth Pigment"],
-  generatedMaterialsHi: ["प्राकृतिक मिट्टी", "लकड़ी की राख", "गेरू रंग"],
-  pricing: {
-    rawMaterialCost: 300,
-    laborHours: 12,
-    laborHourlyRate: 100,
-    complexityGrade: 4,
-    artisanExperienceYears: 22,
-    demandIndex: 1.25,
-    minimumFairPrice: 1500,
-    suggestedB2BPrice: 2200,
-  },
-};
+const defaultProductDraft: ProductDraft = {};
 
 const DemoContext = createContext<DemoContextType | undefined>(undefined);
 
@@ -55,7 +32,13 @@ export const DemoProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [language, setLanguage] = useState<Language>("en");
   const [artisan] = useState<ArtisanProfile>(initialArtisanProfile);
   const [products, setProducts] = useState<ProductItem[]>(initialProducts);
-  const [creationFlow, setCreationFlow] = useState<CreationFlowState>(defaultCreationFlow);
+  
+  // Use localStorage hook for persistence
+  const [productDraft, setProductDraft] = useLocalStorage<ProductDraft>(
+    "karigar_product_draft",
+    defaultProductDraft
+  );
+  
   const [toast, setToast] = useState<{ message: string; type?: "success" | "info" | "warning" } | null>(null);
 
   const showToast = (message: string, type: "success" | "info" | "warning" = "success") => {
@@ -65,31 +48,40 @@ export const DemoProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }, 3500);
   };
 
-  const updateCreationFlow = (updates: Partial<CreationFlowState>) => {
-    setCreationFlow((prev) => ({ ...prev, ...updates }));
+  const updateProductDraft = (updates: Partial<ProductDraft>) => {
+    setProductDraft((prev) => ({ ...prev, ...updates, lastUpdated: Date.now() }));
   };
 
-  const resetCreationFlow = () => {
-    setCreationFlow(defaultCreationFlow);
+  const resetProductDraft = () => {
+    setProductDraft(defaultProductDraft);
   };
 
   const saveCurrentProductToInventory = (): ProductItem => {
     const newId = `PRD-${Date.now().toString().slice(-3)}`;
     const newProduct: ProductItem = {
       id: newId,
-      titleEn: creationFlow.generatedTitleEn || "New Handcrafted Craft",
-      titleHi: creationFlow.generatedTitleHi || "नया हस्तनिर्मित उत्पाद",
-      category: creationFlow.categoryId || "terracotta",
-      categoryNameEn: creationFlow.categoryNameEn || "Terracotta",
-      categoryNameHi: creationFlow.categoryNameHi || "टेराकोटा",
-      craftStoryEn: creationFlow.generatedStoryEn || "",
-      craftStoryHi: creationFlow.generatedStoryHi || "",
-      materialsEn: creationFlow.generatedMaterialsEn || ["Clay"],
-      materialsHi: creationFlow.generatedMaterialsHi || ["मिट्टी"],
+      titleEn: productDraft.titleEn || "New Handcrafted Craft",
+      titleHi: productDraft.titleHi || "नया हस्तनिर्मित उत्पाद",
+      category: productDraft.categoryId || "terracotta",
+      categoryNameEn: productDraft.categoryNameEn || "Terracotta",
+      categoryNameHi: productDraft.categoryNameHi || "टेराकोटा",
+      craftStoryEn: productDraft.descriptionEn || "",
+      craftStoryHi: productDraft.descriptionHi || "",
+      materialsEn: productDraft.featuresEn || ["Clay"],
+      materialsHi: productDraft.featuresHi || ["मिट्टी"],
       dimensions: "35cm x 15cm",
       weight: "1.2 kg",
-      image: creationFlow.capturedImage || "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
-      pricing: creationFlow.pricing,
+      image: productDraft.processedImage || productDraft.originalImage || "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
+      pricing: {
+        rawMaterialCost: productDraft.predictedPrice ? productDraft.predictedPrice * 0.2 : 300,
+        laborHours: 12,
+        laborHourlyRate: 100,
+        complexityGrade: 4,
+        artisanExperienceYears: 22,
+        demandIndex: 1.25,
+        minimumFairPrice: productDraft.priceRange?.min || 1500,
+        suggestedB2BPrice: productDraft.predictedPrice || 2200,
+      },
       status: "published",
       createdAt: new Date().toISOString().split("T")[0],
       qrCodeId: `QR-KGX-${newId}`,
@@ -97,8 +89,18 @@ export const DemoProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     setProducts((prev) => [newProduct, ...prev]);
     showToast(language === "hi" ? "उत्पाद सफलतापूर्वक बाज़ार में जोड़ा गया!" : "Product published to B2B Marketplace!", "success");
+    resetProductDraft();
     return newProduct;
   };
+
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <DemoContext.Provider
@@ -107,10 +109,10 @@ export const DemoProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setLanguage,
         artisan,
         products,
-        creationFlow,
-        setCreationFlow,
-        updateCreationFlow,
-        resetCreationFlow,
+        productDraft,
+        setProductDraft,
+        updateProductDraft,
+        resetProductDraft,
         saveCurrentProductToInventory,
         toast,
         showToast,

@@ -11,10 +11,10 @@ import { useDemo } from "@/context/DemoContext";
 import { getTranslation } from "@/lib/i18n";
 
 export default function DashboardPage() {
-  const { language, artisan, products, resetCreationFlow } = useDemo();
+  const { language, artisan, products, resetProductDraft } = useDemo();
 
   const handleNewCraftClick = () => {
-    resetCreationFlow();
+    resetProductDraft();
   };
 
   return (

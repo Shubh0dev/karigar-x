@@ -26,41 +26,39 @@ import { getTranslation } from "@/lib/i18n";
 
 export default function AICatalogueResultPage() {
   const router = useRouter();
-  const { language, creationFlow, updateCreationFlow } = useDemo();
-
-  const catalogue = creationFlow.catalogueResult;
+  const { language, productDraft, updateProductDraft } = useDemo();
 
   // Editable fields initialized from catalogue or fallback
   const [title, setTitle] = useState(
-    catalogue?.title || creationFlow.generatedTitleEn || "Handmade Terracotta Heritage Horse"
+    productDraft.titleEn || "Handmade Terracotta Heritage Horse"
   );
   const [description, setDescription] = useState(
-    catalogue?.description || creationFlow.generatedStoryEn || "Crafted by master artisan using ancestral techniques passed down for generations."
+    productDraft.descriptionEn || "Crafted by master artisan using ancestral techniques passed down for generations."
   );
   const [features, setFeatures] = useState<string[]>(
-    catalogue?.features || [
+    productDraft.featuresEn || [
       "Material: Natural Alluvial Clay",
       "Technique: Hand-molded & Kiln-fired",
       "Style: Traditional Bankura Heritage",
     ]
   );
   const [tags, setTags] = useState<string[]>(
-    catalogue?.tags || ["terracotta", "handmade", "indian-handicraft", "artisan-made"]
+    productDraft.tagsEn || ["terracotta", "handmade", "indian-handicraft", "artisan-made"]
   );
   const [category, setCategory] = useState(
-    catalogue?.category || creationFlow.productAnalysis?.category || creationFlow.categoryNameEn || "Terracotta & Clay"
+    productDraft.categoryNameEn || "Terracotta & Clay"
   );
   const [material, setMaterial] = useState(
-    catalogue?.material || creationFlow.productAnalysis?.material || "Natural Alluvial Clay"
+    productDraft.material || "Natural Alluvial Clay"
   );
   const [craftType, setCraftType] = useState(
-    catalogue?.craft_type || creationFlow.productAnalysis?.craft_type || "Hand-molded & Kiln-fired"
+    productDraft.craftType || "Hand-molded & Kiln-fired"
   );
 
   const [newFeature, setNewFeature] = useState("");
   const [newTag, setNewTag] = useState("");
 
-  const sampleImage = creationFlow.capturedImage || "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80";
+  const sampleImage = productDraft.processedImage || productDraft.originalImage || "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80";
 
   const handleAddFeature = () => {
     if (newFeature.trim()) {
@@ -85,28 +83,22 @@ export default function AICatalogueResultPage() {
   };
 
   const handleNext = () => {
-    // Save all edits back into creationFlow
-    updateCreationFlow({
-      catalogueResult: {
-        title,
-        description,
-        features,
-        tags,
-        category,
-        material,
-        craft_type: craftType,
-      },
-      generatedTitleEn: title,
-      generatedStoryEn: description,
-      generatedMaterialsEn: [material, craftType],
+    // Save all edits back into productDraft
+    updateProductDraft({
+      titleEn: title,
+      descriptionEn: description,
+      featuresEn: features,
+      tagsEn: tags,
       categoryNameEn: category,
+      material,
+      craftType,
     });
     router.push("/create/pricing");
   };
 
   return (
     <div className="space-y-4">
-      <StepIndicator currentStep={4} />
+      <StepIndicator currentStep={5} />
 
       <div className="space-y-1">
         <h2 className="text-xl font-extrabold text-artisan-indigo">
@@ -124,7 +116,7 @@ export default function AICatalogueResultPage() {
           <div className="absolute top-3 right-3">
             <Badge variant="terracotta" className="bg-white/90 backdrop-blur-md shadow-md text-[10px]">
               <Sparkles className="w-3 h-3 text-amber-500 mr-1" />
-              {catalogue ? "AI Generated" : "Demo Mode"}
+              {productDraft.titleEn ? "AI Generated" : "Demo Mode"}
             </Badge>
           </div>
         </div>

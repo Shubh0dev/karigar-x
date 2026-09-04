@@ -6,7 +6,7 @@ import { useDemo } from "@/context/DemoContext";
 import { getTranslation } from "@/lib/i18n";
 
 interface StepIndicatorProps {
-  currentStep: number; // 1 to 6
+  currentStep: number; // 1 to 7
 }
 
 export const StepIndicator: React.FC<StepIndicatorProps> = ({ currentStep }) => {
@@ -15,10 +15,11 @@ export const StepIndicator: React.FC<StepIndicatorProps> = ({ currentStep }) => 
   const steps = [
     { number: 1, label: getTranslation(language, "step1Category") },
     { number: 2, label: getTranslation(language, "step2Studio") },
-    { number: 3, label: getTranslation(language, "step3Voice") },
-    { number: 4, label: getTranslation(language, "step4Result") },
-    { number: 5, label: getTranslation(language, "step5Pricing") },
-    { number: 6, label: getTranslation(language, "step6Market") },
+    { number: 3, label: getTranslation(language, "step3Enhance") },
+    { number: 4, label: getTranslation(language, "step4Voice") },
+    { number: 5, label: getTranslation(language, "step5Result") },
+    { number: 6, label: getTranslation(language, "step6Pricing") },
+    { number: 7, label: getTranslation(language, "step7Market") },
   ];
 
   return (

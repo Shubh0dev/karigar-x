@@ -23,23 +23,19 @@ import { useDemo } from "@/context/DemoContext";
 import { getTranslation } from "@/lib/i18n";
 import { analyzeProductImage } from "@/lib/api";
 
-const sampleImages = [
-  "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?auto=format&fit=crop&w=600&q=80",
-];
+
 
 const MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024;
 
 export default function ProductImageStudioPage() {
   const router = useRouter();
-  const { language, creationFlow, updateCreationFlow, showToast } = useDemo();
+  const { language, productDraft, updateProductDraft, showToast } = useDemo();
 
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const galleryInputRef = useRef<HTMLInputElement>(null);
 
   const [selectedImage, setSelectedImage] = useState<string | null>(
-    creationFlow.capturedImage || null
+    productDraft.originalImage || null
   );
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -67,22 +63,45 @@ export default function ProductImageStudioPage() {
       return;
     }
 
-    try {
-      const objectUrl = URL.createObjectURL(file);
-      setSelectedImage(objectUrl);
-      setSelectedFile(file);
-      updateCreationFlow({ capturedImage: objectUrl });
-      showToast(
-        language === "hi" ? "चित्र लोड हुआ!" : "Photo captured!",
-        "success"
-      );
-    } catch {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const img = new window.Image();
+      img.onload = () => {
+        const MAX_WIDTH = 1024;
+        let width = img.width;
+        let height = img.height;
+        if (width > MAX_WIDTH) {
+          height = Math.round((height * MAX_WIDTH) / width);
+          width = MAX_WIDTH;
+        }
+        
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext("2d")!;
+        ctx.drawImage(img, 0, 0, width, height);
+        
+        // Compress aggressively to stay under 5MB localStorage quota
+        const dataUrl = canvas.toDataURL("image/jpeg", 0.7);
+        
+        setSelectedImage(dataUrl);
+        setSelectedFile(file);
+        updateProductDraft({ originalImage: dataUrl });
+        showToast(
+          language === "hi" ? "चित्र लोड हुआ!" : "Photo captured!",
+          "success"
+        );
+      };
+      img.src = e.target?.result as string;
+    };
+    reader.onerror = () => {
       setErrorMessage(
         language === "hi"
           ? "चित्र लोड करने में विफल।"
           : "Failed to load image preview."
       );
-    }
+    };
+    reader.readAsDataURL(file);
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -110,7 +129,7 @@ export default function ProductImageStudioPage() {
     setSelectedImage(null);
     setSelectedFile(null);
     setErrorMessage(null);
-    updateCreationFlow({ capturedImage: undefined, productAnalysis: undefined });
+    updateProductDraft({ originalImage: undefined, material: undefined, craftType: undefined, colors: undefined, style: undefined, visibleFeatures: undefined });
     showToast(language === "hi" ? "चित्र हटाया गया" : "Photo removed", "info");
   };
 
@@ -123,9 +142,14 @@ export default function ProductImageStudioPage() {
       if (selectedFile) {
         // Real file upload → backend AI analysis
         const { data: analysis, isDemo } = await analyzeProductImage(selectedFile);
-        updateCreationFlow({
-          capturedImage: selectedImage,
-          productAnalysis: analysis,
+        updateProductDraft({
+          originalImage: selectedImage,
+          categoryNameEn: analysis.category || productDraft.categoryNameEn,
+          material: analysis.material,
+          craftType: analysis.craft_type,
+          colors: analysis.colors,
+          style: analysis.style,
+          visibleFeatures: analysis.visible_features,
         });
         showToast(
           isDemo
@@ -135,16 +159,14 @@ export default function ProductImageStudioPage() {
         );
       } else {
         // Sample image selected (no File object) — use demo analysis
-        updateCreationFlow({
-          capturedImage: selectedImage,
-          productAnalysis: {
-            category: creationFlow.categoryNameEn || "Terracotta & Clay",
-            material: "Natural Alluvial Clay",
-            craft_type: "Hand-molded & Kiln-fired",
-            colors: ["Earthy Red", "Ochre", "Brown"],
-            style: "Traditional Bankura Heritage",
-            visible_features: ["Horse figurine", "Hand-wheel molded body", "Natural earth pigment"],
-          },
+        updateProductDraft({
+          originalImage: selectedImage,
+          categoryNameEn: productDraft.categoryNameEn || "Terracotta & Clay",
+          material: "Natural Alluvial Clay",
+          craftType: "Hand-molded & Kiln-fired",
+          colors: ["Earthy Red", "Ochre", "Brown"],
+          style: "Traditional Bankura Heritage",
+          visibleFeatures: ["Horse figurine", "Hand-wheel molded body", "Natural earth pigment"],
         });
         showToast(
           language === "hi" ? "डेमो मोड: नमूना विश्लेषण" : "Demo Mode: sample analysis loaded",
@@ -152,7 +174,7 @@ export default function ProductImageStudioPage() {
         );
       }
 
-      router.push("/create/voice");
+      router.push("/create/enhance");
     } catch {
       setErrorMessage(
         language === "hi"
@@ -264,18 +286,7 @@ export default function ProductImageStudioPage() {
             </div>
           </div>
 
-          <div className="glass-panel p-3 rounded-2xl border border-amber-900/10 space-y-2">
-            <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">
-              {language === "hi" ? "या नमूना फोटो चुनें (डेमो):" : "Or pick sample demo photo:"}
-            </span>
-            <div className="grid grid-cols-3 gap-2">
-              {sampleImages.map((imgUrl, idx) => (
-                <button key={idx} onClick={() => { setSelectedImage(imgUrl); setSelectedFile(null); updateCreationFlow({ capturedImage: imgUrl }); }} className="relative h-16 rounded-xl overflow-hidden border-2 border-slate-200 hover:border-artisan-terracotta transition-all">
-                  <Image src={imgUrl} alt={`Sample ${idx}`} fill className="object-cover" />
-                </button>
-              ))}
-            </div>
-          </div>
+
         </div>
       )}
 
