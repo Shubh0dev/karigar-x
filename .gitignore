@@ -17,6 +17,9 @@ __pycache__/
 
 # ML / Models
 *.joblib
+!ml/models/pricing_xgb_model.joblib
+!backend/models/pricing_xgb_model.joblib
+!**/models/pricing_xgb_model.joblib
 *.pkl
 
 # OS / Editor

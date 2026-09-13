@@ -12,12 +12,14 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-def evaluate_model():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.join(base_dir, "data", "artisan_pricing_dataset.csv")
-    model_path = os.path.join(base_dir, "models", "pricing_xgb_model.joblib")
+from pathlib import Path
 
-    if not os.path.exists(model_path):
+def evaluate_model():
+    base_dir = Path(__file__).resolve().parent
+    data_path = base_dir / "data" / "artisan_pricing_dataset.csv"
+    model_path = base_dir / "models" / "pricing_xgb_model.joblib"
+
+    if not model_path.is_file():
         print(f"Model not found at {model_path}. Run train.py first.")
         return
 

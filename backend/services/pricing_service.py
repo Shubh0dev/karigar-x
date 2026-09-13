@@ -14,18 +14,41 @@ from typing import List
 
 logger = logging.getLogger(__name__)
 
-# Add the ml/ directory to path so we can import predict.py
-backend_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-project_root = os.path.dirname(backend_dir)
-ml_dir = os.path.join(project_root, "ml")
+from pathlib import Path
 
-if ml_dir not in sys.path:
-    sys.path.append(ml_dir)
+# Add the ml/ directory to path using Path(__file__).resolve()
+current_file = Path(__file__).resolve()
+services_dir = current_file.parent
+backend_dir = services_dir.parent
+project_root = backend_dir.parent
+
+candidate_ml_dirs = [
+    project_root / "ml",
+    backend_dir / "ml",
+    backend_dir.parent / "ml",
+    Path.cwd() / "ml",
+]
+
+for candidate_dir in candidate_ml_dirs:
+    if candidate_dir.is_dir() and str(candidate_dir) not in sys.path:
+        sys.path.insert(0, str(candidate_dir))
 
 try:
     from predict import PricingModel
     _pricing_model = PricingModel()
-    logger.info("PricingModel loaded successfully.")
+    if not _pricing_model.is_ready():
+        for fallback_model in [
+            backend_dir / "models" / "pricing_xgb_model.joblib",
+            project_root / "ml" / "models" / "pricing_xgb_model.joblib",
+        ]:
+            if fallback_model.is_file():
+                _pricing_model = PricingModel(model_path=str(fallback_model))
+                if _pricing_model.is_ready():
+                    break
+    if _pricing_model.is_ready():
+        logger.info(f"PricingModel loaded successfully from {_pricing_model.model_path}.")
+    else:
+        logger.warning("PricingModel not ready. Pricing service will fall back to demo mode.")
 except ImportError as e:
     logger.warning(f"Could not import ML pricing model: {e}")
     _pricing_model = None

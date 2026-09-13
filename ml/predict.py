@@ -5,24 +5,44 @@ Provides a PricingModel class that loads the saved XGBoost model
 and generates price predictions, ranges, and explanations for single inputs.
 """
 
+from pathlib import Path
 import os
 import joblib
 import pandas as pd
 import numpy as np
 
 class PricingModel:
-    def __init__(self):
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        self.model_path = os.path.join(base_dir, "models", "pricing_xgb_model.joblib")
+    def __init__(self, model_path: str = None):
+        if model_path:
+            self.model_path = Path(model_path).resolve()
+        else:
+            base_dir = Path(__file__).resolve().parent
+            candidates = [
+                base_dir / "models" / "pricing_xgb_model.joblib",
+                base_dir.parent / "ml" / "models" / "pricing_xgb_model.joblib",
+                base_dir.parent / "backend" / "models" / "pricing_xgb_model.joblib",
+                base_dir / "pricing_xgb_model.joblib",
+                Path.cwd() / "ml" / "models" / "pricing_xgb_model.joblib",
+                Path.cwd() / "backend" / "models" / "pricing_xgb_model.joblib",
+                Path.cwd() / "models" / "pricing_xgb_model.joblib",
+            ]
+            self.model_path = None
+            for candidate in candidates:
+                if candidate.is_file():
+                    self.model_path = candidate
+                    break
+            if self.model_path is None:
+                self.model_path = base_dir / "models" / "pricing_xgb_model.joblib"
+
         self.pipeline = None
         self._load_model()
 
     def _load_model(self):
-        if os.path.exists(self.model_path):
-            self.pipeline = joblib.load(self.model_path)
-            print("Loaded XGBoost pricing model.")
+        if self.model_path and Path(self.model_path).is_file():
+            self.pipeline = joblib.load(str(self.model_path))
+            print(f"Loaded XGBoost pricing model from {self.model_path}.")
         else:
-            print("Warning: Pricing model not found. Call predict() will fail until trained.")
+            print(f"Warning: Pricing model not found at {self.model_path}. Call predict() will fail until trained.")
 
     def is_ready(self) -> bool:
         return self.pipeline is not None

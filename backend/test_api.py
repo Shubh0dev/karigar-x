@@ -264,6 +264,31 @@ def test_live_stability_pipeline_mocked():
     print("test_live_stability_pipeline_mocked passed!")
 
 
+def test_pricing_endpoint():
+    """Verify that the XGBoost pricing model loads properly and predicts prices with is_demo=False."""
+    client = TestClient(app)
+    req_payload = {
+        "category": "Carved Woodwork",
+        "material": "Seasoned Teakwood",
+        "material_cost": 500.0,
+        "labour_hours": 20.0,
+        "labour_rate": 150.0,
+        "quality_score": 4.0,
+        "craftsmanship_complexity": 3,
+        "size_scale": 3,
+        "season_demand_index": 1.1,
+        "market_reference_price": 5000.0,
+    }
+    response = client.post("/api/pricing/predict", json=req_payload)
+    assert response.status_code == 200, f"Expected 200, got {response.status_code}: {response.text}"
+    data = response.json()
+    assert data["is_demo"] is False, f"Expected is_demo=False (real XGBoost model), but got is_demo={data['is_demo']}"
+    assert data["predicted_price"] > 0, "Predicted price should be positive"
+    assert data["lower_bound"] < data["predicted_price"] < data["upper_bound"], "Price bounds invalid"
+    assert len(data["fair_price_breakdown"]) > 0
+    print(f"test_pricing_endpoint passed! Predicted: {data['predicted_price']} (is_demo: {data['is_demo']})")
+
+
 if __name__ == "__main__":
     test_provider_factory()
     test_bria_request_construction()
@@ -271,5 +296,6 @@ if __name__ == "__main__":
     test_bria_error_handling()
     test_demo_mode()
     test_live_stability_pipeline_mocked()
-    print("All Photo Studio tests (Bria, Stability, Demo) passed successfully!")
+    test_pricing_endpoint()
+    print("All tests passed successfully!")
 
