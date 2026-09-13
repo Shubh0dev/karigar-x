@@ -82,6 +82,24 @@ export interface ProductAnalysis {
   visible_features: string[];
 }
 
+export interface VoiceInterviewData {
+  product_name: string;
+  product_type: string;
+  materials: string[];
+  production_time: string;
+  production_time_hours: number | null;
+  people_involved: number | null;
+  craft_technique: string;
+  production_process: string;
+  dimensions: string;
+  unique_features: string[];
+  artisan_story: string;
+  /** Maps field name → true if value was explicitly stated by the artisan */
+  artisan_provided: Record<string, boolean>;
+  /** Field names that need artisan confirmation */
+  needs_confirmation: string[];
+}
+
 export interface CatalogueResult {
   title: string;
   description: string;
@@ -112,6 +130,13 @@ export interface ProductDraft {
   // 4. Voice
   transcriptEn?: string;
   transcriptHi?: string;
+  voiceInterviewData?: VoiceInterviewData;
+  /** Hours extracted from voice interview — pre-fills Smart Pricing labor hours */
+  voiceLaborHours?: number;
+  /** Number of people involved — used as craftsmanship complexity signal */
+  voicePeopleInvolved?: number;
+  /** Dimension string extracted from voice — informational */
+  voiceDimensions?: string;
   
   // 5 & 6. Catalogue
   titleEn?: string;

@@ -17,6 +17,7 @@ import {
   FileText,
   List,
   Hash,
+  Mic,
 } from "lucide-react";
 import { StepIndicator } from "@/components/ui/StepIndicator";
 import { Button } from "@/components/ui/Button";
@@ -27,6 +28,8 @@ import { getTranslation } from "@/lib/i18n";
 export default function AICatalogueResultPage() {
   const router = useRouter();
   const { language, productDraft, updateProductDraft } = useDemo();
+
+  const vid = productDraft.voiceInterviewData;
 
   // Editable fields initialized from catalogue or fallback
   const [title, setTitle] = useState(
@@ -96,6 +99,41 @@ export default function AICatalogueResultPage() {
     router.push("/create/pricing");
   };
 
+  // Build voice summary rows (only if voice data exists)
+  const voiceSummaryRows: { label: string; value: string; source: string }[] = [];
+  if (vid) {
+    if (vid.product_name) voiceSummaryRows.push({
+      label: language === "hi" ? "उत्पाद" : "Product",
+      value: vid.product_name,
+      source: vid.artisan_provided?.product_name ? "🗣️" : "🤖",
+    });
+    if (vid.materials.length > 0) voiceSummaryRows.push({
+      label: language === "hi" ? "सामग्री" : "Materials",
+      value: vid.materials.join(", "),
+      source: vid.artisan_provided?.materials ? "🗣️" : "🤖",
+    });
+    if (vid.production_time) voiceSummaryRows.push({
+      label: language === "hi" ? "बनाने का समय" : "Production Time",
+      value: `${vid.production_time}${vid.production_time_hours ? ` (~${vid.production_time_hours}h)` : ""}`,
+      source: "🗣️",
+    });
+    if (vid.people_involved) voiceSummaryRows.push({
+      label: language === "hi" ? "कारीगर" : "People Involved",
+      value: `${vid.people_involved}`,
+      source: "🗣️",
+    });
+    if (vid.craft_technique) voiceSummaryRows.push({
+      label: language === "hi" ? "तकनीक" : "Technique",
+      value: vid.craft_technique,
+      source: "🗣️",
+    });
+    if (vid.dimensions) voiceSummaryRows.push({
+      label: language === "hi" ? "आकार" : "Dimensions",
+      value: vid.dimensions,
+      source: "🗣️",
+    });
+  }
+
   return (
     <div className="space-y-4">
       <StepIndicator currentStep={5} />
@@ -121,6 +159,33 @@ export default function AICatalogueResultPage() {
           </div>
         </div>
       </div>
+
+      {/* Voice Interview Summary — only shown when voice data exists */}
+      {voiceSummaryRows.length > 0 && (
+        <div className="bg-amber-50/80 border border-amber-200 rounded-2xl p-3.5 space-y-2.5">
+          <div className="flex items-center gap-2">
+            <div className="w-7 h-7 rounded-full bg-artisan-terracotta/10 flex items-center justify-center">
+              <Mic className="w-3.5 h-3.5 text-artisan-terracotta" />
+            </div>
+            <h4 className="text-xs font-bold text-amber-900">
+              {language === "hi" ? "🎙️ आवाज़ से मिली जानकारी" : "🎙️ Voice Interview Data"}
+            </h4>
+          </div>
+          <div className="space-y-1">
+            {voiceSummaryRows.map((row, i) => (
+              <div key={i} className="flex items-center justify-between bg-white/70 rounded-xl px-3 py-1.5 text-xs">
+                <span className="text-slate-500 font-medium">{row.source} {row.label}</span>
+                <span className="font-bold text-slate-800 text-right max-w-[55%] truncate">{row.value}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-[10px] text-amber-700 italic">
+            {language === "hi"
+              ? "🗣️ = कारीगर ने बताया • 🤖 = AI ने पहचाना"
+              : "🗣️ = Artisan provided • 🤖 = AI detected"}
+          </p>
+        </div>
+      )}
 
       {/* Editable Catalogue Form */}
       <div className="space-y-3">

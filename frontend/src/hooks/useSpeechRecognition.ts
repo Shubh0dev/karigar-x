@@ -164,4 +164,4 @@ export function useSpeechRecognition(): SpeechRecognitionResult {
     stopListening,
     resetTranscript,
   };
-}
+} 

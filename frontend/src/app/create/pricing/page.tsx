@@ -13,7 +13,9 @@ import {
   Wallet,
   Clock,
   Layers,
-  Banknote
+  Banknote,
+  Mic,
+  CheckCircle2
 } from "lucide-react";
 import { StepIndicator } from "@/components/ui/StepIndicator";
 import { Button } from "@/components/ui/Button";
@@ -31,25 +33,48 @@ export default function SmartPricingPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [prediction, setPrediction] = useState<PricingPrediction | null>(null);
   
+  // ── Read voice interview data to pre-fill inputs ────────────────────────────
+  const vid = productDraft.voiceInterviewData;
+
+  // Pre-fill from voice: production_time_hours → laborHours, people → complexity
+  const defaultLaborHours =
+    productDraft.voiceLaborHours ??
+    (vid?.production_time_hours ?? 12);
+
+  // Complexity: 1 person = grade 2, 2 = 3, 3+ = 4, no data = 3
+  const voiceComplexity = vid?.people_involved
+    ? Math.min(5, Math.max(1, vid.people_involved + 1))
+    : 3;
+
   // Interactive inputs for real-time recalculation
   const [materialCost, setMaterialCost] = useState(250);
-  const [laborHours, setLaborHours] = useState(12);
+  const [laborHours, setLaborHours] = useState(defaultLaborHours);
   const [laborRate, setLaborRate] = useState(100);
+
+  // Track which fields came from voice (for the badge)
+  const voiceFieldsUsed: string[] = [];
+  if (vid?.production_time_hours) voiceFieldsUsed.push(language === "hi" ? "बनाने का समय" : "Production Time");
+  if (vid?.people_involved)       voiceFieldsUsed.push(language === "hi" ? "लोग" : "People Involved");
+  if (vid?.craft_technique)       voiceFieldsUsed.push(language === "hi" ? "कारीगरी" : "Craft Technique");
+  if (vid?.materials?.length)     voiceFieldsUsed.push(language === "hi" ? "सामग्री" : "Materials");
+  if (vid?.dimensions)            voiceFieldsUsed.push(language === "hi" ? "आकार" : "Dimensions");
 
   const fetchPrediction = async () => {
     setIsLoading(true);
     try {
       const features = {
-        category: productDraft.categoryNameEn || "Terracotta & Clay",
-        material: productDraft.material || "Natural Clay",
+        category:    productDraft.categoryNameEn || vid?.product_type || "Terracotta & Clay",
+        material:    vid?.materials?.join(", ") || productDraft.material || "Natural Clay",
         material_cost: materialCost,
-        labour_hours: laborHours,
-        labour_rate: laborRate,
+        labour_hours:  laborHours,
+        labour_rate:   laborRate,
         quality_score: 4.0,
-        craftsmanship_complexity: 3,
+        craftsmanship_complexity: voiceComplexity,
         size_scale: 3,
         season_demand_index: 1.1,
-        market_reference_price: 0 // Will auto-calculate base reference
+        market_reference_price: 0,
+        ...(vid?.craft_technique ? { craft_technique: vid.craft_technique } : {}),
+        ...(vid?.dimensions      ? { dimensions: vid.dimensions }            : {}),
       };
       
       const res = await predictPrice(features);
@@ -77,8 +102,14 @@ export default function SmartPricingPage() {
           craftsmanship_premium: 350,
           demand_adjustment: 50
         },
-        top_contributing_factors: ["Labor Cost", "Craftsmanship", "Material"],
-        explanation: "Fallback dummy calculation.",
+        top_contributing_factors: [
+          ...(vid?.production_time ? ["Production Time"] : []),
+          ...(vid?.craft_technique ? ["Craft Technique"] : []),
+          "Material",
+        ],
+        explanation: language === "hi"
+          ? "अनुमानित मूल्य (API उपलब्ध नहीं) — आवाज़ से मिली जानकारी के आधार पर।"
+          : "Estimated price (API unavailable) — based on voice-provided information.",
         is_demo: true
       });
     } finally {
@@ -137,6 +168,45 @@ export default function SmartPricingPage() {
 
       {prediction && (
         <>
+          {/* Voice Data Used banner */}
+          {voiceFieldsUsed.length > 0 && (
+            <div className="bg-amber-50/80 border border-amber-200 rounded-2xl p-3.5 space-y-2">
+              <div className="flex items-center gap-2">
+                <div className="w-7 h-7 rounded-full bg-artisan-terracotta/10 flex items-center justify-center">
+                  <Mic className="w-3.5 h-3.5 text-artisan-terracotta" />
+                </div>
+                <h4 className="text-xs font-bold text-amber-900">
+                  {language === "hi" ? "🎙️ आवाज़ से मिली जानकारी का उपयोग" : "🎙️ Voice Interview Data Used"}
+                </h4>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {voiceFieldsUsed.map((field, i) => (
+                  <span key={i} className="inline-flex items-center gap-1 text-[10px] font-bold text-amber-800 bg-amber-100 rounded-full px-2.5 py-0.5">
+                    <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                    {field}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Factors Considered */}
+          {prediction.top_contributing_factors.length > 0 && (
+            <div className="glass-panel p-3.5 rounded-2xl border border-emerald-200 space-y-2">
+              <h4 className="text-xs font-bold text-emerald-800">
+                {language === "hi" ? "मूल्य में शामिल कारक:" : "Factors Considered:"}
+              </h4>
+              <div className="space-y-1">
+                {prediction.top_contributing_factors.map((factor, i) => (
+                  <div key={i} className="flex items-center gap-2 text-xs text-emerald-700 font-medium">
+                    <span className="text-emerald-500">✓</span>
+                    {factor}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Main Price Card */}
           <div className="bg-gradient-to-br from-emerald-600 to-teal-800 rounded-3xl p-6 text-white shadow-xl relative overflow-hidden">
             <div className="absolute -top-12 -right-12 w-32 h-32 bg-white/10 rounded-full blur-2xl" />
@@ -147,7 +217,7 @@ export default function SmartPricingPage() {
             <div className="relative z-10 space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-emerald-100 text-xs font-bold uppercase tracking-wider">
-                  {language === "hi" ? "AI अनुशंसित मूल्य" : "AI Recommended Price"}
+                  {language === "hi" ? "AI अनुशंसित मूल्य सीमा" : "AI Suggested Price Range"}
                 </span>
                 <Badge variant="outline" className="bg-white/20 text-white border-white/30 text-[10px]">
                   {prediction.is_demo ? "Demo Mode" : "XGBoost ML"}

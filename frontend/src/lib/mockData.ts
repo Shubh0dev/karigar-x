@@ -196,5 +196,6 @@ export const initialProducts: ProductItem[] = [
 
 export const sampleVoiceTranscripts = {
   en: "I made this handicraft using natural clay from Bankura riverbank. I worked on the hand wheel for 4 hours and fired it in the wood kiln for 10 hours. The raw clay and firewood cost around 280 rupees. It is 35 centimeters high and weighs 1.4 kilograms.",
-  hi: "मैंने यह बांकुड़ा की नदी की प्राकृतिक मिट्टी से बनाया है। चाक पर 4 घंटे काम किया और भट्ठे में 10 घंटे पकाया। मिट्टी और लकड़ी का खर्चा 280 रुपये आया। यह 35 सेमी ऊँचा है और 1.4 किलो का है।",
+  // Canonical test sentence covering all 6 extraction fields (from spec)
+  hi: "ये बाँस की टोकरी है। इसे बनाने में लगभग दो दिन लगते हैं। इसमें बाँस और सूत का इस्तेमाल होता है। हम तीन लोग मिलकर इसे बनाते हैं। इसे हाथ से बुनते हैं। इसका आकार लगभग बारह इंच है।",
 };

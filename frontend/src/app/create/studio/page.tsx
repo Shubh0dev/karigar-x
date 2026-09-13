@@ -22,6 +22,11 @@ import { AIProcessingAnimation } from "@/components/ui/AIProcessingAnimation";
 import { useDemo } from "@/context/DemoContext";
 import { getTranslation } from "@/lib/i18n";
 import { analyzeProductImage } from "@/lib/api";
+import {
+  getPhotoStudioProviderStatus,
+  type PhotoStudioStatusInfo,
+} from "@/lib/photoStudioService";
+
 
 
 
@@ -40,6 +45,17 @@ export default function ProductImageStudioPage() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [studioStatus, setStudioStatus] = useState<PhotoStudioStatusInfo | null>(null);
+
+  React.useEffect(() => {
+    let active = true;
+    getPhotoStudioProviderStatus().then((res) => {
+      if (active) setStudioStatus(res);
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const processSelectedFile = (file: File) => {
     setErrorMessage(null);
@@ -206,13 +222,34 @@ export default function ProductImageStudioPage() {
       <input ref={cameraInputRef} type="file" accept="image/*" capture="environment" className="hidden" onChange={handleFileChange} />
       <input ref={galleryInputRef} type="file" accept="image/*" className="hidden" onChange={handleFileChange} />
 
-      <div className="space-y-1">
-        <h2 className="text-xl font-extrabold text-artisan-indigo">
-          {getTranslation(language, "studioTitle")}
-        </h2>
-        <p className="text-xs text-slate-500">
-          {getTranslation(language, "studioSubtitle")}
-        </p>
+      <div className="flex items-center justify-between">
+        <div className="space-y-1">
+          <h2 className="text-xl font-extrabold text-artisan-indigo">
+            {getTranslation(language, "studioTitle")}
+          </h2>
+          <p className="text-xs text-slate-500">
+            {getTranslation(language, "studioSubtitle")}
+          </p>
+        </div>
+        {studioStatus?.provider === "BriaProvider" ? (
+          <Badge variant="success" className="text-[10px] font-bold uppercase tracking-wider bg-emerald-600 text-white flex items-center gap-1 shadow-xs">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-200 animate-pulse inline-block" />
+            BRIA AI
+          </Badge>
+        ) : studioStatus?.provider === "StabilityProvider" ? (
+          <Badge variant="success" className="text-[10px] font-bold uppercase tracking-wider bg-emerald-600 text-white flex items-center gap-1 shadow-xs">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-200 animate-pulse inline-block" />
+            LIVE AI
+          </Badge>
+        ) : studioStatus?.provider === "DemoProvider" || studioStatus?.provider === "DemoStudioProvider" ? (
+          <Badge variant="terracotta" className="text-[10px] font-bold uppercase tracking-wider">
+            DEMO MODE
+          </Badge>
+        ) : (
+          <Badge variant="outline" className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+            STANDBY
+          </Badge>
+        )}
       </div>
 
       {errorMessage && (
