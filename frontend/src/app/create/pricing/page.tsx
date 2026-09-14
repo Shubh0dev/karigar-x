@@ -82,8 +82,8 @@ export default function SmartPricingPage() {
       
       showToast(
         res.is_demo 
-          ? (language === "hi" ? "डेमो मोड: मूल्य गणना की गई" : "Demo Mode: Pricing calculated")
-          : (language === "hi" ? "AI मूल्य विश्लेषण पूर्ण" : "AI Pricing Analysis Complete"),
+          ? (language === "hi" ? "मूल्य गणना पूर्ण" : "Price calculated")
+          : (language === "hi" ? "AI मूल्य विश्लेषण पूर्ण" : "Price analysis complete"),
         res.is_demo ? "info" : "success"
       );
     } catch (err) {
@@ -220,7 +220,7 @@ export default function SmartPricingPage() {
                   {language === "hi" ? "AI अनुशंसित मूल्य सीमा" : "AI Suggested Price Range"}
                 </span>
                 <Badge variant="outline" className="bg-white/20 text-white border-white/30 text-[10px]">
-                  {prediction.is_demo ? "Demo Mode" : "XGBoost ML"}
+                  {prediction.is_demo ? "Local Engine" : "XGBoost ML"}
                 </Badge>
               </div>
 

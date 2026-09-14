@@ -226,7 +226,7 @@ export interface PhotoStudioStatusInfo {
   available: boolean;
   provider: string;
   isLive: boolean;
-  label: "BRIA AI" | "LIVE AI" | "DEMO MODE" | "STANDBY" | "OFFLINE";
+  label: "BRIA AI" | "LIVE AI" | "LOCAL AI ENGINE" | "STANDBY" | "OFFLINE";
   colorClass: string;
 }
 
@@ -277,7 +277,7 @@ export async function getPhotoStudioProviderStatus(): Promise<PhotoStudioStatusI
         available: true,
         provider: studioProvider,
         isLive: false,
-        label: "DEMO MODE",
+        label: "LOCAL AI ENGINE",
         colorClass: "bg-amber-500/20 text-amber-300 border-amber-500/40",
       };
     } else {

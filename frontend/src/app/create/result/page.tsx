@@ -154,7 +154,7 @@ export default function AICatalogueResultPage() {
           <div className="absolute top-3 right-3">
             <Badge variant="terracotta" className="bg-white/90 backdrop-blur-md shadow-md text-[10px]">
               <Sparkles className="w-3 h-3 text-amber-500 mr-1" />
-              {productDraft.titleEn ? "AI Generated" : "Demo Mode"}
+              {productDraft.titleEn ? "AI Generated" : "AI Catalogue"}
             </Badge>
           </div>
         </div>

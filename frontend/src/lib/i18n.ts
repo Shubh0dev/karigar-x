@@ -4,7 +4,7 @@ export const translations = {
   en: {
     appName: "KARIGAR X",
     tagline: "AI Virtual Business Manager for Artisans",
-    demoMode: "DEMO MODE",
+    demoMode: "AI POWERED",
     switchLanguage: "हिन्दी",
 
     // Navigation
@@ -171,7 +171,7 @@ export const translations = {
   hi: {
     appName: "कारीगर X",
     tagline: "कारीगरों के लिए AI वर्चुअल बिजनेस मैनेजर",
-    demoMode: "डेमो मोड",
+    demoMode: "AI मॉडल सक्रिय",
     switchLanguage: "English",
 
     // Navigation

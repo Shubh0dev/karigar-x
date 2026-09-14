@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Package, PlusCircle, Calculator, User } from "lucide-react";
+import { Home, Package, PlusCircle, IndianRupee, User } from "lucide-react";
 import { useDemo } from "@/context/DemoContext";
 import { getTranslation } from "@/lib/i18n";
 
@@ -12,15 +12,15 @@ export const BottomNav: React.FC = () => {
   const { language } = useDemo();
 
   const navItems = [
-    { label: getTranslation(language, "navHome"), href: "/dashboard", icon: Home },
-    { label: getTranslation(language, "navMyProducts"), href: "/products", icon: Package },
-    { label: getTranslation(language, "navNewCraft"), href: "/create", icon: PlusCircle, isHighlight: true },
-    { label: getTranslation(language, "navPricing"), href: "/create/pricing", icon: Calculator },
-    { label: getTranslation(language, "navProfile"), href: "/dashboard", icon: User },
+    { label: language === "hi" ? "होम" : "Home", href: "/dashboard", icon: Home },
+    { label: language === "hi" ? "उत्पाद" : "Crafts", href: "/products", icon: Package },
+    { label: language === "hi" ? "नया" : "New", href: "/create", icon: PlusCircle, isHighlight: true },
+    { label: language === "hi" ? "दाम" : "Price", href: "/create/pricing", icon: IndianRupee },
+    { label: language === "hi" ? "प्रोफाइल" : "Profile", href: "/profile", icon: User },
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-t border-amber-900/10 py-1.5 px-3 shadow-lg">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-t border-slate-200/80 py-1.5 px-3 shadow-lg">
       <div className="max-w-md mx-auto flex items-center justify-around">
         {navItems.map((item) => {
           const Icon = item.icon;
@@ -49,8 +49,8 @@ export const BottomNav: React.FC = () => {
               href={item.href}
               className={`flex flex-col items-center py-1 px-2 rounded-xl transition-all duration-200 ${
                 isActive
-                  ? "text-artisan-terracotta scale-105 font-bold"
-                  : "text-slate-500 hover:text-slate-800 font-medium"
+                  ? "text-artisan-terracotta font-bold"
+                  : "text-slate-400 hover:text-slate-600"
               }`}
             >
               <Icon className={`w-5 h-5 ${isActive ? "stroke-[2.5]" : "stroke-[1.75]"}`} />

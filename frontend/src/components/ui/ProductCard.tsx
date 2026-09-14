@@ -11,8 +11,11 @@ interface ProductCardProps {
   onClick?: () => void;
 }
 
+const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=600&q=80";
+
 export const ProductCard: React.FC<ProductCardProps> = ({ product, onClick }) => {
   const { language } = useDemo();
+  const [imgSrc, setImgSrc] = React.useState(product.image || FALLBACK_IMAGE);
 
   const title = language === "hi" ? product.titleHi : product.titleEn;
   const category = language === "hi" ? product.categoryNameHi : product.categoryNameEn;
@@ -31,10 +34,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onClick }) =>
     >
       <div className="relative h-40 w-full bg-slate-100 overflow-hidden">
         <Image
-          src={product.image}
+          src={imgSrc}
           alt={title}
           fill
           sizes="(max-width: 768px) 100vw, 400px"
+          onError={() => setImgSrc(FALLBACK_IMAGE)}
           className="object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute top-2 left-2">
